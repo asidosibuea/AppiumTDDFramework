@@ -1,0 +1,35 @@
+{
+	"invalidUsername":{
+		"username" : "kasirAsido",
+		"password" : "1234"
+	},
+	"invalidPassword":{
+		"username" : "kasir1",
+		"password" : "123x"
+	},
+	"validUserPass":{
+		"username" : "kasir1",
+		"password" : "1234"
+	},
+	
+	"validFooter":{
+		"row1" : "Terimakasih telah belanja.",
+		"row2" : "Kami tunggu kedatangan anda lagi."
+	},
+	"invalidFooter":{
+		"row1" : "",
+		"row2" : ""
+	},
+	"emptyFooterRow1":{
+		"row1" : "",
+		"row2" : "Kami tunggu kedatangan anda lagi."
+	},
+	
+	"emptyFooterRow2":{
+		"row1" : "Kami tunggu kedatangan anda lagi.",
+		"row2" : ""
+	},
+	
+	"idPlnPrepaid" : "11310000011" 
+
+}

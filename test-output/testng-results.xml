@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="70342" started-at="2020-07-30T17:01:01 ICT" finished-at="2020-07-30T17:02:12 ICT">
+    <groups>
+    </groups>
+    <test name="Galaxy7inch" duration-ms="70342" started-at="2020-07-30T17:01:01 ICT" finished-at="2020-07-30T17:02:12 ICT">
+      <class name="com.qa.tests.PPOBTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="beforeSuite" is-config="true" duration-ms="3102" started-at="2020-07-30T17:00:58 ICT" finished-at="2020-07-30T17:01:01 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="beforeTest" is-config="true" duration-ms="33925" started-at="2020-07-30T17:01:01 ICT" finished-at="2020-07-30T17:01:35 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SM-T285]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[52007057b2c3a400]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[11001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="beforeClass" is-config="true" duration-ms="7955" started-at="2020-07-30T17:01:35 ICT" finished-at="2020-07-30T17:01:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-30T17:01:43 ICT" finished-at="2020-07-30T17:01:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="beforeMethod" is-config="true" duration-ms="182" started-at="2020-07-30T17:01:43 ICT" finished-at="2020-07-30T17:01:43 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.PPOBTest.bayarTagihanPLNPrabayar5ribu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="bayarTagihanPLNPrabayar5ribu()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="bayarTagihanPLNPrabayar5ribu" duration-ms="28200" started-at="2020-07-30T17:01:43 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bayarTagihanPLNPrabayar5ribu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-07-30T17:02:12 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-30T17:02:12 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bayarTagihanPLNPrabayar5ribu status=SUCCESS method=PPOBTest.bayarTagihanPLNPrabayar5ribu()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-07-30T17:02:12 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-07-30T17:02:12 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.PPOBTest@2f8f5f62]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-07-30T17:02:12 ICT" finished-at="2020-07-30T17:02:12 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.tests.PPOBTest -->
+    </test> <!-- Galaxy7inch -->
+  </suite> <!-- Test Suite -->
+</testng-results>

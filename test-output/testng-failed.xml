@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Galaxy7inch(failed)" parallel="tests">
+    <parameter name="mjpegServerPort" value="12001"/>
+    <parameter name="emulator" value="false"/>
+    <parameter name="appiumPort" value="10000"/>
+    <parameter name="author" value="Asido S"/>
+    <parameter name="platformVersion" value="5.1.1"/>
+    <parameter name="chromeDriverPort" value="11001"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="52007057b2c3a400"/>
+    <parameter name="deviceName" value="SM-T285"/>
+    <parameter name="systemPort" value="10001"/>
+    <classes>
+      <class name="com.qa.tests.PPOBTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="bayarTagihanPLNPrabayar5ribu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.PPOBTest -->
+    </classes>
+  </test> <!-- Galaxy7inch(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

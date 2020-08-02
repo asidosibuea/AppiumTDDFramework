@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="expected_staff_name">KASIR SATU</string>
+	<string name="expected_failed_login_message">Invalid username or password</string>
+	
+	<!-- Ekspektasi untuk ubah profil test  -->
+	<string name="expected_failed_edit_footer">Row 1 tidak boleh kosong</string>
+	<string name="expected_success_edit_footer">Berhasil</string>
+	
+	<string name="test">KASIR SATU</string>
+	
+	<!-- TRX PPOB PLN Prepaid-->
+	<string name="expected_success_trx_ppob">Successful</string>
+	
+</resources>
