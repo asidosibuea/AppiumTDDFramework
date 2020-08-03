@@ -34,10 +34,10 @@ public class LoginPage extends BaseTest{
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnLang")
 	private MobileElement languageDropdown;
 	
-	@AndroidFindBy(xpath = "//*[contains(@text, \"Indonesia\")]")
+	@AndroidFindBy(xpath = "//*[@resource-id = \"id.dretail.mpos:id/title\" and @text=\"Indonesia\"]")
 	private MobileElement indonesianLang;
 	
-	@AndroidFindBy(xpath = "//*[contains(@text, \"English\")]")
+	@AndroidFindBy(xpath = "//*[@resource-id = \"id.dretail.mpos:id/title\" and @text=\"English\"]")
 	private MobileElement englishLang;
 	
 	

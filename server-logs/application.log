@@ -45,3 +45,41 @@
 [server-logs INFO ] 2020-07-30 16:54:41.181 BaseTest:218 - Appium server stopped..:
 [server-logs INFO ] 2020-07-30 17:01:01.638 BaseTest:194 - Appium server already running..:
 [server-logs INFO ] 2020-07-30 17:02:12.830 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 13:57:50.434 BaseTest:192 - Appium server started..:
+[server-logs INFO ] 2020-08-03 13:59:23.253 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 14:00:15.165 BaseTest:192 - Appium server started..:
+[server-logs INFO ] 2020-08-03 14:01:20.687 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 14:45:21.387 BaseTest:192 - Appium server started..:
+[server-logs INFO ] 2020-08-03 14:46:52.438 BaseTest:192 - Appium server started..:
+[server-logs INFO ] 2020-08-03 14:51:52.907 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 14:54:31.132 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 14:55:38.941 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 14:58:50.411 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 14:59:43.162 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:04:39.424 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:05:50.476 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:45:11.459 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:48:26.205 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:48:49.559 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:49:45.485 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:50:22.736 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:52:11.992 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:52:49.715 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:55:26.402 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:56:04.027 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 15:58:47.291 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 15:59:29.214 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:01:22.350 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:01:58.897 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:09:47.089 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:10:25.585 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:12:24.336 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:13:08.285 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:18:25.597 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:19:18.023 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:22:41.494 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:23:28.250 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:29:57.164 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:30:52.673 BaseTest:218 - Appium server stopped..:
+[server-logs INFO ] 2020-08-03 16:43:54.745 BaseTest:194 - Appium server already running..:
+[server-logs INFO ] 2020-08-03 16:44:44.823 BaseTest:218 - Appium server stopped..:
