@@ -12,7 +12,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class LoginPage extends BaseTest{
-
+//test
 	TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy(id = "id.dretail.mpos:id/txtUsername")
