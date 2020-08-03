@@ -502,7 +502,7 @@ public class BaseTest {
 
 	@AfterTest
 	public void afterTest() {
-//		getDriver().quit();
+		getDriver().quit();
 	}
 
 }
