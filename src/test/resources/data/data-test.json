@@ -1,4 +1,22 @@
 {
+
+"BagasDataTest" :{		
+			
+			"invalidUsername":{
+				"username" : "kasirAsido",
+				"password" : "1234"
+			},
+			"invalidPassword":{
+				"username" : "kasir1",
+				"password" : "123x"
+			},
+			"validUserPass":{
+				"username" : "demopac",
+				"password" : "qwerty"
+			}
+		
+	},
+	
 	"invalidUsername":{
 		"username" : "kasirAsido",
 		"password" : "1234"

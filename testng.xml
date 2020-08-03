@@ -24,31 +24,30 @@
 		</classes>
 	</test>  -->
 	
-	 <test name="Galaxy7inch" >
-		<listeners>
-			<listener class-name="com.qa.listeners.TestListener" />
-		</listeners>
-		<parameter name="author" value="Asido S" />
-		<parameter name="emulator" value="false" />
-		<parameter name="platformName" value="Android" />
-		<parameter name="platformVersion" value="5.1.1" />
-		<parameter name="deviceName" value="SM-T285" />
-		<parameter name="udid" value="52007057b2c3a400" />
-		<parameter name="appiumPort" value="10000" />
-		<parameter name="systemPort" value="10001" />
-		<parameter name="chromeDriverPort" value="11001" />
-		<parameter name="mjpegServerPort" value="12001" />
-		<classes>
-			<!-- <class name="com.qa.tests.ProfilTest">
-					<methods>
-						<include name="kosongkanFooterRow2"/>
-					</methods> 
-			 	</class>
-			 -->
-			 <class name="com.qa.tests.PPOBTest">
-			 </class>
-		</classes>
-	</test> 
+<!-- 	 <test name="Galaxy7inch" > -->
+<!-- 		<listeners> -->
+<!-- 			<listener class-name="com.qa.listeners.TestListener" /> -->
+<!-- 		</listeners> -->
+<!-- 		<parameter name="author" value="Asido S" /> -->
+<!-- 		<parameter name="emulator" value="false" /> -->
+<!-- 		<parameter name="platformName" value="Android" /> -->
+<!-- 		<parameter name="platformVersion" value="5.1.1" /> -->
+<!-- 		<parameter name="deviceName" value="SM-T285" /> -->
+<!-- 		<parameter name="udid" value="52007057b2c3a400" /> -->
+<!-- 		<parameter name="appiumPort" value="10000" /> -->
+<!-- 		<parameter name="systemPort" value="10001" /> -->
+<!-- 		<parameter name="chromeDriverPort" value="11001" /> -->
+<!-- 		<parameter name="mjpegServerPort" value="12001" /> -->
+<!-- 		<classes> -->
+<!-- 					<methods> -->
+<!-- 						<include name="kosongkanFooterRow2"/> -->
+<!-- 					</methods>  -->
+<!-- 			 	</class> -->
+<!-- 			 --> -->
+<!-- 			 <class name="com.qa.tests.PPOBTest"> -->
+<!-- 			 </class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
 	
 	<!--
 	<test name="Tab12inch" >
@@ -121,5 +120,27 @@
 	</test> 
  -->	
 	
+	<test name="Galaxy8inchPutih" >
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>
+		<parameter name="author" value="Baggas Anggara" />
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="9.0" />
+		<parameter name="deviceName" value="SM-T295" />
+		<parameter name="udid" value="R9CMC06C14J" />
+		<!-- <parameter name="appiumPort" value="10000" /> -->
+		<parameter name="systemPort" value="10004" />
+		<parameter name="chromeDriverPort" value="11004" />
+		<parameter name="mjpegServerPort" value="12004" />
+		<classes>
+			<class name="com.qa.tests.MenambahDiskonPersenTest">
+				<methods>
+<!-- 					<include name="isiSemuaRowFooter"/> -->
+				</methods> 
+			 </class>
+		</classes>
+	</test> 
 	
 </suite> <!-- Suite -->
