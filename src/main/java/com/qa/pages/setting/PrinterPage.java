@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.pages.SettingPage;
 import com.qa.pages.setting.printer.AddPrinterPage;
-import com.qa.pages.setting.printer.OpsiPrinterPage;
+import com.qa.pages.setting.printer.OpsiDriverPrinterPage;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
@@ -37,6 +37,12 @@ public class PrinterPage extends SettingPage{
 	@AndroidFindBy(id = "id.dretail.mpos:id/swKitchenDisplay")
 	private MobileElement switchKDO;
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/confirm_button")
+	private MobileElement confirmBtn;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/content_text")
+	private MobileElement popupMsg;
+	
 	public PrinterPage() {
 		super();
 		PageFactory.initElements(new AppiumFieldDecorator(getDriver(), Duration.ofSeconds(TestUtils.WAIT)), this);
@@ -52,9 +58,9 @@ public class PrinterPage extends SettingPage{
 		return this;
 	}
 	
-	public OpsiPrinterPage pressChangePrinterBtn() {
+	public OpsiDriverPrinterPage pressChangePrinterBtn() {
 		click(changePrinterBtn, "menekan tombol ganti printer");
-		return new OpsiPrinterPage();
+		return new OpsiDriverPrinterPage();
 	}
 	
 	public AddPrinterPage pressAddPrinterBtn() {
@@ -98,5 +104,18 @@ public class PrinterPage extends SettingPage{
 		return this;
 	}
 	
+	public PrinterPage pressTestPrinter() {
+		click(testPrinterBtn, "Menekan tombol tes printer");
+		return this;
+	}
+	
+	public PrinterPage pressPopupConfirm() {
+		click(confirmBtn, "Menekan tombol ok di popup");
+		return this;
+	}
+	
+	public String getPopupMsg() {
+		return getText(popupMsg, "hasil cetak : ");
+	}
 
 }

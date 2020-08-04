@@ -12,7 +12,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class OpsiPrinterPage extends BaseTest{
+public class OpsiDriverPrinterPage extends BaseTest{
 	
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnClose")
 	private MobileElement closeBtn;
@@ -32,7 +32,7 @@ public class OpsiPrinterPage extends BaseTest{
 	@AndroidFindBy(xpath = "//*[@resource-id = \"id.dretail.mpos:id/title\" and @text=\"Universal Printer\"]")
 	private MobileElement universalPrinterBtn;
 
-	public OpsiPrinterPage() {
+	public OpsiDriverPrinterPage() {
 		super();
 		PageFactory.initElements(new AppiumFieldDecorator(getDriver(), Duration.ofSeconds(TestUtils.WAIT)), this);
 	}

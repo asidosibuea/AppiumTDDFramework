@@ -2,6 +2,7 @@ package com.qa.pages.penjualan;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.BaseTest;
@@ -36,6 +37,7 @@ public class PLNDenomPage extends BaseTest{
 	
 	@AndroidFindBy(xpath = "//*[@text = \"5.000.000\"]")
 	private MobileElement denom5juta;
+	
 	
 	@AndroidFindBy(xpath = "//*[@text = \"10.000.000\"]")
 	private MobileElement denom10juta;

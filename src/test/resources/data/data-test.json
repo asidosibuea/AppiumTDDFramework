@@ -30,6 +30,9 @@
 		"row2" : ""
 	},
 	
-	"idPlnPrepaid" : "11310000011" 
+	"idPlnPrepaid" : "11310000011",
+	"paperSize48" : "T-rongta (48)",
+	"bluetoothId" : "66:12:0B:24:BF:9C",
+	"ipPrinter" : "172.20.30.204"
 
 }

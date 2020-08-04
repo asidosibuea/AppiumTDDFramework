@@ -7,6 +7,8 @@ import java.io.InputStream;
 import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.HashMap;
 
@@ -73,6 +75,13 @@ public class TestUtils {
 		
 		return dateFormat.format(date);
 		
+	}
+	
+	public String getFormattedDateTimeV2() {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-YYYY HH:mm");  
+		LocalDateTime now = LocalDateTime.now();  
+		
+		return dtf.format(now);
 	}
 	
 	public void log(String txt) {
