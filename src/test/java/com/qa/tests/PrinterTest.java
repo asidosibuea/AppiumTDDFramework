@@ -30,7 +30,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class PrinterTest extends BaseTest{
 	
 	LoginPage loginPage;
-	PenjualanPage dashboardPage;
+	PenjualanPage penjualanPage;
 	SidebarPage sidebar;
 	SettingPage settingPage;
 	PrinterPage printerPage;
@@ -72,43 +72,24 @@ public class PrinterTest extends BaseTest{
 	public void afterClass() {
 	}
 	
-	@BeforeMethod(alwaysRun=true)
+	@BeforeMethod
 	public void beforeMethod(Method m) {
-		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");
-		
-		System.out.println("lagi jalanin before method");
-		
-		String username = dataTest.getJSONObject("validUserPass").getString("username");
-		String password = dataTest.getJSONObject("validUserPass").getString("password");
-		
-		try {	
-			loginPage = new LoginPage();
-			loginPage.pressLanguageDropdown();
-//			loginPage.pressIndonesianLang().login(username, password);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println(e.getCause());
-			System.out.println(e.getMessage());
-		}
-		
-		
-		
+		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");	
+		loginPage = new LoginPage();
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-		utils.log().info("Printer test after method");
-		loginPage = printerPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
+		utils.log().info("--- After test method ----");
 	}
 	
-//	public DashboardPage validLogin() {
-//		loginPage.pressLanguageDropdown().pressIndonesianLang();
-//		String username = dataTest.getJSONObject("validUserPass").getString("username");
-//		String password = dataTest.getJSONObject("validUserPass").getString("password");
-//		
-//		return loginPage.login(username, password);
-//	}
+	public PenjualanPage validLogin() {
+		loginPage.pressLanguageDropdown().pressIndonesianLang();
+		String username = dataTest.getJSONObject("validUserPass").getString("username");
+		String password = dataTest.getJSONObject("validUserPass").getString("password");
+		
+		return loginPage.login(username, password);
+	}
 	
 	public LoginPage logout() {
 		return printerPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
@@ -117,10 +98,21 @@ public class PrinterTest extends BaseTest{
 	
 	@Test
 	public void nyalakanPrinter() {
-		System.out.println("1");
-//		dashboardPage = validLogin();
-//		printerPage = dashboardPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
-//		printerPage.switchOnStatusPrinter();
+		penjualanPage = validLogin();
+		printerPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		printerPage.switchOnStatusPrinter();
+		
+		
+	}
+	
+	@Test
+	public void gantiPrinterUtama() {
+		penjualanPage = validLogin();
+		printerPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		printerPage.switchOnStatusPrinter();
+		
+		
+		
 	}
 
 }
