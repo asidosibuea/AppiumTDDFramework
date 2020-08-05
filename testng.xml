@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Test Suite" parallel="tests" thread-count="5">
 
+<!-- 
 	<test name="Galaxy8inch">
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
@@ -16,16 +17,16 @@
 		<parameter name="chromeDriverPort" value="11000" />
 		<parameter name="mjpegServerPort" value="12000" />
 		<classes>
-			<!-- <class name="com.qa.tests.ProfilTest">
+			 <class name="com.qa.tests.ProfilTest">
 				<methods>
 					<include name="isiSemuaRowFooter"/>
 				</methods> 
-			 </class> -->
+			 </class> 
 			 <class name="com.qa.tests.PrinterTest"></class>
 		</classes>
 	</test> 
 	
-<!-- 	 <test name="Galaxy7inch" >
+	 <test name="Galaxy7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
 		</listeners>
@@ -49,7 +50,7 @@
 			 <class name="com.qa.tests.PPOBTest">
 			 </class>
 		</classes>
-	</test>  
+	</test>  -->
 	
 	
 	<test name="Tab12inch" >
@@ -67,14 +68,21 @@
 		<parameter name="chromeDriverPort" value="11002" />
 		<parameter name="mjpegServerPort" value="12002" />
 		<classes>
-			<class name="com.qa.tests.ProfilTest">
+			<!-- <class name="com.qa.tests.ProfilTest">
 				<methods>
 					<include name="kosongkanFooterRow1"/>
 				</methods> 
+			 </class> -->
+			 <class name="com.qa.tests.PrinterTest">
+			 	<methods>
+			 		<include name="setMainPrinterBluetooth"/>
+ 			 		<include name="setMainPrinterLAN"/>
+			 	</methods>
 			 </class>
 		</classes>
 	</test> 
 
+<!-- 
 	<test name="Tab7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />

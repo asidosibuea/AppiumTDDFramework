@@ -12,4 +12,9 @@
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>
 	
+	<!-- Printer Settings-->
+	<string name="expected_paired_bt">RPP02N
+66:12:0B:24:BF:9C</string>
+	<string name="expected_success_print">Sukses mencetak</string>
+	
 </resources>
