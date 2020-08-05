@@ -16,5 +16,28 @@
 	<string name="expected_paired_bt">RPP02N
 66:12:0B:24:BF:9C</string>
 	<string name="expected_success_print">Sukses mencetak</string>
+	<string name="expected_turnoff_printer">MATI</string>
+	<string name="expected_turnon_printer">AKTIF</string>
+	
+	<string name="expected_customer_searched">ani</string>
+	<string name="expected_kategori1_searched">Beverage</string>
+	<string name="expected_kategori2_searched">Food</string>
+	<string name="expected_menu1_searched">JUS MANGGA</string>
+	<string name="expected_menu2_searched">BUBUR AYAM BIASA</string>
+	<string name="discount_percent">50.0</string>
+	<string name="discount_price">10000</string>
+	<string name="cash_amount">15000</string>
+	<string name="status_pembayaran_sukses">Pembayaran Berhasil</string>
+	<string name="Price_unit">10000</string>
+	<string name="expected_Price_unit">10.000</string>
+	<string name="expected_diskon_nominal">-10.000</string>
+	<string name="expected_diskon_persen">Diskon (50%)</string>
+	<string name="note_item">ini adalah test untuk nambah catatan</string>
+	<string name="diskon_bill">Diskon (10%)	</string>
+	<string name="cek_service">Service Resto 7.50% (7,50%)</string>
+	<string name="cek_Tax">Pajak 7% (7%)</string>
+	
+	<!-- TRX PPOB PLN Prepaid-->
+	<string name="expected_success_trx_ppob">Successful</string>
 	
 </resources>
