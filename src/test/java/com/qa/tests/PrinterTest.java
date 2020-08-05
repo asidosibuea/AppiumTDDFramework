@@ -23,6 +23,7 @@ import com.qa.pages.LoginPage;
 import com.qa.pages.SettingPage;
 import com.qa.pages.setting.PrinterPage;
 import com.qa.pages.setting.ProfilPage;
+import com.qa.pages.setting.printer.AddPrinterPage;
 import com.qa.pages.setting.printer.BluetoothDeviceListPage;
 import com.qa.pages.setting.printer.JenisKoneksiPrinter;
 import com.qa.pages.setting.printer.OpsiPaperPage;
@@ -44,6 +45,7 @@ public class PrinterTest extends BaseTest{
 	JenisKoneksiPrinter jenisKoneksiPrinterPage;
 	OpsiPortPrinterPage opsiPortPage;
 	BluetoothDeviceListPage btListPage;
+	AddPrinterPage addStasiunPrinterPage;
 	
 	JSONObject dataTest;
 	TestUtils utils = new TestUtils();
@@ -112,7 +114,23 @@ public class PrinterTest extends BaseTest{
 		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
 		settingPrinterPage.switchOnStatusPrinter();
 		
+		String actualStatusPrinter = settingPrinterPage.getStatusPrinter();
+		String expectedStatusPrinter = getStrings().get("expected_turnon_printer");
+		Assert.assertEquals(actualStatusPrinter, expectedStatusPrinter);
+		loginPage = logout();
 		
+	}
+	
+	@Test
+	public void matikanPrinter() {
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		settingPrinterPage.switchOffStatusPrinter();
+		
+		String actualStatusPrinter = settingPrinterPage.getStatusPrinter();
+		String expectedStatusPrinter = getStrings().get("expected_turnoff_printer");
+		Assert.assertEquals(actualStatusPrinter, expectedStatusPrinter);
+		loginPage = logout();
 	}
 	
 	@Test
@@ -171,6 +189,29 @@ public class PrinterTest extends BaseTest{
 		settingPrinterPage.pressPopupConfirm();
 		
 		loginPage = logout();
+	}
+	
+	@Test
+	public void addStasiunPrinter() {
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		settingPrinterPage.switchOnStatusPrinter();
+		addStasiunPrinterPage = settingPrinterPage.pressAddPrinterBtn();
+		addStasiunPrinterPage.enterNamaStasiun(dataTest.getString("namaStasiun1"));
+		addStasiunPrinterPage.switchOnKategori("Food", TestUtils.ON);
+		opsiDriverPage = addStasiunPrinterPage.pressSelectPrinterBtn();
+		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
+		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
+		opsiPortPage = jenisKoneksiPrinterPage.pressJenisKoneksiBtn();
+		opsiPortPage.pressRadioEthernet();
+		String ipPrinter = dataTest.getString("ipStasiunPrinter1");
+		opsiPortPage.enterIpAddress(ipPrinter);
+		jenisKoneksiPrinterPage = opsiPortPage.pressOkBtn();
+		addStasiunPrinterPage = jenisKoneksiPrinterPage.pressConnectBtnByStasiun();
+		settingPrinterPage = addStasiunPrinterPage.pressOkBtn();
+		
+		settingPrinterPage.pressTestPrintStasiun(dataTest.getString("namaStasiun1"));
+		
 	}
 
 

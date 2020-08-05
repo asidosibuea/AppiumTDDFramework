@@ -75,8 +75,11 @@
 			 </class> -->
 			 <class name="com.qa.tests.PrinterTest">
 			 	<methods>
-			 		<include name="setMainPrinterBluetooth"/>
- 			 		<include name="setMainPrinterLAN"/>
+<!-- 			 		<include name="nyalakanPrinter"/> -->
+<!-- 			 		<include name="setMainPrinterBluetooth"/> -->
+<!--  			 		<include name="setMainPrinterLAN"/> -->
+<!--  			 		<include name="matikanPrinter"/> -->
+ 			 		<include name="addStasiunPrinter"/>
 			 	</methods>
 			 </class>
 		</classes>

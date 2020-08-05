@@ -32,6 +32,8 @@ public class TestUtils {
 	public static final int WAITTEXTCHANGE = 120;
 	public static final String ON = "ON";
 	public static final String OFF = "OFF";
+	public static final String HIDUP = "AKTIF";
+	public static final String MATI = "MATI";
 	
 	public static final String UDIDBangAcil = "R9CMC04AD1J";
 	public static final String UDIDAsido = "R9CMC05NZ3J";

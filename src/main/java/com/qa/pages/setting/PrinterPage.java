@@ -3,6 +3,7 @@ package com.qa.pages.setting;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.pages.SettingPage;
@@ -26,7 +27,7 @@ public class PrinterPage extends SettingPage{
 	private MobileElement testPrinterBtn;
 	
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnAddPrinter")
-	private MobileElement addPrinterBtn;
+	private MobileElement addStasiunPrinterBtn;
 	
 	@AndroidFindBy(id = "id.dretail.mpos:id/swOrderPrint")
 	private MobileElement switchKitchenOrder;
@@ -54,8 +55,12 @@ public class PrinterPage extends SettingPage{
 	}
 	
 	public PrinterPage switchOffStatusPrinter() {
-		switchElement(statusPrinterBtn, TestUtils.OFF, "Switch on status printer");
+		switchElement(statusPrinterBtn, TestUtils.OFF, "Switch off status printer");
 		return this;
+	}
+	
+	public String getStatusPrinter() {
+		return getText(statusPrinterBtn, "Status printer : ");
 	}
 	
 	public OpsiDriverPrinterPage pressChangePrinterBtn() {
@@ -64,7 +69,7 @@ public class PrinterPage extends SettingPage{
 	}
 	
 	public AddPrinterPage pressAddPrinterBtn() {
-		click(addPrinterBtn, "menekan tombol tambah printer");
+		click(addStasiunPrinterBtn, "menekan tombol tambah printer");
 		return new AddPrinterPage();
 	}
 	
@@ -116,6 +121,13 @@ public class PrinterPage extends SettingPage{
 	
 	public String getPopupMsg() {
 		return getText(popupMsg, "hasil cetak : ");
+	}
+	
+	public PrinterPage pressTestPrintStasiun(String namaStasiun) {
+		MobileElement element = (MobileElement) getDriver().findElement(By.xpath("//android.widget.TextView[@text = \""+namaStasiun+"\"]/following-sibling::android.widget.Button[@resource-id =\"id.dretail.mpos:id/btnTestPrinter\"]"));
+		
+		click(element, "menekan tombol test print pada stasiun : "+namaStasiun);
+		return this;
 	}
 
 }

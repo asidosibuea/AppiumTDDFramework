@@ -35,5 +35,10 @@ public class JenisKoneksiPrinter extends BaseTest{
 		click(connectBtn, "menekan tombol connect");
 		return new PrinterPage();
 	}
+	
+	public AddPrinterPage pressConnectBtnByStasiun() {
+		click(connectBtn, "menekan tombol connect");
+		return new AddPrinterPage();
+	}
 
 }
