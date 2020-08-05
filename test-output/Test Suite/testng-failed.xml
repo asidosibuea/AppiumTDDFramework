@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Test Suite]" parallel="tests">
+<suite parallel="tests" name="Failed suite [Test Suite]">
   <listeners>
     <listener class-name="com.qa.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Galaxy7inch(failed)" parallel="tests">
-    <parameter name="mjpegServerPort" value="12001"/>
+  <test thread-count="5" parallel="tests" name="Galaxy8inchPutih(failed)">
+    <parameter name="mjpegServerPort" value="12004"/>
     <parameter name="emulator" value="false"/>
-    <parameter name="appiumPort" value="10000"/>
     <parameter name="author" value="Asido S"/>
-    <parameter name="platformVersion" value="5.1.1"/>
-    <parameter name="chromeDriverPort" value="11001"/>
+    <parameter name="platformVersion" value="9.0"/>
+    <parameter name="chromeDriverPort" value="11004"/>
     <parameter name="platformName" value="Android"/>
-    <parameter name="udid" value="52007057b2c3a400"/>
-    <parameter name="deviceName" value="SM-T285"/>
-    <parameter name="systemPort" value="10001"/>
+    <parameter name="udid" value="R9CMC04AD1J"/>
+    <parameter name="deviceName" value="SM-T295-Bg-Acil"/>
+    <parameter name="systemPort" value="10004"/>
     <classes>
-      <class name="com.qa.tests.PPOBTest">
+      <class name="com.qa.tests.TelkomppobTest">
         <methods>
           <include name="afterSuite"/>
           <include name="afterTest"/>
-          <include name="beforeClass"/>
           <include name="beforeSuite"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
-          <include name="afterClass"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="bayarTagihanPLNPrabayar5ribu"/>
-          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="belijastel3bPpob"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.qa.tests.PPOBTest -->
+      </class> <!-- com.qa.tests.TelkomppobTest -->
     </classes>
-  </test> <!-- Galaxy7inch(failed) -->
+  </test> <!-- Galaxy8inchPutih(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

@@ -24,7 +24,7 @@
 		</classes>
 	</test>  -->
 	
-	 <test name="Galaxy7inch" >
+	 <!-- <test name="Galaxy7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
 		</listeners>
@@ -39,18 +39,18 @@
 		<parameter name="chromeDriverPort" value="11001" />
 		<parameter name="mjpegServerPort" value="12001" />
 		<classes>
-			<!-- <class name="com.qa.tests.ProfilTest">
+			<class name="com.qa.tests.ProfilTest">
 					<methods>
 						<include name="kosongkanFooterRow2"/>
 					</methods> 
 			 	</class>
-			 -->
+			
 			 <class name="com.qa.tests.PPOBTest">
 			 </class>
 		</classes>
 	</test> 
 	
-	<!--
+	
 	<test name="Tab12inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
@@ -95,7 +95,7 @@
 				</methods> 
 			 </class>
 		</classes>
-	</test>
+	</test> -->
 	
 	<test name="Galaxy8inchPutih" >
 		<listeners>
@@ -105,18 +105,22 @@
 		<parameter name="emulator" value="false" />
 		<parameter name="platformName" value="Android" />
 		<parameter name="platformVersion" value="9.0" />
-		<parameter name="deviceName" value="SM-T295-Hendro" />
-		<parameter name="udid" value="R9CMC04A9NJ" />
-		<parameter name="appiumPort" value="10000" />
+		<parameter name="deviceName" value="SM-T295-Bg-Acil" />
+		<parameter name="udid" value="R9CMC04AD1J" />
 		<parameter name="systemPort" value="10004" />
 		<parameter name="chromeDriverPort" value="11004" />
 		<parameter name="mjpegServerPort" value="12004" />
 		<classes>
-			<class name="com.qa.tests.ProfilTest">
-				<methods>
-					<include name="kosongkanSemuaRowFooter"/>
+<!-- 			<class name="com.qa.tests.PlnppobTest"> -->
+<!-- 				<methods> -->
+<!-- 					<include name="beliplnnontaglistPpob"/> -->
+<!-- 				</methods>  -->
+<!-- 			</class> -->
+			<class name="com.qa.tests.TelkomppobTest">
+			<methods>
+					<include name="belijastel3bPpob"/>
 				</methods> 
-			 </class>
+			</class>
 		</classes>
 	</test> 
  -->	

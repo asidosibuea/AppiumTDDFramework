@@ -92,5 +92,7 @@ public class SidebarPage extends BaseTest{
 		return new SettingPage();
 	}
 	
+	
+	
 
 }

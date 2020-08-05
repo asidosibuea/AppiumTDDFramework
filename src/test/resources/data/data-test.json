@@ -12,6 +12,120 @@
 		"password" : "1234"
 	},
 	
+	"BangAcilDataTest" :{		
+			
+			"invalidUsername":{
+				"username" : "kasirAcil",
+				"password" : "1234"
+			},
+			"invalidPassword":{
+				"username" : "demopac",
+				"password" : "123"
+			},
+			"validUserPass":{
+				"username" : "demopac",
+				"password" : "qwerty"
+			},
+			
+	"searchMember":{
+		"byname" : "a",
+		"byphone" : "0",
+		"byemail" : "@",
+		"byid" : "1"
+	},
+	"newMember":{
+		"name" : "aaa",
+		"id" : "1234",
+		"idnumber" : "70000070719773000",
+		"email" : "aaa@gmail.com",
+		"tlp" : "087822222222",
+		"birth" : "07/07/1977",
+		"address" : "Jalan pluto bandung"
+	},
+	"dataPembayaran":{
+		"namaPel" : "a",
+		"emailPel" : "a@gmail.com",
+		"tlpPel" : "7",
+		"kartuPel" : "6278765470000001",
+		"appPel" : "7654",
+		"bankPel" : "BPRKS",
+		"ip1" : "255",
+		"ip2" : "255",
+		"ip3" : "255",
+		"ip4" : "255",
+		"port" : "1234"
+		
+	},
+	"ubahPass":{
+		"passLama1" : "qwerty",
+		"passbaru1" : "123456",
+		"passLama2" : "123456",
+		"passbaru2" : "qwerty"
+		
+	},
+	"trxPpob":{
+		"pulsaTelkomsel" : "081234560000",
+		"bpjsKesehatan" : "8888800118630000",
+		"jasTel1b" : "02176300100",
+		"jasTel2b" : "02176300200",
+		"jasTel3b" : "02176300300",
+		"plnPrabayar" : "11310000011",
+		"plnPascabayar" : "542200000000",
+		"plnNontaglis" : "5310000010000",
+		"bpjsk1" : "210.800",
+		"bpjsk2" : "415.600",
+		"bpjsk3" : "620.400",
+		"bpjsk4" : "825.200",
+		"bpjsk5" : "1.030.000",
+		"bpjsk6" : "1.234.800",
+		"bpjsk7" : "1.439.600",
+		"bpjsk8" : "1.644.400",
+		"bpjsk9" : "1.849.200",
+		"bpjsk10" : "2.054.000",
+		"bpjsk11" : "2.258.800",
+		"bpjsk12" : "2.463.600",
+		"plnpost" : "1.014.000",
+		"plnnontl" : "56.500",
+		"pulsa5rb" : "6.000",
+		"pulsa10rb" : "11.000",
+		"pulsa20rb" : "21.000",
+		"pulsa25rb" : "25.000",
+		"pulsa50rb" : "51.000",
+		"pulsa100rb" : "101.000",
+		"pulsa150rb" : "151.000",
+		"pulsa200rb" : "201.000",
+		"pulsa300rb" : "301.000",
+		"pulsa1jt" : "1.001.000",
+		"pln20rb" : "23.000",
+		"pln50rb" : "53.000",
+		"pln100rb" : "103.000",
+		"pln200rb" : "203.000",
+		"pln500rb" : "503.000",
+		"pln1jt" : "1.003.000",
+		"pln5jt" : "5.003.000",
+		"pln10jt" : "10.003.000"
+		
+	}
+		
+	},
+	
+	"BangBagasDataTest" :{		
+			
+			"invalidUsername":{
+				"username" : "kasir",
+				"password" : "1234"
+			},
+			"invalidPassword":{
+				"username" : "kasir1",
+				"password" : "123x"
+			},
+			"validUserPass":{
+				"username" : "kasir1",
+				"password" : "1234"
+			}
+		
+	},
+	
 	"validFooter":{
 		"row1" : "Terimakasih telah belanja.",
 		"row2" : "Kami tunggu kedatangan anda lagi."
