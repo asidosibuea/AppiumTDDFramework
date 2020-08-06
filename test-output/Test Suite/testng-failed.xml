@@ -15,21 +15,21 @@
     <parameter name="deviceName" value="SM-T295-Bg-Acil"/>
     <parameter name="systemPort" value="10004"/>
     <classes>
-      <class name="com.qa.tests.UbahPasswordTest">
+      <class name="com.qa.tests.AddCustomer">
         <methods>
           <include name="afterSuite"/>
           <include name="afterTest"/>
+          <include name="beforeMethod"/>
           <include name="beforeSuite"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="ubahPass"/>
-          <include name="afterClass"/>
+          <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="canceladdNewcustomer"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.qa.tests.UbahPasswordTest -->
+      </class> <!-- com.qa.tests.AddCustomer -->
     </classes>
   </test> <!-- Galaxy8inchPutih(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

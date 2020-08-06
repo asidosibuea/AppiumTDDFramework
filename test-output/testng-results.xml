@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_17-40-55\AddCustomer\canceladdNewcustomer.png'> <img src='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_17-40-55\AddCustomer\canceladdNewcustomer.png' height='400' width='400'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2020-08-06T16:40:56 ICT" name="Test Suite" finished-at="2020-08-06T16:42:28 ICT" duration-ms="91816">
+  <suite started-at="2020-08-06T17:40:55 ICT" name="Test Suite" finished-at="2020-08-06T17:41:33 ICT" duration-ms="38154">
     <groups>
     </groups>
-    <test started-at="2020-08-06T16:40:56 ICT" name="Galaxy8inchPutih" finished-at="2020-08-06T16:42:28 ICT" duration-ms="91816">
-      <class name="com.qa.tests.UbahPasswordTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:40:55 ICT" name="beforeSuite" finished-at="2020-08-06T16:40:56 ICT" duration-ms="1786" status="PASS">
+    <test started-at="2020-08-06T17:40:55 ICT" name="Galaxy8inchPutih" finished-at="2020-08-06T17:41:33 ICT" duration-ms="38154">
+      <class name="com.qa.tests.AddCustomer">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:40:53 ICT" name="beforeSuite" finished-at="2020-08-06T17:40:55 ICT" duration-ms="2050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:40:56 ICT" name="beforeTest" finished-at="2020-08-06T16:41:12 ICT" duration-ms="15949" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:40:55 ICT" name="beforeTest" finished-at="2020-08-06T17:41:10 ICT" duration-ms="15256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,57 +63,122 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:12 ICT" name="beforeClass" finished-at="2020-08-06T16:41:19 ICT" duration-ms="6474" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:11 ICT" name="beforeClass" finished-at="2020-08-06T17:41:17 ICT" duration-ms="6425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="beforeMethod" finished-at="2020-08-06T16:41:19 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:17 ICT" name="beforeMethod" finished-at="2020-08-06T17:41:17 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="beforeMethod" finished-at="2020-08-06T16:41:19 ICT" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:17 ICT" name="beforeMethod" finished-at="2020-08-06T17:41:17 ICT" duration-ms="273" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.UbahPasswordTest.ubahPass()]]>
+                <![CDATA[public void com.qa.tests.AddCustomer.canceladdNewcustomer()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ubahPass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="ubahPass" finished-at="2020-08-06T16:42:27 ICT" duration-ms="68285" status="PASS">
+        <test-method signature="canceladdNewcustomer()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:17 ICT" name="canceladdNewcustomer" finished-at="2020-08-06T17:41:33 ICT" duration-ms="15529" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.tests.AddCustomer.logout(AddCustomer.java:117)
+at com.qa.tests.AddCustomer.canceladdNewcustomer(AddCustomer.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_17-40-55\AddCustomer\canceladdNewcustomer.png'> <img src='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_17-40-55\AddCustomer\canceladdNewcustomer.png' height='400' width='400'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- ubahPass -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterMethod" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- canceladdNewcustomer -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:33 ICT" name="afterMethod" finished-at="2020-08-06T17:41:33 ICT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.tests.AddCustomer.afterMethod(AddCustomer.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:671)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:655)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+at java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterMethod" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ubahPass status=SUCCESS method=UbahPasswordTest.ubahPass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:33 ICT" name="afterMethod" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1596710493885" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterClass" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:33 ICT" name="afterClass" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1596710493888" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterTest" finished-at="2020-08-06T16:42:28 ICT" duration-ms="786" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:33 ICT" name="afterTest" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1596710493892" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:29 ICT" name="afterSuite" finished-at="2020-08-06T16:42:29 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.AddCustomer@46cdf8bd]" started-at="2020-08-06T17:41:34 ICT" name="afterSuite" finished-at="1970-01-01T07:00:00 ICT" duration-ms="-1596710494557" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.qa.tests.UbahPasswordTest -->
+      </class> <!-- com.qa.tests.AddCustomer -->
     </test> <!-- Galaxy8inchPutih -->
   </suite> <!-- Test Suite -->
 </testng-results>

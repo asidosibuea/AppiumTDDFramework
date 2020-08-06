@@ -2228,3 +2228,651 @@ Session ID: 488ce593-360b-4bc9-a16f-94cfb365db92
 [logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 16:42:26.317 BaseTest:373 - Press Logout:
 [logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 16:42:27.650 BaseTest:373 - Press Confirm Logout:
 [logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 16:42:27.851 UbahPasswordTest:79 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:11.840 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:34.424 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderdinein *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:36.018 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:38.079 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:39.370 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:45.932 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:47.390 BaseTest:373 - Press Type Pesanan Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:48.730 BaseTest:431 - Type Pesanan adalah Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:07:48.748 TestListener:39 - java.lang.NullPointerException
+	at com.qa.tests.UbahTypeOrderTest.logout(UbahTypeOrderTest.java:160)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeorderdinein(UbahTypeOrderTest.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:49.399 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:07:49.402 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderlainnya *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:08:00.432 TestListener:39 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: id.dretail.mpos:id/txtUsername}) (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.base.BaseTest.waitForVisibility(BaseTest.java:348)
+	at com.qa.base.BaseTest.clear(BaseTest.java:361)
+	at com.qa.pages.LoginPage.enterUsername(LoginPage.java:50)
+	at com.qa.tests.UbahTypeOrderTest.loginValidUser(UbahTypeOrderTest.java:90)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeorderlainnya(UbahTypeOrderTest.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: id.dretail.mpos:id/txtUsername})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@135a37b (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: id.dretail.mpos:id/txtUsername})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 37 more
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:08:01.015 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:08:01.017 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeordertakeaway *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:08:11.592 TestListener:39 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: id.dretail.mpos:id/txtUsername}) (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.base.BaseTest.waitForVisibility(BaseTest.java:348)
+	at com.qa.base.BaseTest.clear(BaseTest.java:361)
+	at com.qa.pages.LoginPage.enterUsername(LoginPage.java:50)
+	at com.qa.tests.UbahTypeOrderTest.loginValidUser(UbahTypeOrderTest.java:90)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeordertakeaway(UbahTypeOrderTest.java:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: id.dretail.mpos:id/txtUsername})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5380400b (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: id.dretail.mpos:id/txtUsername})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 37 more
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:08:12.163 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:08:57.543 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:18.981 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderdinein *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:20.551 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:22.588 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:23.851 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:30.327 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:31.707 BaseTest:373 - Press Type Pesanan Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:33.105 BaseTest:431 - Type Pesanan adalah Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:33.392 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:35.611 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:37.016 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:09:37.347 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Dine In]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeorderdinein(UbahTypeOrderTest.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:38.147 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:38.150 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderlainnya *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:39.081 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:40.929 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:42.121 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:46.765 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:48.132 BaseTest:373 - Press Type Pesanan Lainnya:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:49.546 BaseTest:431 - Confirm Pesanan LainnyaMORE ORDER TYPE Masih Dalam Pengembangan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:49.619 BaseTest:373 - Press Confirm Type Pesanan Lainnya:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:50.790 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:52.944 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:54.349 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:09:54.692 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [MORE ORDER TYPE Masih Dalam Pengembangan]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeorderlainnya(UbahTypeOrderTest.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:55.362 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:55.364 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeordertakeaway *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:56.321 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:58.182 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:09:59.391 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:04.946 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:06.274 BaseTest:373 - Press Type Pesanan Take Away:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:07.411 BaseTest:431 - Type Pesanan adalah Take Away:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:07.658 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:09.795 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:11.143 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:10:11.434 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Take Away]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.UbahTypeOrderTest.ubahTypeordertakeaway(UbahTypeOrderTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:10:12.170 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:11:47.452 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:09.095 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderdinein *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:10.681 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:12.287 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:13.543 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:19.732 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:21.149 BaseTest:373 - Press Type Pesanan Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:22.485 BaseTest:431 - Type Pesanan adalah Dine In:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:22.792 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:24.999 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:26.443 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:26.698 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:26.702 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeorderlainnya *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:28.444 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:30.290 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:31.486 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:36.366 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:37.736 BaseTest:373 - Press Type Pesanan Lainnya:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:39.134 BaseTest:431 - Confirm Pesanan LainnyaMORE ORDER TYPE Masih Dalam Pengembangan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:39.225 BaseTest:373 - Press Confirm Type Pesanan Lainnya:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:40.345 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:42.495 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:43.884 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:44.109 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:44.112 UbahTypeOrderTest:71 - 
+
+ *******Starting test: ubahTypeordertakeaway *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:45.844 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:47.669 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:48.853 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:53.569 BaseTest:373 - Press Type Pesanan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:54.929 BaseTest:373 - Press Type Pesanan Take Away:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:56.092 BaseTest:431 - Type Pesanan adalah Take Away:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:56.318 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:58.464 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:12:59.846 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:13:00.117 UbahTypeOrderTest:80 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:17.947 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:39.798 AddCustomer:81 - 
+
+ *******Starting test: addNewcustomer *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:41.331 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:42.892 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:44.184 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:55.851 BaseTest:373 - Press Customer Name:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:57.469 BaseTest:373 - Add Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:25:59.768 BaseTest:393 - Input ID Member : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:01.630 BaseTest:393 - Input Nama Member : aaa:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:03.034 BaseTest:393 - Input Telephone Member : 087822222222:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:04.883 BaseTest:393 - Input Email Member : aaa@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:06.739 BaseTest:393 - Input Telephone Member : 70000070719773000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:07.462 BaseTest:373 - Pilih Female Member:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:08.891 BaseTest:393 - Input Birth Date Member : 07/07/1977:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:10.764 BaseTest:393 - Input Address Member : Jalan pluto bandung:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:11.414 BaseTest:443 - scroll ke element : Buat Member Baru:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:12.063 BaseTest:373 - Click Add Customer:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:13.794 BaseTest:373 - Confirm Add Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:14.823 BaseTest:373 - Close Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:26:15.038 TestListener:39 - java.lang.NullPointerException
+	at com.qa.tests.AddCustomer.logout(AddCustomer.java:117)
+	at com.qa.tests.AddCustomer.addNewcustomer(AddCustomer.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:15.725 AddCustomer:104 - Printer test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:26:15.740 AddCustomer:81 - 
+
+ *******Starting test: masukcariCustomerall *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:26.524 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:48.188 AddCustomer:81 - 
+
+ *******Starting test: addNewcustomer *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:49.786 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:51.852 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:53.121 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:27:59.781 BaseTest:373 - Press Customer Name:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:01.406 BaseTest:373 - Add Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:03.666 BaseTest:393 - Input ID Member : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:05.554 BaseTest:393 - Input Nama Member : aaa:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:06.943 BaseTest:393 - Input Telephone Member : 087822222222:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:08.794 BaseTest:393 - Input Email Member : aaa@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:10.207 BaseTest:393 - Input Telephone Member : 70000070719773000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:11.438 BaseTest:373 - Pilih Female Member:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:12.875 BaseTest:393 - Input Birth Date Member : 07/07/1977:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:14.717 BaseTest:393 - Input Address Member : Jalan pluto bandung:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:15.377 BaseTest:443 - scroll ke element : Buat Member Baru:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:16.050 BaseTest:373 - Click Add Customer:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:17.832 BaseTest:373 - Confirm Add Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:18.890 BaseTest:373 - Close Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:28:19.129 TestListener:39 - java.lang.NullPointerException
+	at com.qa.tests.AddCustomer.logout(AddCustomer.java:117)
+	at com.qa.tests.AddCustomer.addNewcustomer(AddCustomer.java:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:19.909 AddCustomer:104 - Printer test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:19.921 AddCustomer:81 - 
+
+ *******Starting test: canceladdNewcustomer *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:28:20.077 AddCustomer:81 - 
+
+ *******Starting test: masukcariCustomerall *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:38:30.290 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:38:51.850 AddCustomer:81 - 
+
+ *******Starting test: masukcariCustomerall *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:38:53.392 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:38:55.426 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:38:56.621 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:03.370 BaseTest:373 - Press Customer Name:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:05.010 BaseTest:373 - Search Member:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:06.480 BaseTest:431 - Return No Result adalah Pencarian berdasarkan Nama atau Nomor Ponsel tidak boleh kosong:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:06.557 BaseTest:373 - Confirm No Result:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:07.657 BaseTest:373 - Filter Search Member:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:08.798 BaseTest:373 - Filter Search Member By Name:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:10.516 BaseTest:393 - Enter username : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:11.705 BaseTest:373 - Search Member:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:39:21.943 TestListener:39 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[1]}) (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.base.BaseTest.waitForVisibility(BaseTest.java:348)
+	at com.qa.base.BaseTest.getText(BaseTest.java:418)
+	at com.qa.pages.CustomerPage.getHasilnameMemberText(CustomerPage.java:133)
+	at com.qa.tests.AddCustomer.masukcariCustomerall(AddCustomer.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[1]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@733f1096 (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView[1]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 36 more
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:39:22.617 AddCustomer:104 - Printer test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:40:04.961 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:40:41.689 AddCustomer:81 - 
+
+ *******Starting test: canceladdNewcustomer *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:40:43.731 TestListener:39 - org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:10004
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: ff5571ee-399b-4b85-8124-fe8d994552a3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.HasSessionDetails.getSessionDetails(HasSessionDetails.java:39)
+	at io.appium.java_client.HasSessionDetails.getSessionDetail(HasSessionDetails.java:56)
+	at io.appium.java_client.HasSessionDetails.getPlatformName(HasSessionDetails.java:65)
+	at io.appium.java_client.pagefactory.AppiumFieldDecorator.<init>(AppiumFieldDecorator.java:96)
+	at com.qa.base.BaseTest.<init>(BaseTest.java:146)
+	at com.qa.listeners.TestListener.onTestStart(TestListener.java:89)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.registerSkippedTestResult(TestInvoker.java:703)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:535)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:40:55.754 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:17.448 AddCustomer:81 - 
+
+ *******Starting test: canceladdNewcustomer *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:18.976 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:21.022 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:22.306 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:28.943 BaseTest:373 - Press Customer Name:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:30.533 BaseTest:373 - Add Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:32.157 BaseTest:373 - Back To Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:32.982 BaseTest:373 - Close Customer Page:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-06 17:41:33.257 TestListener:39 - java.lang.NullPointerException
+	at com.qa.tests.AddCustomer.logout(AddCustomer.java:117)
+	at com.qa.tests.AddCustomer.canceladdNewcustomer(AddCustomer.java:188)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-06 17:41:33.880 AddCustomer:104 - Printer test after method:

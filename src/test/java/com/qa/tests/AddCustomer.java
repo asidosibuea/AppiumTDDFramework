@@ -172,7 +172,7 @@ public class AddCustomer extends BaseTest{
 	}
 
 	//	test cancel add new customer
-	//	@Test (priority = 3)
+	@Test
 	public void canceladdNewcustomer() {
 
 		//		loginPage = introPage.swipeToLogin();

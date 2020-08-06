@@ -125,10 +125,10 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.UbahTypeOrderTest">
-			<!-- <methods>
-					<include name="belikartuhaloPpob"/>
-				</methods>  -->
+			<class name="com.qa.tests.AddCustomer">
+			<methods>
+					<include name="canceladdNewcustomer"/>
+				</methods> 
 			</class>
 		</classes>
 	</test>
