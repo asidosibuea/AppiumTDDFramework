@@ -3,8 +3,8 @@ import com.qa.pages.AbsensiPage;
 import com.qa.pages.AktifitasPage;
 import com.qa.pages.InventarisPage;
 import com.qa.pages.LoginPage;
-import com.qa.pages.RiwayatPage;
 import com.qa.pages.SettingPage;
+import com.qa.pages.RiwayatPage;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
@@ -93,6 +93,40 @@ public class SidebarPage extends BaseTest{
 	}
 	
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/btn_logout")
+	private MobileElement btnLogout;
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/confirm_button")
+	private MobileElement confirmButton;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/cancel_button")
+	private MobileElement cancelButton;
+	
+	
+	
+	public SidebarPage pressBtnLogout() {
+		click(btnLogout, "Press Logout");
+		return this;
+	}
+	
+	public LoginPage pressConfirmButton() {
+		click(confirmButton, "Press Confirm Logout");
+		return new LoginPage();
+	}
+	
+	public SidebarPage pressCancelButton() {
+		click(cancelButton, "Press Confirm Logout");
+		return this;
+	}
+	
+	public AktifitasPage pressaktifitasMenu() {
+		click(aktifitasMenu, "Pilih Menu Aktivasi");
+		return new AktifitasPage();
+	}
+	
+	public SettingPage presspengaturanPage() {
+		click(pengaturanMenu, "Pilih Menu Pengaturan");
+		return new SettingPage();
+	}
 
 }

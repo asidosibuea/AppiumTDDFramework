@@ -1,24 +1,17 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[This is the sample screenshot]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png'> <img src='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png' height='400' width='400'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2020-08-06T03:57:43 ICT" name="Test Suite" finished-at="2020-08-06T03:58:35 ICT" duration-ms="51922">
+  <suite started-at="2020-08-06T16:40:56 ICT" name="Test Suite" finished-at="2020-08-06T16:42:28 ICT" duration-ms="91816">
     <groups>
     </groups>
-    <test started-at="2020-08-06T03:57:43 ICT" name="Galaxy8inchPutih" finished-at="2020-08-06T03:58:35 ICT" duration-ms="51922">
-      <class name="com.qa.tests.TelkomppobTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:57:41 ICT" name="beforeSuite" finished-at="2020-08-06T03:57:43 ICT" duration-ms="1845" status="PASS">
+    <test started-at="2020-08-06T16:40:56 ICT" name="Galaxy8inchPutih" finished-at="2020-08-06T16:42:28 ICT" duration-ms="91816">
+      <class name="com.qa.tests.UbahPasswordTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:40:55 ICT" name="beforeSuite" finished-at="2020-08-06T16:40:56 ICT" duration-ms="1786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:57:43 ICT" name="beforeTest" finished-at="2020-08-06T03:58:00 ICT" duration-ms="16964" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:40:56 ICT" name="beforeTest" finished-at="2020-08-06T16:41:12 ICT" duration-ms="15949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,213 +57,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:00 ICT" name="beforeClass" finished-at="2020-08-06T03:58:06 ICT" duration-ms="6881" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:12 ICT" name="beforeClass" finished-at="2020-08-06T16:41:19 ICT" duration-ms="6474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:06 ICT" name="beforeMethod" finished-at="2020-08-06T03:58:06 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="beforeMethod" finished-at="2020-08-06T16:41:19 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:06 ICT" name="beforeMethod" finished-at="2020-08-06T03:58:07 ICT" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="beforeMethod" finished-at="2020-08-06T16:41:19 ICT" duration-ms="281" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.TelkomppobTest.belijastel3bPpob()]]>
+                <![CDATA[public void com.qa.tests.UbahPasswordTest.ubahPass()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="belijastel3bPpob()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:07 ICT" name="belijastel3bPpob" finished-at="2020-08-06T03:58:33 ICT" duration-ms="26326" status="FAIL">
-          <exception class="java.lang.ClassCastException">
-            <message>
-              <![CDATA[io.appium.java_client.android.AndroidDriver cannot be cast to org.openqa.selenium.interactions.HasTouchScreen]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ClassCastException: io.appium.java_client.android.AndroidDriver cannot be cast to org.openqa.selenium.interactions.HasTouchScreen
-at org.openqa.selenium.interactions.touch.TouchActions.<init>(TouchActions.java:38)
-at com.qa.pages.PpobPage.pressbtnConfirmppob(PpobPage.java:323)
-at com.qa.tests.TelkomppobTest.belijastel3bPpob(TelkomppobTest.java:398)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-at java.base/java.lang.Thread.run(Thread.java:844)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ClassCastException -->
+        <test-method signature="ubahPass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:41:19 ICT" name="ubahPass" finished-at="2020-08-06T16:42:27 ICT" duration-ms="68285" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[This is the sample screenshot]]>
-            </line>
-            <line>
-              <![CDATA[<a href='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png'> <img src='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png' height='400' width='400'/> </a>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- belijastel3bPpob -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:34 ICT" name="afterMethod" finished-at="2020-08-06T03:58:34 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- ubahPass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterMethod" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:34 ICT" name="afterMethod" finished-at="2020-08-06T03:58:34 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterMethod" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=belijastel3bPpob status=FAILURE method=TelkomppobTest.belijastel3bPpob()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99] output=This is the sample screenshot]]]>
+                <![CDATA[[TestResult name=ubahPass status=SUCCESS method=UbahPasswordTest.ubahPass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:34 ICT" name="afterClass" finished-at="2020-08-06T03:58:34 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterClass" finished-at="2020-08-06T16:42:27 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:34 ICT" name="afterTest" finished-at="2020-08-06T03:58:35 ICT" duration-ms="800" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:27 ICT" name="afterTest" finished-at="2020-08-06T16:42:28 ICT" duration-ms="786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.TelkomppobTest@f0c8a99]" started-at="2020-08-06T03:58:35 ICT" name="afterSuite" finished-at="2020-08-06T03:58:35 ICT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.UbahPasswordTest@2e385cce]" started-at="2020-08-06T16:42:29 ICT" name="afterSuite" finished-at="2020-08-06T16:42:29 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.qa.tests.TelkomppobTest -->
+      </class> <!-- com.qa.tests.UbahPasswordTest -->
     </test> <!-- Galaxy8inchPutih -->
   </suite> <!-- Test Suite -->
 </testng-results>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Test Suite" duration-ms="49630" started-at="2020-08-03T16:43:54 ICT" finished-at="2020-08-03T16:44:44 ICT">
-    <groups>
-    </groups>
-    <test name="Galaxy8inch" duration-ms="49630" started-at="2020-08-03T16:43:54 ICT" finished-at="2020-08-03T16:44:44 ICT">
-      <class name="com.qa.tests.PrinterTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="beforeSuite" is-config="true" duration-ms="1233" started-at="2020-08-03T16:43:53 ICT" finished-at="2020-08-03T16:43:54 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="beforeTest" is-config="true" duration-ms="19141" started-at="2020-08-03T16:43:54 ICT" finished-at="2020-08-03T16:44:13 ICT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Android]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[SM-T295]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[R9CMC05NZ3J]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[11000]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[12000]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="beforeClass" is-config="true" duration-ms="6675" started-at="2020-08-03T16:44:13 ICT" finished-at="2020-08-03T16:44:20 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-03T16:44:20 ICT" finished-at="2020-08-03T16:44:20 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="125" started-at="2020-08-03T16:44:20 ICT" finished-at="2020-08-03T16:44:20 ICT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.PrinterTest.nyalakanPrinter()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="nyalakanPrinter()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="nyalakanPrinter" duration-ms="22810" started-at="2020-08-03T16:44:20 ICT" finished-at="2020-08-03T16:44:43 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nyalakanPrinter -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-03T16:44:43 ICT" finished-at="2020-08-03T16:44:43 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-03T16:44:43 ICT" finished-at="2020-08-03T16:44:43 ICT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=nyalakanPrinter status=SUCCESS method=PrinterTest.nyalakanPrinter()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-03T16:44:43 ICT" finished-at="2020-08-03T16:44:43 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="afterTest" is-config="true" duration-ms="852" started-at="2020-08-03T16:44:43 ICT" finished-at="2020-08-03T16:44:44 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.PrinterTest@7dc222ae]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-08-03T16:44:44 ICT" finished-at="2020-08-03T16:44:44 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.qa.tests.PrinterTest -->
-    </test> <!-- Galaxy8inch -->
-  </suite> <!-- Test Suite -->
-</testng-results>
->>>>>>> refs/remotes/origin/master

@@ -21,11 +21,10 @@
   </head>
 
   <body>
-<<<<<<< HEAD
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">Test Suite</span>
+              <span class="suite-name border-passed">Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
-                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Test_Suite">
+                    <div class="method-list-content passed suite-Test_Suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.tests.TelkomppobTest" class="method navigator-link" hash-for-method="belijastel3bPpob">belijastel3bPpob</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.qa.tests.UbahPasswordTest" class="method navigator-link" hash-for-method="ubahPass">ubahPass</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -118,32 +117,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Test_Suite" class="panel Test_Suite">
-          <div class="suite-Test_Suite-class-failed">
+          <div class="suite-Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.tests.TelkomppobTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.tests.UbahPasswordTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="belijastel3bPpob">
-                  </a> <!-- belijastel3bPpob -->
-                  <span class="method-name">belijastel3bPpob</span>
-                  <div class="stack-trace">java.lang.ClassCastException: io.appium.java_client.android.AndroidDriver cannot be cast to org.openqa.selenium.interactions.HasTouchScreen
-	at org.openqa.selenium.interactions.touch.TouchActions.&lt;init&gt;(TouchActions.java:38)
-	at com.qa.pages.PpobPage.pressbtnConfirmppob(PpobPage.java:323)
-	at com.qa.tests.TelkomppobTest.belijastel3bPpob(TelkomppobTest.java:398)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-... Removed 18 stack frames
-</div> <!-- stack-trace -->
+                  <a name="ubahPass">
+                  </a> <!-- ubahPass -->
+                  <span class="method-name">ubahPass</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Suite-class-failed -->
+          </div> <!-- suite-Test_Suite-class-passed -->
         </div> <!-- panel Test_Suite -->
         <div panel-name="test-xml-Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -168,11 +156,7 @@
     &lt;parameter name=&quot;deviceName&quot; value=&quot;SM-T295-Bg-Acil&quot;/&gt;
     &lt;parameter name=&quot;systemPort&quot; value=&quot;10004&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.tests.TelkomppobTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;belijastel3bPpob&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.qa.tests.TelkomppobTest --&gt;
+      &lt;class name=&quot;com.qa.tests.UbahPasswordTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Galaxy8inchPutih --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite --&gt;
@@ -205,177 +189,6 @@
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-=======
-    <div class="top-banner-root">
-      <span class="top-banner-title-font">Test results</span>
-      <br/>
-      <span class="top-banner-font-1">1 suite</span>
-    </div> <!-- top-banner-root -->
-    <div class="navigator-root">
-      <div class="navigator-suite-header">
-        <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
-          </img> <!-- collapse-all-icon -->
-        </a> <!-- collapse-all-link -->
-      </div> <!-- navigator-suite-header -->
-      <div class="suite">
-        <div class="rounded-window">
-          <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Test_Suite">
-              <span class="suite-name border-passed">Test Suite</span>
-            </a> <!-- navigator-link -->
-          </div> <!-- suite-header light-rounded-window-top -->
-          <div class="navigator-suite-content">
-            <div class="suite-section-title">
-              <span>Info</span>
-            </div> <!-- suite-section-title -->
-            <div class="suite-section-content">
-              <ul>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Suite">
-                    <span>C:\Users\Taufik\git\AppiumTDDFramework\testng.xml</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Test_Suite">
-                    <span class="test-stats">1 test</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="group-Test_Suite">
-                    <span>0 groups</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="times-Test_Suite">
-                    <span>Times</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Test_Suite">
-                    <span>Reporter output</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Suite">
-                    <span>Ignored methods</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-                <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Test_Suite">
-                    <span>Chronological view</span>
-                  </a> <!-- navigator-link  -->
-                </li>
-              </ul>
-            </div> <!-- suite-section-content -->
-            <div class="result-section">
-              <div class="suite-section-title">
-                <span>Results</span>
-              </div> <!-- suite-section-title -->
-              <div class="suite-section-content">
-                <ul>
-                  <li>
-                    <span class="method-stats">1 method,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
-                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Test_Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Suite" title="com.qa.tests.PrinterTest" hash-for-method="nyalakanPrinter">nyalakanPrinter</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Test_Suite -->
-                  </li>
-                </ul>
-              </div> <!-- suite-section-content -->
-            </div> <!-- result-section -->
-          </div> <!-- navigator-suite-content -->
-        </div> <!-- rounded-window -->
-      </div> <!-- suite -->
-    </div> <!-- navigator-root -->
-    <div class="wrapper">
-      <div class="main-panel-root">
-        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
-          <div class="suite-Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.tests.PrinterTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="nyalakanPrinter">
-                  </a> <!-- nyalakanPrinter -->
-                  <span class="method-name">nyalakanPrinter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Test_Suite-class-passed -->
-        </div> <!-- panel Test_Suite -->
-        <div panel-name="test-xml-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Taufik\git\AppiumTDDFramework\testng.xml</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <pre>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Test Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.qa.listeners.TestListener&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Galaxy8inch&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;mjpegServerPort&quot; value=&quot;12000&quot;/&gt;
-    &lt;parameter name=&quot;emulator&quot; value=&quot;false&quot;/&gt;
-    &lt;parameter name=&quot;appiumPort&quot; value=&quot;10000&quot;/&gt;
-    &lt;parameter name=&quot;author&quot; value=&quot;Asido S&quot;/&gt;
-    &lt;parameter name=&quot;platformVersion&quot; value=&quot;9.0&quot;/&gt;
-    &lt;parameter name=&quot;chromeDriverPort&quot; value=&quot;11000&quot;/&gt;
-    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
-    &lt;parameter name=&quot;udid&quot; value=&quot;R9CMC05NZ3J&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;SM-T295&quot;/&gt;
-    &lt;parameter name=&quot;systemPort&quot; value=&quot;10000&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.qa.tests.PrinterTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Galaxy8inch --&gt;
-&lt;/suite&gt; &lt;!-- Test Suite --&gt;
-            </pre>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="testlist-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Test Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <ul>
-              <li>
-                <span class="test-name">Galaxy8inch (1 class)</span>
-              </li>
-            </ul>
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="group-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Test Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="times-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Test Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="times-div">
-              <script type="text/javascript">
->>>>>>> refs/remotes/origin/master
 suiteTableInitFunctions.push('tableData_Test_Suite');
 function tableData_Test_Suite() {
 var data = new google.visualization.DataTable();
@@ -385,116 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-<<<<<<< HEAD
-data.setCell(0, 1, 'belijastel3bPpob')
-data.setCell(0, 2, 'com.qa.tests.TelkomppobTest')
-data.setCell(0, 3, 26326);
-=======
-data.setCell(0, 1, 'nyalakanPrinter')
-data.setCell(0, 2, 'com.qa.tests.PrinterTest')
-data.setCell(0, 3, 22810);
->>>>>>> refs/remotes/origin/master
+data.setCell(0, 1, 'ubahPass')
+data.setCell(0, 2, 'com.qa.tests.UbahPasswordTest')
+data.setCell(0, 3, 68285);
 window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
 return data;
 }
-<<<<<<< HEAD
               </script>
-              <span class="suite-total-time">Total running time: 51 seconds</span>
-              <div id="times-div-Test_Suite">
-              </div> <!-- times-div-Test_Suite -->
-            </div> <!-- times-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="reporter-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Test Suite</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">belijastel3bPpob</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">This is the sample screenshot</span>
-                <span class="reporter-method-output"><a href='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png'> <img src='C:\Users\acil\git\AppiumTDDFramework\Screenshots\Android_SM-T295-Bg-Acil\2020-08-06_03-57-43\TelkomppobTest\belijastel3bPpob.png' height='400' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="ignored-methods-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.qa.tests.TelkomppobTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">belijastel1bPpob</span>
-                <br/>
-                <span class="ignored-method-name">belijastel2bPpob</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-        <div panel-name="chronological-Test_Suite" class="panel">
-          <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Methods in chronological order</span>
-          </div> <!-- main-panel-header rounded-window-top -->
-          <div class="main-panel-content rounded-window-bottom">
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.TelkomppobTest</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforeSuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(false, Android, 9.0, SM-T295-Bg-Acil, R9CMC04AD1J, 10004, 11004, 12004)</span>
-                <span class="method-start">1851 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">18832 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">25724 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.TelkomppobTest.belijastel3bPpob())</span>
-                <span class="method-start">25725 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">belijastel3bPpob</span>
-                <span class="method-start">26018 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">52965 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=belijastel3bPpob status=FAILURE method=TelkomppobTest.belijastel3bPpob()[pri:0, ins...)</span>
-                <span class="method-start">52966 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">52968 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">52970 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">54427 ms</span>
-              </div> <!-- configuration-suite after -->
-          </div> <!-- main-panel-content rounded-window-bottom -->
-        </div> <!-- panel -->
-      </div> <!-- main-panel-root -->
-    </div> <!-- wrapper -->
-=======
-              </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Test_Suite">
               </div> <!-- times-div-Test_Suite -->
             </div> <!-- times-div -->
@@ -520,55 +231,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.tests.PrinterTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.tests.UbahPasswordTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">beforeTest(false, Android, 9.0, SM-T295, R9CMC05NZ3J, 10000, 11000, 12000)</span>
-                <span class="method-start">1238 ms</span>
+                <span class="method-name">beforeTest(false, Android, 9.0, SM-T295-Bg-Acil, R9CMC04AD1J, 10004, 11004, 12004)</span>
+                <span class="method-start">1790 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">20388 ms</span>
+                <span class="method-start">17757 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">27070 ms</span>
+                <span class="method-start">24241 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.PrinterTest.nyalakanPrinter())</span>
-                <span class="method-start">27071 ms</span>
+                <span class="method-name">beforeMethod(public void com.qa.tests.UbahPasswordTest.ubahPass())</span>
+                <span class="method-start">24242 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">nyalakanPrinter</span>
-                <span class="method-start">27196 ms</span>
+                <span class="method-name">ubahPass</span>
+                <span class="method-start">24523 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">50011 ms</span>
+                <span class="method-start">92813 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=nyalakanPrinter status=SUCCESS method=PrinterTest.nyalakanPrinter()[pri:0, instance...)</span>
-                <span class="method-start">50012 ms</span>
+                <span class="method-name">afterMethod([TestResult name=ubahPass status=SUCCESS method=UbahPasswordTest.ubahPass()[pri:0, instance:com.qa.t...)</span>
+                <span class="method-start">92814 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">50013 ms</span>
+                <span class="method-start">92816 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">50014 ms</span>
+                <span class="method-start">92819 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">51282 ms</span>
+                <span class="method-start">94330 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
->>>>>>> refs/remotes/origin/master
   </body>
 </html>

@@ -75,14 +75,15 @@
 		
 	},
 	"ubahPass":{
-		"passLama1" : "qwerty",
+		"passLama1" : "1234",
 		"passbaru1" : "123456",
 		"passLama2" : "123456",
-		"passbaru2" : "qwerty"
+		"passbaru2" : "1234"
 		
 	},
 	"trxPpob":{
 		"pulsaTelkomsel" : "081234560000",
+		"pdam" : "16532000",
 		"kartuhalo" : "082234560000",
 		"bpjsKesehatan" : "8888800118630000",
 		"jasTel1b" : "02176300100",

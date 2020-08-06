@@ -125,10 +125,10 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.KartuhaloTest">
-			<methods>
+			<class name="com.qa.tests.UbahPasswordTest">
+			<!-- <methods>
 					<include name="belikartuhaloPpob"/>
-				</methods> 
+				</methods>  -->
 			</class>
 		</classes>
 	</test>

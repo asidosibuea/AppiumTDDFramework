@@ -33,7 +33,16 @@ public class PpobPage extends BaseTest{
 		click(balanceTotal, "Kembali Ke All Menu");
 		return new AllmenuPage();
 	}
-	
+//	PDAM
+	@AndroidFindBy(xpath = "//*[contains(@text, \"PDAM\")]")
+	private MobileElement beliPdamppob;
+
+
+	public PpobPage pressbeliPdamppob() {
+		click(beliPdamppob, "Pilih Beli PDAM PPOB");
+		return this;
+	}
+
 //	Kartu Halo
 	@AndroidFindBy(xpath = "//*[contains(@text, \"Kartu Halo\")]")
 	private MobileElement beliHaloppob;
@@ -109,7 +118,7 @@ public class PpobPage extends BaseTest{
 			MobileElement opsiBulan = (MobileElement) getDriver().findElement(By.xpath("//*[@text=\""+txt+"\"]"));
 			System.out.println(opsiBulan.toString());
 
-			click(opsiBulan, "memilih opsi bulan "+txt);
+			click(opsiBulan, "memilih opsi "+txt);
 		} catch (Exception e) {
 			System.out.println("element nya ga ketemu");
 //			e.printStackTrace();
@@ -119,6 +128,47 @@ public class PpobPage extends BaseTest{
 		
 	}
 	
+	public void piliharea(String txt) {
+		try {
+			MobileElement opsiarea = (MobileElement) getDriver().findElement(By.xpath("//*[@text=\""+txt+"\"]"));
+			System.out.println(opsiarea.toString());
+
+			click(opsiarea, "memilih opsi "+txt);
+		} catch (Exception e) {
+			System.out.println("element nya ga ketemu");
+//			e.printStackTrace();
+//			System.out.println(e.getCause());
+			System.out.println(e.getMessage());	
+		}
+		
+	}
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/spSelectAreaPdam")
+	private MobileElement spSelectAreaPdam;
+	
+	public PpobPage pressspSelectAreaPdam() {
+		click(spSelectAreaPdam, "Pilih Area PDAM PPOB");
+		return this;
+	}
+	
+	
+	public PpobPage getpilihAreaPdam(String area) {
+		String cekarea = getText(text1, "area Pilihan Jumlah Bayar : ").trim();
+		System.out.println("actual area : "+cekarea);
+		String expectedarea = getStrings().get(area).trim();
+		System.out.println("expected area : "+expectedarea);
+		
+		if (!cekarea.equalsIgnoreCase(expectedarea)) {
+			
+			click(spSelectAreaPdam,"Pilih area :"+expectedarea);
+			scrollToElement("textContains", expectedarea, "Scroll ke : "+expectedarea);
+			piliharea(expectedarea);
+			return this;
+		}
+		return this;
+	}
+
+
 	public PpobPage getpilihJumlahbayar(String bulan) {
 		String cekbulan = getText(text1, "Bulan Pilihan Jumlah Bayar : ").trim();
 		System.out.println("actual bulan : "+cekbulan);

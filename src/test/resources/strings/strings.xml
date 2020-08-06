@@ -158,6 +158,20 @@
 	<string name="expected_lblMethodbayar">Cash</string>
 	<string name="expected_changebayar">0</string>
 	
+	<!-- PDAM -->
+	<string name="expected_1area">PDAMBANDUNGKAB</string>
+	<string name="expected_2area">PDAMBANDUNGKOT</string>
+	<string name="expected_3area">PDAMBOGORKAB</string>
+	<string name="expected_4area">PDAMBOJONEGOROKAB</string>
+	<string name="expected_5area">PDAMBONDOWOSOKAB</string>
+	<string name="expected_6area">PDAMDKIAETRA</string>
+	<string name="expected_7area">PDAMDKIPALYJA</string>
+	<string name="expected_8area">PDAMLAMPUNGKOT</string>
+	<string name="expected_9area">PDAMMATARAMKOT</string>
+	<string name="expected_10area">PDAMPALEMBANGKOT</string>
+	<string name="expected_11area">PDAMPASURUANKAB</string>
+	<string name="expected_12area">PDAMSIDOARJOKAB</string>
+	
 	<!-- Bpjs Kesehatan -->
 	<string name="expected_1b">1 Bulan</string>
 	<string name="expected_2b">2 Bulan</string>

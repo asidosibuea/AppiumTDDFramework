@@ -15,21 +15,21 @@
     <parameter name="deviceName" value="SM-T295-Bg-Acil"/>
     <parameter name="systemPort" value="10004"/>
     <classes>
-      <class name="com.qa.tests.TelkomppobTest">
+      <class name="com.qa.tests.UbahPasswordTest">
         <methods>
           <include name="afterSuite"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
-          <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="beforeClass"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="ubahPass"/>
           <include name="afterClass"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="belijastel3bPpob"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.qa.tests.TelkomppobTest -->
+      </class> <!-- com.qa.tests.UbahPasswordTest -->
     </classes>
   </test> <!-- Galaxy8inchPutih(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
