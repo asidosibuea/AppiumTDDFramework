@@ -1,5 +1,6 @@
 package com.qa.pages;
 
+
 import java.time.Duration;
 
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +11,9 @@ import com.qa.utils.TestUtils;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import com.qa.pages.popup.PopupItem;
+import com.qa.pages.popup.PopupJlhUangTunai;
+import com.qa.pages.popup.PopupNotifikasiPembayaran;
 
 public class PembayaranPage extends BaseTest{
 	public PembayaranPage() {
@@ -348,6 +352,20 @@ public class PembayaranPage extends BaseTest{
 	}
 
 
-
+	public PopupJlhUangTunai enterCash() {
+		click(txtCashAmount, "Masukan Jumlah Uang Tunai");
+		return new PopupJlhUangTunai();
+	}
+	
+	public PopupItem PilihKeranjang2(){
+		click(btnPay, "Pilih Keranjang " + getStrings().get("expected_menu2_searched"));
+		return new PopupItem();
+	}
+	
+	public PopupNotifikasiPembayaran pressBtnPay() {
+		click(btnPay, "Press button pay");
+		return new PopupNotifikasiPembayaran();
+	}
+	
 
 }
