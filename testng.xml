@@ -24,9 +24,9 @@
 			 </class> 
 			 <class name="com.qa.tests.PrinterTest"></class>
 		</classes>
-	</test> 
+	</test>  -->
 	
-	 <!-- <test name="Galaxy7inch" >
+	<!--  <test name="Galaxy7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
 		</listeners>
@@ -53,7 +53,7 @@
 	</test>  -->
 	
 	
-	<test name="Tab12inch" >
+	<!-- <test name="Tab12inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
 		</listeners>
@@ -68,11 +68,11 @@
 		<parameter name="chromeDriverPort" value="11002" />
 		<parameter name="mjpegServerPort" value="12002" />
 		<classes>
-			<!-- <class name="com.qa.tests.ProfilTest">
+			<class name="com.qa.tests.ProfilTest">
 				<methods>
 					<include name="kosongkanFooterRow1"/>
 				</methods> 
-			 </class> -->
+			 </class>
 			 <class name="com.qa.tests.PrinterTest">
 			 	<methods>
 			 		<include name="setMainPrinterBluetooth"/>
@@ -82,7 +82,7 @@
 		</classes>
 	</test> 
 
-<!-- 
+
 	<test name="Tab7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
@@ -114,14 +114,8 @@
 		<parameter name="emulator" value="false" />
 		<parameter name="platformName" value="Android" />
 		<parameter name="platformVersion" value="9.0" />
-<<<<<<< HEAD
 		<parameter name="deviceName" value="SM-T295-Bg-Acil" />
 		<parameter name="udid" value="R9CMC04AD1J" />
-=======
-		<parameter name="deviceName" value="SM-T295-Putih" />
-		<parameter name="udid" value="R9CMC04AD1J" />
-		<parameter name="appiumPort" value="10000" />
->>>>>>> refs/remotes/origin/master
 		<parameter name="systemPort" value="10004" />
 		<parameter name="chromeDriverPort" value="11004" />
 		<parameter name="mjpegServerPort" value="12004" />
@@ -133,11 +127,11 @@
 <!-- 			</class> -->
 			<class name="com.qa.tests.TelkomppobTest">
 			<methods>
-					<include name="belijastel3bPpob"/>
+					<include name="belijastel1bPpob"/>
 				</methods> 
 			</class>
 		</classes>
-	</test> -->
+	</test>
 
  
  
