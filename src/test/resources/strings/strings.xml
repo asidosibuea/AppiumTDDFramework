@@ -7,6 +7,16 @@
 
 	<string name="expected_failed_login_message">Invalid username or password</string>
 	
+	<string name="expected_true_invalid_username_or_password">Password atau username salah</string>
+	<string name="expected_flase_customer_searched">budi</string>
+	<string name="expected_true_customer_searched">ani</string>
+	<string name="expected_true_noresult_searched">Pencarian berdasarkan Nama atau Nomor Ponsel tidak boleh kosong</string>
+	<string name="expected_true_searchcustomerbytlp">012</string>
+	<string name="expected_true_searchcustomerbyid">anto</string>
+	<string name="expected_true_dineinordertype">Dine In</string>
+	<string name="expected_true_takeawayordertype">Take Away</string>
+	<string name="expected_true_confirmmoreorder">MORE ORDER TYPE Masih Dalam Pengembangan</string>
+	
 	<!-- Ekspektasi Printer Email EDC -->
 	<string name="expected_status_printer">Cetak 2X Nonaktif</string>
 	<string name="expected_status_email">Email Resi Nonaktif</string>

@@ -125,7 +125,7 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.UbahPasswordTest">
+			<class name="com.qa.tests.UbahTypeOrderTest">
 			<!-- <methods>
 					<include name="belikartuhaloPpob"/>
 				</methods>  -->
