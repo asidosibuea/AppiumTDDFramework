@@ -23,6 +23,11 @@ import com.qa.pages.LoginPage;
 import com.qa.pages.SettingPage;
 import com.qa.pages.setting.PrinterPage;
 import com.qa.pages.setting.ProfilPage;
+import com.qa.pages.setting.printer.BluetoothDeviceListPage;
+import com.qa.pages.setting.printer.JenisKoneksiPrinter;
+import com.qa.pages.setting.printer.OpsiPaperPage;
+import com.qa.pages.setting.printer.OpsiPortPrinterPage;
+import com.qa.pages.setting.printer.OpsiDriverPrinterPage;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -30,10 +35,15 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 public class PrinterTest extends BaseTest{
 	
 	LoginPage loginPage;
-	PenjualanPage dashboardPage;
+	PenjualanPage penjualanPage;
 	SidebarPage sidebar;
 	SettingPage settingPage;
-	PrinterPage printerPage;
+	PrinterPage settingPrinterPage;
+	OpsiDriverPrinterPage opsiDriverPage;
+	OpsiPaperPage opsiPaperPage;
+	JenisKoneksiPrinter jenisKoneksiPrinterPage;
+	OpsiPortPrinterPage opsiPortPage;
+	BluetoothDeviceListPage btListPage;
 	
 	JSONObject dataTest;
 	TestUtils utils = new TestUtils();
@@ -72,55 +82,96 @@ public class PrinterTest extends BaseTest{
 	public void afterClass() {
 	}
 	
-	@BeforeMethod(alwaysRun=true)
+	@BeforeMethod
 	public void beforeMethod(Method m) {
-		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");
-		
-		System.out.println("lagi jalanin before method");
-		
-		String username = dataTest.getJSONObject("validUserPass").getString("username");
-		String password = dataTest.getJSONObject("validUserPass").getString("password");
-		
-		try {	
-			loginPage = new LoginPage();
-			loginPage.pressLanguageDropdown();
-//			loginPage.pressIndonesianLang().login(username, password);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.out.println(e.getCause());
-			System.out.println(e.getMessage());
-		}
-		
-		
-		
+		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");	
+		loginPage = new LoginPage();
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-		utils.log().info("Printer test after method");
-		loginPage = printerPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
+		utils.log().info("--- After test method ----");
 	}
 	
-//	public DashboardPage validLogin() {
-//		loginPage.pressLanguageDropdown().pressIndonesianLang();
-//		String username = dataTest.getJSONObject("validUserPass").getString("username");
-//		String password = dataTest.getJSONObject("validUserPass").getString("password");
-//		
-//		return loginPage.login(username, password);
-//	}
+	public PenjualanPage validLogin() {
+		loginPage.pressLanguageDropdown().pressIndonesianLang();
+		String username = dataTest.getJSONObject("validUserPass").getString("username");
+		String password = dataTest.getJSONObject("validUserPass").getString("password");
+		
+		return loginPage.login(username, password);
+	}
 	
 	public LoginPage logout() {
-		return printerPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
+		return settingPrinterPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
 	}
 	
 	
 	@Test
 	public void nyalakanPrinter() {
-		System.out.println("1");
-//		dashboardPage = validLogin();
-//		printerPage = dashboardPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
-//		printerPage.switchOnStatusPrinter();
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		settingPrinterPage.switchOnStatusPrinter();
+		
+		
 	}
+	
+	@Test
+	public void setMainPrinterBluetooth() {
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
+		
+		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
+		opsiPortPage = jenisKoneksiPrinterPage.pressJenisKoneksiBtn();
+		
+		btListPage = opsiPortPage.pressRadioBluetooth();
+		
+		String btDeviceId = dataTest.getString("bluetoothId");
+		
+		opsiPortPage = btListPage.pilihBluetoothDevice(btDeviceId);
+		jenisKoneksiPrinterPage = opsiPortPage.pressOkBtn();
+		
+		settingPrinterPage = jenisKoneksiPrinterPage.pressConnectBtn();
+		settingPrinterPage.pressTestPrinter();
+		
+		String actualPrintResult = settingPrinterPage.getPopupMsg().trim();
+		String expectedPrintResult = getStrings().get("expected_success_print");
+		Assert.assertEquals(actualPrintResult, expectedPrintResult);
+		
+		settingPrinterPage.pressPopupConfirm();
+		
+		loginPage = logout();
+	}
+	
+	@Test
+	public void setMainPrinterLAN() {
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
+		
+		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
+		opsiPortPage = jenisKoneksiPrinterPage.pressJenisKoneksiBtn();
+		
+		opsiPortPage.pressRadioEthernet();
+		
+		String ipPrinter = dataTest.getString("ipPrinter");
+		
+		opsiPortPage.enterIpAddress(ipPrinter);
+		jenisKoneksiPrinterPage = opsiPortPage.pressOkBtn();
+		
+		settingPrinterPage = jenisKoneksiPrinterPage.pressConnectBtn();
+		settingPrinterPage.pressTestPrinter();
+		
+		String actualPrintResult = settingPrinterPage.getPopupMsg().trim();
+		String expectedPrintResult = getStrings().get("expected_success_print");
+		Assert.assertEquals(actualPrintResult, expectedPrintResult);
+		
+		settingPrinterPage.pressPopupConfirm();
+		
+		loginPage = logout();
+	}
+
 
 }

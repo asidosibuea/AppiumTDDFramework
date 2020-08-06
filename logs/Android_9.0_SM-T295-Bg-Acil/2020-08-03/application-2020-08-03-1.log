@@ -1,0 +1,248 @@
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 15:57:37.494 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 15:58:47.067 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 15:59:12.127 PulsappobTest:75 - 
+
+ *******Starting test: belipulsa5rbPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-03 15:59:12.270 TestListener:39 - org.json.JSONException: JSONObject["AsidoDataTest"] not found.
+	at org.json.JSONObject.get(JSONObject.java:573)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:766)
+	at com.qa.tests.PulsappobTest.loginValidUser(PulsappobTest.java:91)
+	at com.qa.tests.PulsappobTest.belipulsa5rbPpob(PulsappobTest.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 15:59:13.160 PulsappobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 15:59:47.858 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:00:11.659 PulsappobTest:75 - 
+
+ *******Starting test: belipulsa5rbPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-03 16:00:11.834 TestListener:39 - org.json.JSONException: JSONObject["AsidoDataTest"] not found.
+	at org.json.JSONObject.get(JSONObject.java:573)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:766)
+	at com.qa.tests.PulsappobTest.loginValidUser(PulsappobTest.java:91)
+	at com.qa.tests.PulsappobTest.belipulsa5rbPpob(PulsappobTest.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:00:12.553 PulsappobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:00:50.580 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:01:13.168 PulsappobTest:75 - 
+
+ *******Starting test: belipulsa5rbPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-03 16:01:13.428 TestListener:39 - org.json.JSONException: JSONObject["AsidoDataTest"] not found.
+	at org.json.JSONObject.get(JSONObject.java:573)
+	at org.json.JSONObject.getJSONObject(JSONObject.java:766)
+	at com.qa.tests.PulsappobTest.loginValidUser(PulsappobTest.java:91)
+	at com.qa.tests.PulsappobTest.belipulsa5rbPpob(PulsappobTest.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:01:14.147 PulsappobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:17.129 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:40.061 PulsappobTest:75 - 
+
+ *******Starting test: belipulsa5rbPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:41.549 BaseTest:391 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:43.203 BaseTest:391 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:44.499 BaseTest:371 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:51.935 BaseTest:371 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:53.040 BaseTest:371 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:55.457 BaseTest:371 - Pilih Beli Pulsa PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:58.688 BaseTest:391 - Enter phonenumber : 081234560000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:02:59.772 BaseTest:371 - Press Process Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:02.115 BaseTest:371 - Pilih Denom 5 Ribu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:04.208 BaseTest:429 - Detail Number : 081234560000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:04.475 BaseTest:429 - Detail Denom : Rp. 5.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:04.741 BaseTest:429 - Detail Total Bayar : Rp. 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:04.819 BaseTest:371 - Press Konfrimasi PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:07.294 BaseTest:429 - Keterangan : Successful :
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:07.371 BaseTest:371 - Press Confirm Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:08.715 BaseTest:429 - Nama Item Tercantum di Cart : Pulsa SIMPATI - 5.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:09.170 BaseTest:429 - Harga Tercantum di Cart : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:09.623 BaseTest:429 - Qty Item Tercantum di Cart : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:09.748 BaseTest:371 - Press Btn Show Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:11.168 BaseTest:429 - Jumlah Subotal PPOB : TOTAL Rp.6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:11.633 BaseTest:429 - Jumlah Qty Order : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:11.790 BaseTest:371 - Press Btn Hide Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:12.774 BaseTest:371 - Press Tombol Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:15.275 BaseTest:391 - Jumlah Uang Tunai : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:16.474 BaseTest:371 - Pilih Pembayaran Tunai:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:17.384 BaseTest:371 - Pilih Pecahan Dua:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:18.258 BaseTest:371 - Pilih Pecahan Satu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:18.596 BaseTest:441 - scroll ke element : Masukan Nama Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:19.971 BaseTest:391 - Input Nama Pelanggan : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:20.139 BaseTest:441 - scroll ke element : Masukan Telepon Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:23.828 BaseTest:391 - Input Telepone Pelanggan : 7:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:24.475 BaseTest:441 - scroll ke element : Masukan Email Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:25.773 BaseTest:391 - Input Email Pelanggan : a@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:26.932 BaseTest:371 - Pilih Cetak 2x:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:27.627 BaseTest:371 - Pilih Email Resi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:28.315 BaseTest:371 - Eksekusi Bayar:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:30.143 BaseTest:429 - Keterangan Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:30.359 BaseTest:429 - Total	Nominal Order : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:30.609 BaseTest:429 - Metode Pembayaran : Cash:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:30.843 BaseTest:429 - Total Pembayaran : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:31.077 BaseTest:429 - Total Kembalian : 0:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:31.140 BaseTest:371 - Press Button OK:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:31.281 BaseTest:458 - swiping -right on sidebar page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:33.287 BaseTest:371 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:34.583 BaseTest:371 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-03 16:03:34.728 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [081234560000],
+	expected [null] but found [Rp. 5.000],
+	expected [null] but found [Rp. 6.000],
+	expected [null] but found [Successful ],
+	expected [null] but found [Successful ],
+	expected [null] but found [Pulsa SIMPATI - 5.000],
+	expected [null] but found [Pulsa SIMPATI - 5.000],
+	expected [null] but found [6.000],
+	expected [null] but found [TOTAL Rp.6.000],
+	expected [null] but found [6.000],
+	expected [null] but found [6.000]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.PulsappobTest.prosespulsaPpob(PulsappobTest.java:185)
+	at com.qa.tests.PulsappobTest.belipulsa5rbPpob(PulsappobTest.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:03:35.885 PulsappobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:09:51.573 BaseTest:257 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:14.008 PulsappobTest:75 - 
+
+ *******Starting test: belipulsa5rbPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:15.518 BaseTest:391 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:17.597 BaseTest:391 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:18.894 BaseTest:371 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:26.230 BaseTest:371 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:27.327 BaseTest:371 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:29.699 BaseTest:371 - Pilih Beli Pulsa PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:32.971 BaseTest:391 - Enter phonenumber : 081234560000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:34.603 BaseTest:371 - Press Process Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:36.875 BaseTest:371 - Pilih Denom 5 Ribu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:38.987 BaseTest:429 - Detail Number : 081234560000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:39.373 BaseTest:429 - Detail Denom : Rp. 5.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:39.722 BaseTest:429 - Detail Total Bayar : Rp. 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:39.863 BaseTest:371 - Press Konfrimasi PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:42.395 BaseTest:429 - Keterangan : Successful :
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:42.492 BaseTest:371 - Press Confirm Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:43.777 BaseTest:429 - Nama Item Tercantum di Cart : Pulsa SIMPATI - 5.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:44.247 BaseTest:429 - Harga Tercantum di Cart : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:44.669 BaseTest:429 - Qty Item Tercantum di Cart : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:44.793 BaseTest:371 - Press Btn Show Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:46.244 BaseTest:429 - Jumlah Subotal PPOB : TOTAL Rp.6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:46.684 BaseTest:429 - Jumlah Qty Order : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:46.840 BaseTest:371 - Press Btn Hide Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:47.840 BaseTest:371 - Press Tombol Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:50.266 BaseTest:391 - Jumlah Uang Tunai : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:50.985 BaseTest:371 - Pilih Pembayaran Tunai:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:51.642 BaseTest:371 - Pilih Pecahan Dua:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:52.749 BaseTest:371 - Pilih Pecahan Satu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:53.106 BaseTest:441 - scroll ke element : Masukan Nama Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:54.434 BaseTest:391 - Input Nama Pelanggan : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:54.586 BaseTest:441 - scroll ke element : Masukan Telepon Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:58.229 BaseTest:391 - Input Telepone Pelanggan : 7:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:58.416 BaseTest:441 - scroll ke element : Masukan Email Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:10:59.698 BaseTest:391 - Input Email Pelanggan : a@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:00.398 BaseTest:371 - Pilih Cetak 2x:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:01.073 BaseTest:371 - Pilih Email Resi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:01.750 BaseTest:371 - Eksekusi Bayar:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:03.596 BaseTest:429 - Keterangan Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:03.836 BaseTest:429 - Total	Nominal Order : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:04.086 BaseTest:429 - Metode Pembayaran : Cash:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:04.336 BaseTest:429 - Total Pembayaran : 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:04.586 BaseTest:429 - Total Kembalian : 0:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:04.649 BaseTest:371 - Press Button OK:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:04.788 BaseTest:458 - swiping -right on sidebar page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:06.807 BaseTest:371 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:08.068 BaseTest:371 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-03 16:11:08.209 PulsappobTest:84 - Login test after method:

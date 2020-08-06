@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Test Suite" parallel="tests" thread-count="5">
 
-	<!-- <test name="Galaxy8inch">
+<!-- 
+	<test name="Galaxy8inch">
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
 		</listeners>
@@ -16,13 +17,14 @@
 		<parameter name="chromeDriverPort" value="11000" />
 		<parameter name="mjpegServerPort" value="12000" />
 		<classes>
-			<class name="com.qa.tests.ProfilTest">
+			 <class name="com.qa.tests.ProfilTest">
 				<methods>
 					<include name="isiSemuaRowFooter"/>
 				</methods> 
-			 </class>
+			 </class> 
+			 <class name="com.qa.tests.PrinterTest"></class>
 		</classes>
-	</test>  -->
+	</test> 
 	
 	 <!-- <test name="Galaxy7inch" >
 		<listeners>
@@ -48,7 +50,7 @@
 			 <class name="com.qa.tests.PPOBTest">
 			 </class>
 		</classes>
-	</test> 
+	</test>  -->
 	
 	
 	<test name="Tab12inch" >
@@ -66,14 +68,21 @@
 		<parameter name="chromeDriverPort" value="11002" />
 		<parameter name="mjpegServerPort" value="12002" />
 		<classes>
-			<class name="com.qa.tests.ProfilTest">
+			<!-- <class name="com.qa.tests.ProfilTest">
 				<methods>
 					<include name="kosongkanFooterRow1"/>
 				</methods> 
+			 </class> -->
+			 <class name="com.qa.tests.PrinterTest">
+			 	<methods>
+			 		<include name="setMainPrinterBluetooth"/>
+ 			 		<include name="setMainPrinterLAN"/>
+			 	</methods>
 			 </class>
 		</classes>
 	</test> 
-	
+
+<!-- 
 	<test name="Tab7inch" >
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
@@ -83,7 +92,7 @@
 		<parameter name="platformName" value="Android" />
 		<parameter name="platformVersion" value="7.0" />
 		<parameter name="deviceName" value="i7u" />
-		<parameter name="udid" value="iLitS50S0W7190160260" />
+		<parameter name="udid" value="iLitS50S0K2190140077" />
 		<parameter name="appiumPort" value="10000" />
 		<parameter name="systemPort" value="10003" />
 		<parameter name="chromeDriverPort" value="11003" />
@@ -105,8 +114,14 @@
 		<parameter name="emulator" value="false" />
 		<parameter name="platformName" value="Android" />
 		<parameter name="platformVersion" value="9.0" />
+<<<<<<< HEAD
 		<parameter name="deviceName" value="SM-T295-Bg-Acil" />
 		<parameter name="udid" value="R9CMC04AD1J" />
+=======
+		<parameter name="deviceName" value="SM-T295-Putih" />
+		<parameter name="udid" value="R9CMC04AD1J" />
+		<parameter name="appiumPort" value="10000" />
+>>>>>>> refs/remotes/origin/master
 		<parameter name="systemPort" value="10004" />
 		<parameter name="chromeDriverPort" value="11004" />
 		<parameter name="mjpegServerPort" value="12004" />
@@ -122,8 +137,10 @@
 				</methods> 
 			</class>
 		</classes>
-	</test> 
- -->	
+	</test> -->
+
+ 
+ 
 	
 	
 </suite> <!-- Suite -->
