@@ -204,7 +204,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom5ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom5rb","expected_total5rb", "expected_lblnamepulsa5rb", "expected_lblpricepulsa5rb", "expected_totalorderpulsa5rb", "pulsa5rb");
+		prosespulsaPpob("expected_phone_number","expected_denom5rb","expected_total5rb", "expected_lblnamepulsa5rb", "expected_lblpricepulsa5rb", "expected_lblpricepulsa5rb", "pulsa5rb");
 	}
 	
 	@Test
@@ -217,7 +217,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom10ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom10rb","expected_total10rb", "expected_lblnamepulsa10rb", "expected_lblpricepulsa10rb", "expected_totalorderpulsa10rb", "pulsa10rb");
+		prosespulsaPpob("expected_phone_number","expected_denom10rb","expected_total10rb", "expected_lblnamepulsa10rb", "expected_lblpricepulsa10rb", "expected_lblpricepulsa10rb", "pulsa10rb");
 	}
 	
 	@Test
@@ -230,7 +230,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom20ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom20rb","expected_total20rb", "expected_lblnamepulsa20rb", "expected_lblpricepulsa20rb", "expected_totalorderpulsa20rb", "pulsa20rb");
+		prosespulsaPpob("expected_phone_number","expected_denom20rb","expected_total20rb", "expected_lblnamepulsa20rb", "expected_lblpricepulsa20rb", "expected_lblpricepulsa20rb", "pulsa20rb");
 	}
 	
 	@Test
@@ -243,7 +243,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom25ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom25rb","expected_total25rb", "expected_lblnamepulsa25rb", "expected_lblpricepulsa25rb", "expected_totalorderpulsa25rb", "pulsa25rb");
+		prosespulsaPpob("expected_phone_number","expected_denom25rb","expected_total25rb", "expected_lblnamepulsa25rb", "expected_lblpricepulsa25rb", "expected_lblpricepulsa25rb", "pulsa25rb");
 	}
 	
 	@Test
@@ -256,7 +256,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom100ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom100rb","expected_total100rb", "expected_lblnamepulsa100rb", "expected_lblpricepulsa100rb", "expected_totalorderpulsa100rb", "pulsa100rb");
+		prosespulsaPpob("expected_phone_number","expected_denom100rb","expected_total100rb", "expected_lblnamepulsa100rb", "expected_lblpricepulsa100rb", "expected_lblpricepulsa100rb", "pulsa100rb");
 	}
 	
 	@Test
@@ -269,7 +269,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom50ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom50rb","expected_total50rb", "expected_lblnamepulsa50rb", "expected_lblpricepulsa50rb", "expected_totalorderpulsa50rb", "pulsa50rb");
+		prosespulsaPpob("expected_phone_number","expected_denom50rb","expected_total50rb", "expected_lblnamepulsa50rb", "expected_lblpricepulsa50rb", "expected_lblpricepulsa50rb", "pulsa50rb");
 	}
 	
 	@Test
@@ -282,7 +282,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom150ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom150rb","expected_total150rb", "expected_lblnamepulsa150rb", "expected_lblpricepulsa150rb", "expected_totalorderpulsa150rb", "pulsa150rb");
+		prosespulsaPpob("expected_phone_number","expected_denom150rb","expected_total150rb", "expected_lblnamepulsa150rb", "expected_lblpricepulsa150rb", "expected_lblpricepulsa150rb", "pulsa150rb");
 	}
 	
 	@Test
@@ -295,7 +295,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom200ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom200rb","expected_total200rb", "expected_lblnamepulsa200rb", "expected_lblpricepulsa200rb", "expected_totalorderpulsa200rb", "pulsa200rb");
+		prosespulsaPpob("expected_phone_number","expected_denom200rb","expected_total200rb", "expected_lblnamepulsa200rb", "expected_lblpricepulsa200rb", "expected_lblpricepulsa200rb", "pulsa200rb");
 	}
 	
 	@Test
@@ -308,7 +308,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom300ribu();
-		prosespulsaPpob("expected_phone_number","expected_denom300rb","expected_total300rb", "expected_lblnamepulsa300rb", "expected_lblpricepulsa300rb", "expected_totalorderpulsa300rb", "pulsa300rb");
+		prosespulsaPpob("expected_phone_number","expected_denom300rb","expected_total300rb", "expected_lblnamepulsa300rb", "expected_lblpricepulsa300rb", "expected_lblpricepulsa300rb", "pulsa300rb");
 	}
 	
 	@Test
@@ -321,7 +321,7 @@ public class PulsappobTest extends BaseTest{
 		ppobPage.inputPhone(phonenumber);
 		ppobPage.pressprosesPpob();
 		ppobPage.pilihDenom1juta();
-		prosespulsaPpob("expected_phone_number","expected_denom1jt","expected_total1jt", "expected_lblnamepulsa1jt", "expected_lblpricepulsa1jt", "expected_totalorderpulsa1jt", "pulsa1jt");
+		prosespulsaPpob("expected_phone_number","expected_denom1jt","expected_total1jt", "expected_lblnamepulsa1jt", "expected_lblpricepulsa1jt", "expected_lblpricepulsa1jt", "pulsa1jt");
 	}
 
 	

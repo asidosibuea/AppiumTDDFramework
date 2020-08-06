@@ -131,7 +131,7 @@ public class BpjsppobTest extends BaseTest{
 		return new PembayaranPage();
 	}
 
-	public void prosesbpjsksPpob(String a,String b,String c,String d,String e,String f,String g,String h,String i,String j,String k,String l) {
+	public void prosesbpjsksPpob(String a,String b,String c,String d,String e,String f,String g,String h,String i,String j,String l) {
 
 		String actualbranchCode = ppobPage.getbranchCode();
 		String expectedbranchCode = getStrings().get(a);
@@ -164,7 +164,7 @@ public class BpjsppobTest extends BaseTest{
 		String expectedQty = getStrings().get("expected_qty");
 		String actualQty = ppobPage.getlblQty();
 		ppobPage.pressbtnShowOrder();
-		String expectedSubtotalppob = getStrings().get(k);
+		String expectedSubtotalppob = getStrings().get(j);
 		String actualSubtotalppob = ppobPage.getlblPpob();
 		String expectedQtyorder = getStrings().get("expected_qty");
 		String actualQtyorder = ppobPage.getlblQuantity();
@@ -235,7 +235,6 @@ public class BpjsppobTest extends BaseTest{
 				"expectedpaymentTotal1",
 				"expected_lblnamebpjsk", 
 				"expected_lblpricebpjsk1", 
-				"expected_totalorderbpjsk1", 
 				"bpjsk1");
 	}
 	
@@ -259,8 +258,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal2",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk2", 
-				"expected_totalorderbpjsk2", 
+				"expected_lblpricebpjsk2",  
 				"bpjsk2");
 	}
 	
@@ -284,8 +282,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal3",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk3", 
-				"expected_totalorderbpjsk3", 
+				"expected_lblpricebpjsk3",  
 				"bpjsk3");
 	}
 	
@@ -309,8 +306,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal4",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk4", 
-				"expected_totalorderbpjsk4", 
+				"expected_lblpricebpjsk4",  
 				"bpjsk4");
 	}
 	
@@ -334,8 +330,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal5",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk5", 
-				"expected_totalorderbpjsk5", 
+				"expected_lblpricebpjsk5",  
 				"bpjsk5");
 	}
 	
@@ -359,8 +354,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal6",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk6", 
-				"expected_totalorderbpjsk6", 
+				"expected_lblpricebpjsk6",  
 				"bpjsk6");
 	}
 	
@@ -384,8 +378,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal7",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk7", 
-				"expected_totalorderbpjsk7", 
+				"expected_lblpricebpjsk7",  
 				"bpjsk7");
 	}
 	
@@ -409,8 +402,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal8",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk8", 
-				"expected_totalorderbpjsk8", 
+				"expected_lblpricebpjsk8",  
 				"bpjsk8");
 	}
 	
@@ -434,8 +426,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal9",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk9", 
-				"expected_totalorderbpjsk9", 
+				"expected_lblpricebpjsk9",  
 				"bpjsk9");
 	}
 	
@@ -459,8 +450,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal10",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk10", 
-				"expected_totalorderbpjsk10", 
+				"expected_lblpricebpjsk10",  
 				"bpjsk10");
 	}
 	
@@ -484,8 +474,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal11",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk11", 
-				"expected_totalorderbpjsk11", 
+				"expected_lblpricebpjsk11",  
 				"bpjsk11");
 	}
 	
@@ -509,8 +498,7 @@ public class BpjsppobTest extends BaseTest{
 				"expectedadminCost",
 				"expectedpaymentTotal12",
 				"expected_lblnamebpjsk", 
-				"expected_lblpricebpjsk12", 
-				"expected_totalorderbpjsk12", 
+				"expected_lblpricebpjsk12",  
 				"bpjsk12");
 	}
 	

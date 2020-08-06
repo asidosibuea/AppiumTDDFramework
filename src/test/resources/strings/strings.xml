@@ -279,8 +279,25 @@
 	<string name="expected_totalorder2bJt">TOTAL Rp.74.360</string>
 	<string name="expected_totalorder3bJt">TOTAL Rp.124.660</string>
 	<string name="expected_lblnameJt">Jasa Telekomunikasi</string>
+	<string name="expected_datetimeJt">24-08-20 18:16</string>
 	
-
+	<!-- KartuHalo -->
+	<string name="codeCardhalo">100009</string>
+	<string name="reffNohalo">70859945647</string>
+	<string name="phoneNumberhalo">0082234560000</string>
+	<string name="customerIdhalo">082234560000</string>
+	<string name="customerNamehalo">-</string>
+	<string name="billhalo">1</string>
+	<string name="amounthalo">Rp. 144.500</string>
+	<string name="adminCosthalo">Rp. 6.000</string>
+	<string name="paymentTotalhalo">Rp. 150.500</string>
+	<string name="lblNamehalo">Kartu Halo</string>
+	<string name="lblQtyhalo">1</string>
+	<string name="lblPricehalo">150.500</string>
+	<string name="btnOrderhalo">TOTAL Rp.150.500</string>
+	<string name="lblPpobhalo">150.500</string>
+	<string name="lblQuantityhalo">1</string>
+	
 	<!-- Printer Settings-->
 	<string name="expected_paired_bt">RPP02N
 66:12:0B:24:BF:9C</string>

@@ -34,6 +34,47 @@ public class PpobPage extends BaseTest{
 		return new AllmenuPage();
 	}
 	
+//	Kartu Halo
+	@AndroidFindBy(xpath = "//*[contains(@text, \"Kartu Halo\")]")
+	private MobileElement beliHaloppob;
+
+
+	public PpobPage pressbeliHaloppob() {
+		click(beliHaloppob, "Pilih Beli Kartu Halo PPOB");
+		return this;
+	}
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/codeCard")
+	private MobileElement codeCard;
+	public String getcodeCard() {
+		return getText(codeCard, "Kode Kartu : ");
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/reffNo")
+	private MobileElement reffNo;
+	public String getreffNo() {
+		return getText(reffNo, "No. Reff : ");
+	}
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/customerId")
+	private MobileElement customerId;
+	public String getcustomerId() {
+		return getText(customerId, "Id Pelanggan : ");
+	}
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/customerName")
+	private MobileElement customerName;
+	public String getcustomerName() {
+		return getText(customerName, "Nama Pelanggan : ");
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/bill")
+	private MobileElement bill;
+	public String getbill() {
+		return getText(bill, "Tagihan : ");
+	}
+
+
 	@AndroidFindBy(xpath = "//*[contains(@text, \"BPJS Kesehatan\")]")
 	private MobileElement beliBpjsppob;
 
@@ -164,7 +205,7 @@ public class PpobPage extends BaseTest{
 	private MobileElement prosesPpob;
 
 	public PpobPage pressprosesPpob() {
-		getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		click(prosesPpob, "Press Process Button");
 		return this;
 
@@ -501,7 +542,7 @@ public class PpobPage extends BaseTest{
 	private MobileElement lblPpob;
 	
 	public String getlblPpob() {
-		return getText(btnOrder, "Jumlah Subotal PPOB : ");
+		return getText(lblPpob, "Jumlah Subotal PPOB : ");
 	}
 
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnOrder")
