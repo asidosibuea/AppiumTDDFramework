@@ -9,7 +9,9 @@ import com.qa.base.BaseTest;
 import com.qa.base.SidebarPage;
 import com.qa.pages.penjualan.AllMenuPage;
 import com.qa.pages.penjualan.OrderCartPage;
+import com.qa.pages.popup.PopupBiayaKirim;
 import com.qa.pages.popup.PopupItem;
+import com.qa.pages.popup.PopupStatusOrder;
 import com.qa.pages.popup.PopupTopping;
 import com.qa.utils.TestUtils;
 
@@ -78,6 +80,16 @@ public class PenjualanPage extends BaseTest{
 	
 	@AndroidFindBy(xpath = "//*[contains(@text, \"BUBUR AYAM BIASA\")]")
 	private MobileElement item2;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/btnOrderType")
+	private MobileElement btnOrderType;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/rowDelivery")
+	private MobileElement btnDelivery;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/lblRounding")
+	private MobileElement lblRounding;
+
 	
 	public PenjualanPage() {
 		super();
@@ -224,5 +236,29 @@ public class PenjualanPage extends BaseTest{
 	public String getBtnOrder() {
 		return getText(btnOrder, "btnOrder ");
 	}
-
+	
+	public PopupStatusOrder pressbtnOrderType() {
+		click(btnOrderType, "Press btn order type");
+		return new PopupStatusOrder();
+	}
+	
+	public String getStatusOrder() {
+		return getText(btnOrderType, "Status order adalah ");
+	}
+	
+	public PopupBiayaKirim pressbtnDelivery() {
+		click(btnDelivery, "Press btn Biaya Kirim");
+		return new PopupBiayaKirim();
+	}
+	
+	public PenjualanPage totalHarga() {
+		getText(btnOrder, "Total belanja adalah ");
+		return this;
+	}
+	
+	public PenjualanPage lableRounding() {
+		getText(lblRounding, "Pembulatan sebesar ");
+		return this;
+	}
+	
 }
