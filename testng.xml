@@ -144,7 +144,7 @@
 		<parameter name="chromeDriverPort" value="11004" />
 		<parameter name="mjpegServerPort" value="12004" />
 		<classes>
-			<class name="com.qa.tests.CekPembulatanTest">
+			<class name="com.qa.tests.PembayaranVoucherTest">
 				<methods>
 				</methods> 
 			 </class>

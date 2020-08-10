@@ -14,9 +14,16 @@ public class PopupNotifikasiPembayaran extends BaseTest{
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnOk")
 	private MobileElement btnOk;
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/lblMethod")
+	private MobileElement lblMethod;
+	
 
 	public String getStatusPembayaran() {
 		return getText(lblTitle, "Status Pembayaran : ");
+	}
+	
+	public String getStatusMethod() {
+		return getText(lblMethod, "Metode Pembayaran : ");
 	}
 	
 	public PenjualanPage PressBtnOk(){
