@@ -178,7 +178,7 @@ public class PpobPage extends BaseTest{
 		if (!cekbulan.equalsIgnoreCase(expectedbulan)) {
 			
 			click(spSelectPaymentAmount,"Pilih Bulan :"+expectedbulan);
-			scrollToElement("textContains", expectedbulan, "Scroll ke : "+expectedbulan);
+			scrollSemiOtomatis("up",expectedbulan , 0.79);
 			pilihBulan(expectedbulan);
 			return this;
 		}

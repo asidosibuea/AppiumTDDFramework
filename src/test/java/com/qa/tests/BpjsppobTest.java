@@ -486,6 +486,7 @@ public class BpjsppobTest extends BaseTest{
 		ppobPage = allmenuPage.pressbtnSwitchToPPOB();
 		ppobPage.pressbeliBpjsppob();
 		ppobPage.inputtxtBpjsNumber(bpjsnumber);
+//		scrollToElement("resourceId", "id.dretail.mpos:id/btnConfirm", "Cari Btn Confirm");
 		ppobPage.getpilihJumlahbayar("expected_12b");
 		ppobPage.pressprosesPpob();
 		

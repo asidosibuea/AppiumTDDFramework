@@ -384,6 +384,7 @@ public class TelkomppobTest extends BaseTest{
 		String expectedadminCost = getStrings().get("expectedadminCost3bJt");
 		String actualpaymentTotal = ppobPage.getpaymentTotal();
 		String expectedpaymentTotal = getStrings().get("expectedpaymentTotal3bJt");
+		scrollToElement("resourceId", "id.dretail.mpos:id/btnConfirm", "Cari Btn Confirm");
 
 		ppobPage.pressbtnConfirmppob();
 		String expectedKet = getStrings().get("expected_keterangan");

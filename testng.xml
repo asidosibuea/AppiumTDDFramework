@@ -125,9 +125,9 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.AddCustomer">
+			<class name="com.qa.tests.BpjsppobTest">
 			<methods>
-					<include name="canceladdNewcustomer"/>
+					<include name="belibpjs12bPpob"/>
 				</methods> 
 			</class>
 		</classes>

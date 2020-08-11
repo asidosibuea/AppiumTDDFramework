@@ -448,7 +448,51 @@ public class BaseTest {
 	
 	}
 
-	
+
+	public MobileElement scrollSemiOtomatis(String direction, String locator, double xAxis) {
+		
+		boolean flagLoop = true;
+		
+		MobileElement element = null;
+		
+		while (flagLoop) {
+			try {
+				element = (MobileElement) getDriver().findElement(By.xpath("//*[contains(@text, \""+locator+"\")]"));
+				
+				
+			} catch (Exception e) {
+				Dimension dim = getDriver().manage().window().getSize();
+				int x = (int) (dim.getWidth() * xAxis);
+				int startY = 0, endY = 0;
+
+				switch (direction) {
+				case "up":
+					startY = (int) (dim.getHeight() * 0.9);
+					endY = (int) (dim.getWidth() * 0);
+					break;
+				case "down":
+					startY = (int) (dim.getHeight() * 0);
+					endY = (int) (dim.getWidth() * 0.9);
+					break;
+				}
+
+				TouchAction t = new TouchAction(getDriver());
+				t.press(PointOption.point(x, startY)).waitAction(WaitOptions.waitOptions(Duration.ofSeconds(2)))
+						.moveTo(PointOption.point(x, endY)).release().perform();
+				
+			
+			}
+			
+			
+			if (element != null && element.isDisplayed()) {
+				break;
+			}
+		}
+		
+		
+		return element;
+
+	}
 	
 	public void swipingElement(MobileElement e, String direction, String msg) {
 		if(e != null) {

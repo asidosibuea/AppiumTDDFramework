@@ -15,21 +15,21 @@
     <parameter name="deviceName" value="SM-T295-Bg-Acil"/>
     <parameter name="systemPort" value="10004"/>
     <classes>
-      <class name="com.qa.tests.AddCustomer">
+      <class name="com.qa.tests.BpjsppobTest">
         <methods>
           <include name="afterSuite"/>
           <include name="afterTest"/>
-          <include name="beforeMethod"/>
           <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
           <include name="beforeMethod"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="canceladdNewcustomer"/>
+          <include name="belibpjs12bPpob"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.qa.tests.AddCustomer -->
+      </class> <!-- com.qa.tests.BpjsppobTest -->
     </classes>
   </test> <!-- Galaxy8inchPutih(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
