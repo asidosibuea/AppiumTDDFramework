@@ -23,10 +23,10 @@
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
           <include name="beforeMethod"/>
+          <include name="belibpjs2bPpob"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterMethod"/>
-          <include name="belibpjs12bPpob"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.qa.tests.BpjsppobTest -->

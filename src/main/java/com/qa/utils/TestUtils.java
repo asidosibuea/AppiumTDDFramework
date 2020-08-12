@@ -27,7 +27,7 @@ import com.qa.base.BaseTest;
 
 public class TestUtils {
 	
-	public static final int WAIT = 10;
+	public static final int WAIT = 20;
 	public static final int WAITFORSWIPE = 15;
 	public static final int WAITTEXTCHANGE = 120;
 	public static final String ON = "ON";

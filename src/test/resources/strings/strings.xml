@@ -169,18 +169,90 @@
 	<string name="expected_changebayar">0</string>
 	
 	<!-- PDAM -->
-	<string name="expected_1area">PDAMBANDUNGKAB</string>
-	<string name="expected_2area">PDAMBANDUNGKOT</string>
-	<string name="expected_3area">PDAMBOGORKAB</string>
-	<string name="expected_4area">PDAMBOJONEGOROKAB</string>
-	<string name="expected_5area">PDAMBONDOWOSOKAB</string>
-	<string name="expected_6area">PDAMDKIAETRA</string>
-	<string name="expected_7area">PDAMDKIPALYJA</string>
-	<string name="expected_8area">PDAMLAMPUNGKOT</string>
-	<string name="expected_9area">PDAMMATARAMKOT</string>
-	<string name="expected_10area">PDAMPALEMBANGKOT</string>
-	<string name="expected_11area">PDAMPASURUANKAB</string>
-	<string name="expected_12area">PDAMSIDOARJOKAB</string>
+	<string name="expected_1areapam">PDAMBANDUNGKAB</string>
+	<string name="expected_1productCodepam">PAMBANDUNGB</string>
+	<string name="expected_1titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN BANDUNG</string>
+	<string name="expected_1lblNamepam">PDAM - PAMBANDUNGB</string>
+	<string name="expected_customerIdpam">16532000</string>
+	<string name="expected_customerNamepam">John Doe</string>
+	<string name="expected_periodpam">Agu 20</string>
+	<string name="expected_billpam">01</string>
+	<string name="expected_penaltypam">0</string>
+	<string name="expected_amountpam">Rp. 12.500</string>
+	<string name="expected_adminCostpam">Rp. 6.000</string>
+	<string name="expected_paymentTotalpam">Rp. 18.500</string>
+	<string name="expected_noReffpam">5247343041</string>
+	<string name="expected_lblPricepam">18.500</string>
+	<string name="expected_lblPpobpam">18.500</string>
+	<string name="expected_lblQuantitypam">1</string>
+	<string name="expected_btnOrderpam">TOTAL Rp.18.500</string>
+	
+	<string name="expected_2areapam">PDAMBANDUNGKOT</string>
+	<string name="expected_2productCodepam">PAMBANDUNGK</string>
+	<string name="expected_2titleConfirmationpam">DATA PEMBAYARAN PDAM KOTA BANDUNG</string>
+	<string name="expected_2lblNamepam">PDAM - PAMBANDUNGK</string>
+	
+	<string name="expected_3areapam">PDAMBOGORKAB</string>
+	<string name="expected_3productCodepam">PAMBOGORB</string>
+	<string name="expected_3titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN BOGOR</string>
+	<string name="expected_3lblNamepam">PDAM - PAMBOGORB</string>
+	
+	<string name="expected_4areapam">PDAMBOJONEGOROKAB</string>
+	<string name="expected_4productCodepam">PAMBOJONEGOROB</string>
+	<string name="expected_4titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN BOJONEGORO</string>
+	<string name="expected_4lblNamepam">PDAM - PAMBOJONEGOROB</string>
+	
+	<string name="expected_5areapam">PDAMBONDOWOSOKAB</string>
+	<string name="expected_5productCodepam">PAMBONDOWOSOB</string>
+	<string name="expected_5titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN BONDOWOSO</string>
+	<string name="expected_5lblNamepam">PDAM - PAMBONDOWOSOB</string>
+	
+	<string name="expected_6areapam">PDAMDKIAETRA</string>
+	<string name="expected_6productCodepam">PAMAETRA</string>
+	<string name="expected_6titleConfirmationpam">DATA PEMBAYARAN PDAM AETRA AIR JAKARTA</string>
+	<string name="expected_6lblNamepam">PDAM - PAMAETRA</string>
+	
+	<string name="expected_7areapam">PDAMDKIPALYJA</string>
+	<string name="expected_7productCodepam">PAMPALYJA</string>
+	<string name="expected_7titleConfirmationpam">DATA PEMBAYARAN PDAM PALYJA</string>
+	<string name="expected_7lblNamepam">PDAM - PAMPALYJA</string>
+	
+	<string name="expected_8areapam">PDAMLAMPUNGKOT</string>
+	<string name="expected_8productCodepam">PAMLAMPUNGK</string>
+	<string name="expected_8titleConfirmationpam">DATA PEMBAYARAN PDAM KOTA LAMPUNG</string>
+	<string name="expected_8lblNamepam">PDAM - PAMLAMPUNGK</string>
+	
+	<string name="expected_9areapam">PDAMMATARAMKOT</string>
+	<string name="expected_9productCodepam">PAMMATARAMK</string>
+	<string name="expected_9titleConfirmationpam">DATA PEMBAYARAN PDAM KOTA MATARAM</string>
+	<string name="expected_9lblNamepam">PDAM - PAMMATARAMK</string>
+	
+	<string name="expected_10areapam">PDAMPALEMBANGKOT</string>
+	<string name="expected_10productCodepam">PAMPALEMBANGK</string>
+	<string name="expected_10titleConfirmationpam">DATA PEMBAYARAN PDAM KOTA PALEMBANG</string>
+	<string name="expected_10lblNamepam">PDAM - PAMPALEMBANGK</string>
+	
+	<string name="expected_11areapam">PDAMPASURUANKAB</string>
+	<string name="expected_11productCodepam">PAMPASURUANB</string>
+	<string name="expected_11titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN PASURUAN</string>
+	<string name="expected_11lblNamepam">PDAM - PAMPASURUANB</string>
+	
+	<string name="expected_12areapam">PDAMSIDOARJOKAB</string>
+	<string name="expected_12productCodepam">PAMSIDOARJOB</string>
+	<string name="expected_12titleConfirmationpam">DATA PEMBAYARAN PDAM KABUPATEN SIDOARJO</string>
+	<string name="expected_12lblNamepam">PDAM - PAMSIDOARJOB</string>
+	
+	<!-- TV Kabel -->
+	<string name="expected_1tv">BIG TV</string>
+	<string name="expected_2tv">MNC TV/INDOVISION</string>\
+	
+	
+	<!-- Inventaris -->
+	<string name="expected_lblTitle">Inventaris</string>
+	<string name="expected_titlePembelian">Pembelian</string>
+	<string name="expected_titlePenerima">Penerima</string>
+	<string name="expected_titleStokopname">Stok Opname</string>
+	<string name="expected_titleSisaharian">Sisa Harian</string>
 	
 	<!-- Bpjs Kesehatan -->
 	<string name="expected_1b">1 Bulan</string>

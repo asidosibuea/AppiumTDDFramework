@@ -125,9 +125,10 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.BpjsppobTest">
+			<class name="com.qa.tests.PdamppobTest">
 			<methods>
-					<include name="belibpjs12bPpob"/>
+					<include name="belipdam2bPpob"/>
+					<include name="belipdam12bPpob"/>
 				</methods> 
 			</class>
 		</classes>

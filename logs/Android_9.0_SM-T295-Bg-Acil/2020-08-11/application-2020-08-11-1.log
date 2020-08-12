@@ -1,0 +1,646 @@
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:45:56.507 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:30.680 TelkomppobTest:76 - 
+
+ *******Starting test: belijastel3bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:32.207 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:34.258 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:35.534 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:42.081 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:43.296 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:45.545 BaseTest:373 - Pilih Beli Telkom PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:48.076 BaseTest:393 - Enter Customer ID : 02176300300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:49.253 BaseTest:373 - Press Process Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:53.519 BaseTest:431 - Detail branchCode : 0217:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:53.835 BaseTest:431 - Detail dateTime : 23-08-20 16:25:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:54.208 BaseTest:431 - No. Jastel : 02176300300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:54.517 BaseTest:431 - Detail name : Indra AlFarez:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:54.831 BaseTest:431 - Telepon : 630030000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:55.153 BaseTest:431 - Divre/Datel : 07/0002:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:55.471 BaseTest:431 - Detail period : 3:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:55.794 BaseTest:431 - No. Reff Periode 1 : 708A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:56.131 BaseTest:431 - No. Reff Periode 2 : 709A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:56.474 BaseTest:431 - No. Reff Periode 3 : 710A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:56.748 BaseTest:431 - Tagihan Periode 1 : Rp. 35.140:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:57.114 BaseTest:431 - Tagihan Periode 2 : Rp. 27.220:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:57.465 BaseTest:431 - Tagihan Periode 3 : Rp. 44.300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:57.852 BaseTest:431 - Detail amount : Rp. 106.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:58.213 BaseTest:431 - Detail adminCost : Rp. 18.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:58.585 BaseTest:431 - Detail paymentTotal : Rp. 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:46:58.592 BaseTest:443 - Cari Btn Confirm:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:01.224 BaseTest:373 - Press Konfrimasi PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:04.725 BaseTest:431 - Keterangan : Successful :
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:04.833 BaseTest:373 - Press Confirm Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:06.123 BaseTest:431 - Nama Item Tercantum di Cart : Jasa Telekomunikasi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:06.522 BaseTest:431 - Harga Tercantum di Cart : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:06.930 BaseTest:431 - Qty Item Tercantum di Cart : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:07.063 BaseTest:373 - Press Btn Show Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:08.444 BaseTest:431 - Jumlah Subotal PPOB : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:08.867 BaseTest:431 - Jumlah Qty Order : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:09.000 BaseTest:373 - Press Btn Hide Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:10.375 BaseTest:431 - Jumlah Total Order : TOTAL Rp.124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:10.510 BaseTest:373 - Press Tombol Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:12.207 BaseTest:373 - Pilih Pembayaran Tunai:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:13.125 BaseTest:373 - Pilih Pecahan Satu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:14.156 BaseTest:431 - Pilihan Uang Tunai : 125.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:14.170 BaseTest:443 - scroll ke element : Masukan Nama Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:14.975 BaseTest:393 - Input Nama Pelanggan : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:15.604 BaseTest:443 - scroll ke element : Masukan Telepon Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:19.215 BaseTest:393 - Input Telepone Pelanggan : 7:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:19.336 BaseTest:443 - scroll ke element : Masukan Email Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:20.614 BaseTest:393 - Input Email Pelanggan : a@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:21.462 BaseTest:431 - Status resi : Cetak 2X Aktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:21.719 BaseTest:431 - Status email : Email Resi Nonaktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:21.813 BaseTest:373 - Pilih Email Resi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:22.474 BaseTest:373 - Eksekusi Bayar:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:24.232 BaseTest:431 - Keterangan Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:24.451 BaseTest:431 - Total	Nominal Order : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:24.673 BaseTest:431 - Metode Pembayaran : Cash:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:24.903 BaseTest:431 - Total Pembayaran : 125.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:25.117 BaseTest:431 - Total Kembalian : 340:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:25.204 BaseTest:373 - Press Button OK:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:25.374 BaseTest:460 - swiping -right on sidebar page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:27.429 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:28.687 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 14:47:28.969 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [11-08-20 14:46] but found [23-08-20 16:25],
+	expected [TOTAL Rp.124.660] but found [124.660],
+	expected [124.660] but found [125.000]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.TelkomppobTest.belijastel3bPpob(TelkomppobTest.java:456)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:47:30.058 TelkomppobTest:85 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:49:27.321 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:49:49.106 TelkomppobTest:76 - 
+
+ *******Starting test: belijastel3bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:49:50.582 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:49:52.636 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:49:53.904 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:00.291 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:01.481 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:03.412 BaseTest:373 - Pilih Beli Telkom PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:05.927 BaseTest:393 - Enter Customer ID : 02176300300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:07.109 BaseTest:373 - Press Process Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:09.677 BaseTest:431 - Detail branchCode : 0217:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:09.992 BaseTest:431 - Detail dateTime : 23-08-20 16:25:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:10.329 BaseTest:431 - No. Jastel : 02176300300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:10.657 BaseTest:431 - Detail name : Indra AlFarez:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:10.970 BaseTest:431 - Telepon : 630030000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:11.269 BaseTest:431 - Divre/Datel : 07/0002:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:11.579 BaseTest:431 - Detail period : 3:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:11.949 BaseTest:431 - No. Reff Periode 1 : 708A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:12.338 BaseTest:431 - No. Reff Periode 2 : 709A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:12.714 BaseTest:431 - No. Reff Periode 3 : 710A:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:13.079 BaseTest:431 - Tagihan Periode 1 : Rp. 35.140:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:13.473 BaseTest:431 - Tagihan Periode 2 : Rp. 27.220:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:13.812 BaseTest:431 - Tagihan Periode 3 : Rp. 44.300:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:14.205 BaseTest:431 - Detail amount : Rp. 106.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:14.583 BaseTest:431 - Detail adminCost : Rp. 18.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:14.945 BaseTest:431 - Detail paymentTotal : Rp. 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:14.952 BaseTest:443 - Cari Btn Confirm:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:17.555 BaseTest:373 - Press Konfrimasi PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:20.204 BaseTest:431 - Keterangan : Successful :
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:20.288 BaseTest:373 - Press Confirm Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:21.552 BaseTest:431 - Nama Item Tercantum di Cart : Jasa Telekomunikasi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:21.931 BaseTest:431 - Harga Tercantum di Cart : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:22.310 BaseTest:431 - Qty Item Tercantum di Cart : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:22.433 BaseTest:373 - Press Btn Show Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:23.744 BaseTest:431 - Jumlah Subotal PPOB : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:24.162 BaseTest:431 - Jumlah Qty Order : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:24.284 BaseTest:373 - Press Btn Hide Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:25.610 BaseTest:431 - Jumlah Total Order : TOTAL Rp.124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:25.731 BaseTest:373 - Press Tombol Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:27.339 BaseTest:373 - Pilih Pembayaran Tunai:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:28.008 BaseTest:373 - Pilih Pecahan Satu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:29.064 BaseTest:431 - Pilihan Uang Tunai : 125.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:29.075 BaseTest:443 - scroll ke element : Masukan Nama Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:29.882 BaseTest:393 - Input Nama Pelanggan : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:30.032 BaseTest:443 - scroll ke element : Masukan Telepon Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:33.644 BaseTest:393 - Input Telepone Pelanggan : 7:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:34.268 BaseTest:443 - scroll ke element : Masukan Email Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:35.549 BaseTest:393 - Input Email Pelanggan : a@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:36.885 BaseTest:431 - Status resi : Cetak 2X Aktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:37.144 BaseTest:431 - Status email : Email Resi Nonaktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:37.230 BaseTest:373 - Pilih Email Resi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:37.892 BaseTest:373 - Eksekusi Bayar:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:39.647 BaseTest:431 - Keterangan Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:39.865 BaseTest:431 - Total	Nominal Order : 124.660:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:40.084 BaseTest:431 - Metode Pembayaran : Cash:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:40.317 BaseTest:431 - Total Pembayaran : 125.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:40.546 BaseTest:431 - Total Kembalian : 340:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:40.617 BaseTest:373 - Press Button OK:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:40.802 BaseTest:460 - swiping -right on sidebar page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:42.839 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:44.104 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 14:50:44.351 TestListener:39 - java.lang.AssertionError: The following asserts failed:
+	expected [11-08-20 14:50] but found [23-08-20 16:25],
+	expected [TOTAL Rp.124.660] but found [124.660],
+	expected [124.660] but found [125.000]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.qa.tests.TelkomppobTest.belijastel3bPpob(TelkomppobTest.java:456)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 14:50:45.133 TelkomppobTest:85 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:06.549 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:28.363 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:29.748 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:31.641 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:32.847 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:38.324 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:39.505 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:41.707 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:44.122 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:44.934 BaseTest:431 - Bulan Pilihan Jumlah Bayar : 1 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:45.014 BaseTest:373 - Pilih Bulan :12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:34:45.148 BaseTest:443 - Scroll ke : 12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 15:35:01.112 TestListener:39 - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: ece6d0b6-6482-4571-8bd8-ae376a6d06ae
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("12 Bulan").instance(0))}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at com.qa.base.BaseTest.scrollToElement(BaseTest.java:447)
+	at com.qa.pages.PpobPage.getpilihJumlahbayar(PpobPage.java:181)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:489)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:35:01.964 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 15:59:47.273 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:07.074 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:08.371 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:10.311 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:11.537 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:16.887 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:18.135 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:20.341 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:22.775 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:23.412 BaseTest:443 - Cari Btn Confirm:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 16:00:39.706 TestListener:39 - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: 9d5f56ce-dbd2-470f-96ff-d9ac82c761d6
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().resourceId("id.dretail.mpos:id/btnConfirm").instance(0))}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at com.qa.base.BaseTest.scrollToElement(BaseTest.java:447)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:489)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:00:40.400 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:02:50.443 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:10.127 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:11.446 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:13.340 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:14.065 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:19.451 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:20.602 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:22.762 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:25.191 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:25.827 BaseTest:443 - Cari Btn Confirm:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 16:03:42.023 TestListener:39 - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: 3c906f2f-6285-4f13-adca-367454171996
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().resourceId("id.dretail.mpos:id/btnConfirm").instance(0))}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at com.qa.base.BaseTest.scrollToElement(BaseTest.java:447)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:489)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:03:42.728 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:06.242 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:25.891 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:27.159 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:29.036 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:30.246 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:35.606 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:36.875 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:38.676 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:41.108 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:41.738 BaseTest:443 - Cari Btn Confirm:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 16:05:58.077 TestListener:39 - org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: c636984e-5c61-4fad-9cc9-21de91942b7f
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().resourceId("id.dretail.mpos:id/btnConfirm").instance(0))}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at com.qa.base.BaseTest.scrollToElement(BaseTest.java:447)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:489)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:05:58.666 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:14.725 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:34.291 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:35.619 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:37.515 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:38.229 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:43.523 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:44.726 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:46.834 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:49.248 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:50.579 BaseTest:431 - Bulan Pilihan Jumlah Bayar : 1 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:50.667 BaseTest:373 - Pilih Bulan :12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 16:07:51.208 TestListener:39 - org.openqa.selenium.InvalidArgumentException: Coordinate [x=998.0, y=1280.0] is outside of element rect: [0,0][1280,736]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: 45d0358a-3004-41fc-b655-7ec6c3498940
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)
+	at io.appium.java_client.TouchAction.perform(TouchAction.java:187)
+	at com.qa.base.BaseTest.scrollSemiOtomatis(BaseTest.java:481)
+	at com.qa.pages.PpobPage.getpilihJumlahbayar(PpobPage.java:181)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:490)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:07:51.916 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:08:58.790 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:09:30.174 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:09:47.555 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:07.300 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:08.606 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:10.475 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:11.672 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:16.858 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:18.052 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:20.157 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:22.486 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:23.786 BaseTest:431 - Bulan Pilihan Jumlah Bayar : 1 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:23.867 BaseTest:373 - Pilih Bulan :12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil ERROR] 2020-08-11 16:10:24.386 TestListener:39 - org.openqa.selenium.InvalidArgumentException: Coordinate [x=1011.0, y=1152.0] is outside of element rect: [0,0][1280,736]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GMEKR49', ip: '172.22.62.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295-Bg-Acil, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC04AD1J}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC04AD1J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC04AD1J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC04AD1J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: 75296a46-8263-4544-96d6-9f96d81ffa76
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41)
+	at io.appium.java_client.TouchAction.perform(TouchAction.java:187)
+	at com.qa.base.BaseTest.scrollSemiOtomatis(BaseTest.java:481)
+	at com.qa.pages.PpobPage.getpilihJumlahbayar(PpobPage.java:181)
+	at com.qa.tests.BpjsppobTest.belibpjs12bPpob(BpjsppobTest.java:490)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:10:24.987 BpjsppobTest:84 - Login test after method:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:28.226 BaseTest:259 - log path: logs\Android_9.0_SM-T295-Bg-Acil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:47.639 BpjsppobTest:75 - 
+
+ *******Starting test: belibpjs12bPpob *******
+:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:48.941 BaseTest:393 - Enter username : kasir1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:50.252 BaseTest:393 - Enter password : 1234:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:51.434 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:56.753 BaseTest:373 - Masuk Page All Menu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:11:57.896 BaseTest:373 - Masuk Menu PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:00.117 BaseTest:373 - Pilih Beli BPJS Kesehatan PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:02.497 BaseTest:393 - Enter bpjsnumber : 8888800118630000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:03.309 BaseTest:431 - Bulan Pilihan Jumlah Bayar : 1 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:03.386 BaseTest:373 - Pilih Bulan :12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:05.867 BaseTest:373 - memilih opsi 12 Bulan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:06.749 BaseTest:373 - Press Process Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:09.219 BaseTest:431 - Detail branchCode : 2401-KUPANG:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:09.455 BaseTest:431 - Detail dateTime : 11-08-20 16:12:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:09.705 BaseTest:431 - Detail noVa : 8888801830842728:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:09.944 BaseTest:431 - Detail name : Indra Al'farez:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:10.189 BaseTest:431 - Detail participant : 003:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:10.418 BaseTest:431 - Detail period : 12:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:10.589 BaseTest:431 - Detail amount : Rp. 2.457.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:10.832 BaseTest:431 - Detail adminCost : Rp. 6.000:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:11.067 BaseTest:431 - Detail paymentTotal : Rp. 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:11.125 BaseTest:373 - Press Konfrimasi PPOB:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:14.264 BaseTest:431 - Keterangan : Successful :
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:14.333 BaseTest:373 - Press Confirm Button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:15.539 BaseTest:431 - Nama Item Tercantum di Cart : BPJS Kesehatan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:15.914 BaseTest:431 - Harga Tercantum di Cart : 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:16.279 BaseTest:431 - Qty Item Tercantum di Cart : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:16.398 BaseTest:373 - Press Btn Show Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:17.713 BaseTest:431 - Jumlah Subotal PPOB : 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:18.069 BaseTest:431 - Jumlah Qty Order : 1:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:18.189 BaseTest:373 - Press Btn Hide Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:19.171 BaseTest:373 - Press Tombol Order:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:20.795 BaseTest:373 - Pilih Pembayaran Tunai:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:21.458 BaseTest:373 - Pilih Pecahan Satu:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:22.426 BaseTest:431 - Pilihan Uang Tunai : 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:22.435 BaseTest:443 - scroll ke element : Masukan Nama Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:23.221 BaseTest:393 - Input Nama Pelanggan : a:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:23.350 BaseTest:443 - scroll ke element : Masukan Telepon Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:26.962 BaseTest:393 - Input Telepone Pelanggan : 7:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:27.573 BaseTest:443 - scroll ke element : Masukan Email Pelanggan:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:28.815 BaseTest:393 - Input Email Pelanggan : a@gmail.com:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:29.616 BaseTest:431 - Status resi : Cetak 2X Aktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:29.852 BaseTest:431 - Status email : Email Resi Nonaktif:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:29.929 BaseTest:373 - Pilih Email Resi:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:30.597 BaseTest:373 - Eksekusi Bayar:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:32.365 BaseTest:431 - Keterangan Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:32.558 BaseTest:431 - Total	Nominal Order : 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:32.747 BaseTest:431 - Metode Pembayaran : Cash:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:32.931 BaseTest:431 - Total Pembayaran : 2.463.600:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:33.120 BaseTest:431 - Total Kembalian : 0:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:33.184 BaseTest:373 - Press Button OK:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:33.353 BaseTest:504 - swiping -right on sidebar page:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:35.411 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:36.627 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295-Bg-Acil INFO ] 2020-08-11 16:12:36.854 BpjsppobTest:84 - Login test after method:

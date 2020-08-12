@@ -33,7 +33,26 @@ public class PpobPage extends BaseTest{
 		click(balanceTotal, "Kembali Ke All Menu");
 		return new AllmenuPage();
 	}
-//	PDAM
+	
+//	TV Kabel
+	@AndroidFindBy(xpath = "//*[contains(@text, \"TV Kabel\")]")
+	private MobileElement beliTvkabelppob;
+
+
+	public PpobPage pressbeliTvkabelppob() {
+		click(beliTvkabelppob, "Pilih Beli TV Kabel PPOB");
+		return this;
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/spSelectProduct")
+	private MobileElement spSelectProduct;
+
+	public PpobPage pressspSelectProduct() {
+		click(spSelectProduct, "Pilih Produk TV Kabel PPOB");
+		return this;
+	}
+	
+
+	//	PDAM
 	@AndroidFindBy(xpath = "//*[contains(@text, \"PDAM\")]")
 	private MobileElement beliPdamppob;
 
@@ -43,7 +62,32 @@ public class PpobPage extends BaseTest{
 		return this;
 	}
 
-//	Kartu Halo
+	@AndroidFindBy(id = "id.dretail.mpos:id/productCode")
+	private MobileElement productCode;
+	public String getproductCode() {
+		return getText(productCode, "Kode Produk : ");
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/titleConfirmation")
+	private MobileElement titleConfirmation;
+	public String gettitleConfirmation() {
+		return getText(titleConfirmation, "Data Pembayaran : ");
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/penalty")
+	private MobileElement penalty;
+	public String getpenalty() {
+		return getText(penalty, "Denda : ");
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/noReff")
+	private MobileElement noReff;
+	public String getnoReff() {
+		return getText(noReff, "No. Reff : ");
+	}
+
+
+	//	Kartu Halo
 	@AndroidFindBy(xpath = "//*[contains(@text, \"Kartu Halo\")]")
 	private MobileElement beliHaloppob;
 
@@ -52,7 +96,7 @@ public class PpobPage extends BaseTest{
 		click(beliHaloppob, "Pilih Beli Kartu Halo PPOB");
 		return this;
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/codeCard")
 	private MobileElement codeCard;
 	public String getcodeCard() {
@@ -64,13 +108,19 @@ public class PpobPage extends BaseTest{
 	public String getreffNo() {
 		return getText(reffNo, "No. Reff : ");
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/customerId")
 	private MobileElement customerId;
 	public String getcustomerId() {
 		return getText(customerId, "Id Pelanggan : ");
 	}
-	
+
+	public PpobPage inputcustomerId(String txtcustomerId) {
+		clear(customerId);
+		sendKeys(customerId, txtcustomerId, "Input Customer ID : "+txtcustomerId);
+		return this;
+	}
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/customerName")
 	private MobileElement customerName;
 	public String getcustomerName() {
@@ -92,10 +142,10 @@ public class PpobPage extends BaseTest{
 		click(beliBpjsppob, "Pilih Beli BPJS Kesehatan PPOB");
 		return this;
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/txtBpjsNumber")
 	private MobileElement txtBpjsNumber;
-	
+
 	public PpobPage inputtxtBpjsNumber(String bpjsnumber) {
 		clear(txtBpjsNumber);
 		sendKeys(txtBpjsNumber, bpjsnumber, "Enter bpjsnumber : "+bpjsnumber);
@@ -104,15 +154,15 @@ public class PpobPage extends BaseTest{
 
 	@AndroidFindBy(id = "id.dretail.mpos:id/spSelectPaymentAmount")
 	private MobileElement spSelectPaymentAmount;
-	
+
 	public PpobPage pressspSelectPaymentAmount() {
 		click(spSelectPaymentAmount, "Pilih Jumlah Bayar BPJS Kesehatan PPOB");
 		return this;
 	}
-	
+
 	@AndroidFindBy(id = "android:id/text1")
 	private MobileElement text1;
-	
+
 	public void pilihBulan(String txt) {
 		try {
 			MobileElement opsiBulan = (MobileElement) getDriver().findElement(By.xpath("//*[@text=\""+txt+"\"]"));
@@ -121,13 +171,28 @@ public class PpobPage extends BaseTest{
 			click(opsiBulan, "memilih opsi "+txt);
 		} catch (Exception e) {
 			System.out.println("element nya ga ketemu");
-//			e.printStackTrace();
-//			System.out.println(e.getCause());
+			//			e.printStackTrace();
+			//			System.out.println(e.getCause());
 			System.out.println(e.getMessage());	
 		}
-		
+
 	}
 	
+	public void pilihProduk(String txt) {
+		try {
+			MobileElement opsiProduk = (MobileElement) getDriver().findElement(By.xpath("//*[@text=\""+txt+"\"]"));
+			System.out.println(opsiProduk.toString());
+
+			click(opsiProduk, "memilih opsi "+txt);
+		} catch (Exception e) {
+			System.out.println("element nya ga ketemu");
+			//			e.printStackTrace();
+			//			System.out.println(e.getCause());
+			System.out.println(e.getMessage());	
+		}
+
+	}
+
 	public void piliharea(String txt) {
 		try {
 			MobileElement opsiarea = (MobileElement) getDriver().findElement(By.xpath("//*[@text=\""+txt+"\"]"));
@@ -136,54 +201,92 @@ public class PpobPage extends BaseTest{
 			click(opsiarea, "memilih opsi "+txt);
 		} catch (Exception e) {
 			System.out.println("element nya ga ketemu");
-//			e.printStackTrace();
-//			System.out.println(e.getCause());
+			//			e.printStackTrace();
+			//			System.out.println(e.getCause());
 			System.out.println(e.getMessage());	
 		}
-		
+
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/spSelectAreaPdam")
 	private MobileElement spSelectAreaPdam;
-	
+
 	public PpobPage pressspSelectAreaPdam() {
 		click(spSelectAreaPdam, "Pilih Area PDAM PPOB");
 		return this;
 	}
-	
-	
+
+
 	public PpobPage getpilihAreaPdam(String area) {
 		String cekarea = getText(text1, "area Pilihan Jumlah Bayar : ").trim();
+		String expectedarea12 = getStrings().get("expected_12areapam").trim();
 		System.out.println("actual area : "+cekarea);
 		String expectedarea = getStrings().get(area).trim();
 		System.out.println("expected area : "+expectedarea);
-		
-		if (!cekarea.equalsIgnoreCase(expectedarea)) {
-			
+
+		if (!cekarea.equalsIgnoreCase(expectedarea) && !expectedarea.equalsIgnoreCase(expectedarea12)) {
+
 			click(spSelectAreaPdam,"Pilih area :"+expectedarea);
-			scrollToElement("textContains", expectedarea, "Scroll ke : "+expectedarea);
+			scrollToElement("textContains", expectedarea,"scroll ke element : Pilih "+expectedarea);
+			//			scrollSemiOtomatis("up",expectedarea , 0.79);
 			piliharea(expectedarea);
 			return this;
+		}else {
+			if (!cekarea.equalsIgnoreCase(expectedarea) && expectedarea.equalsIgnoreCase(expectedarea12)) {
+				click(spSelectAreaPdam,"Pilih area :"+expectedarea);
+				//			scrollToElement("textContains", expectedarea,"scroll ke element : Masukan "+expectedarea);
+				scrollSemiOtomatis("up",expectedarea , 0.79);
+				piliharea(expectedarea);
+				return this;
+			}
+			return this;
 		}
-		return this;
-	}
+		}
+	
+	public PpobPage getpilihProdukTV(String produk) {
+		String cekproduk = getText(text1, "produk Pilihan Jumlah Bayar : ").trim();
+		System.out.println("actual produk : "+cekproduk);
+		String expectedproduk = getStrings().get(produk).trim();
+		System.out.println("expected produk : "+expectedproduk);
+
+		if (!cekproduk.equalsIgnoreCase(expectedproduk)) {
+
+			click(spSelectAreaPdam,"Pilih produk :"+expectedproduk);
+			scrollToElement("textContains", expectedproduk,"scroll ke element : Pilih "+expectedproduk);
+			//			scrollSemiOtomatis("up",expectedproduk , 0.79);
+			pilihProduk(expectedproduk);
+			return this;
+		}
+			return this;
+		
+		}
 
 
 	public PpobPage getpilihJumlahbayar(String bulan) {
-		String cekbulan = getText(text1, "Bulan Pilihan Jumlah Bayar : ").trim();
+		String cekbulan = getText(text1, "bulan Pilihan Jumlah Bayar : ").trim();
+		String expectedbulan12 = getStrings().get("expected_12b").trim();
 		System.out.println("actual bulan : "+cekbulan);
 		String expectedbulan = getStrings().get(bulan).trim();
 		System.out.println("expected bulan : "+expectedbulan);
-		
-		if (!cekbulan.equalsIgnoreCase(expectedbulan)) {
-			
-			click(spSelectPaymentAmount,"Pilih Bulan :"+expectedbulan);
-			scrollSemiOtomatis("up",expectedbulan , 0.79);
+
+		if (!cekbulan.equalsIgnoreCase(expectedbulan) && !expectedbulan.equalsIgnoreCase(expectedbulan12)) {
+
+			click(spSelectPaymentAmount,"Pilih bulan :"+expectedbulan);
+			scrollToElement("textContains", expectedbulan,"scroll ke element : Pilih "+expectedbulan);
+			//			scrollSemiOtomatis("up",expectedbulan , 0.79);
 			pilihBulan(expectedbulan);
 			return this;
+		}else {
+			if (!cekbulan.equalsIgnoreCase(expectedbulan) && expectedbulan.equalsIgnoreCase(expectedbulan12)) {
+				click(spSelectPaymentAmount,"Pilih bulan :"+expectedbulan);
+				//			scrollToElement("textContains", expectedbulan,"scroll ke element : Masukan "+expectedbulan);
+				scrollSemiOtomatis("up",expectedbulan , 0.79);
+				pilihBulan(expectedbulan);
+				return this;
+			}
+			return this;
 		}
-		return this;
-	}
+		}
 
 	@AndroidFindBy(id = "id.dretail.mpos:id/branchCode")
 	private MobileElement branchCode;
@@ -559,30 +662,30 @@ public class PpobPage extends BaseTest{
 	}
 	@AndroidFindBy(id = "id.dretail.mpos:id/lblQty")
 	private MobileElement lblQty;
-	
+
 	public String getlblQty() {
 		return getText(lblQty, "Qty Item Tercantum di Cart : ");
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/lblQuantity")
 	private MobileElement lblQuantity;
-	
+
 	public String getlblQuantity() {
 		return getText(lblQuantity, "Jumlah Qty Order : ");
 	}
 
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnShowOrder")
 	private MobileElement btnShowOrder;
-	
+
 	public PpobPage pressbtnShowOrder() {
 		click(btnShowOrder, "Press Btn Show Order");
 		return this;
 	}
-	
+
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnHideOrder")
 	private MobileElement btnHideOrder;
-	
+
 	public PpobPage pressbtnHideOrder() {
 		click(btnHideOrder, "Press Btn Hide Order");
 		return this;
@@ -590,90 +693,90 @@ public class PpobPage extends BaseTest{
 
 	@AndroidFindBy(id = "id.dretail.mpos:id/lblPpob")
 	private MobileElement lblPpob;
-	
+
 	public String getlblPpob() {
 		return getText(lblPpob, "Jumlah Subotal PPOB : ");
 	}
 
 	@AndroidFindBy(id = "id.dretail.mpos:id/btnOrder")
 	private MobileElement btnOrder;
-	
+
 	public String getbtnOrder() {
 		return getText(btnOrder, "Jumlah Total Order : ");
 	}
-	
+
 	public PembayaranPage pressbtnOrder() {
 		click(btnOrder, "Press Tombol Order");
 		return new PembayaranPage();
 	}
 
 	// Telkom
-		@AndroidFindBy(xpath = "//*[contains(@text, \"Telekomunikasi\")]")
-		private MobileElement beliTelkomppob;
+	@AndroidFindBy(xpath = "//*[contains(@text, \"Telekomunikasi\")]")
+	private MobileElement beliTelkomppob;
 
-		public PpobPage pressbeliTelkomppob() {
-			click(beliTelkomppob, "Pilih Beli Telkom PPOB");
-			return this;
-		}
-		
-		@AndroidFindBy(id = "id.dretail.mpos:id/txtCustomerId")
-		private MobileElement txtCustomerId;
-		
-		public PpobPage inputtxtCustomerId(String custId) {
-			clear(txtCustomerId);
-			sendKeys(txtCustomerId, custId, "Enter Customer ID : "+custId);
-			return this;
-		}
-		
-		@AndroidFindBy(id = "id.dretail.mpos:id/noJasTel")
-		private MobileElement noJasTel;
-		public String getnoJasTel() {
-			return getText(noJasTel, "No. Jastel : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/telephone")
-		private MobileElement telephone;
-		public String gettelephone() {
-			return getText(telephone, "Telepon : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/divreDatel")
-		private MobileElement divreDatel;
-		public String getdivreDatel() {
-			return getText(divreDatel, "Divre/Datel : ");
-		}		
-		@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod1")
-		private MobileElement noReffPeriod1;
-		public String getnoReffPeriod1() {
-			return getText(noReffPeriod1, "No. Reff Periode 1 : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod2")
-		private MobileElement noReffPeriod2;
-		public String getnoReffPeriod2() {
-			return getText(noReffPeriod2, "No. Reff Periode 2 : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod3")
-		private MobileElement noReffPeriod3;
-		public String getnoReffPeriod3() {
-			return getText(noReffPeriod3, "No. Reff Periode 3 : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/period1")
-		private MobileElement period1;
-		public String getperiod1() {
-			return getText(period1, "Tagihan Periode 1 : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/period2")
-		private MobileElement period2;
-		public String getperiod2() {
-			return getText(period2, "Tagihan Periode 2 : ");
-		}
-		@AndroidFindBy(id = "id.dretail.mpos:id/period3")
-		private MobileElement period3;
-		public String getperiod3() {
-			return getText(period3, "Tagihan Periode 3 : ");
-		}
+	public PpobPage pressbeliTelkomppob() {
+		click(beliTelkomppob, "Pilih Beli Telkom PPOB");
+		return this;
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/txtCustomerId")
+	private MobileElement txtCustomerId;
+
+	public PpobPage inputtxtCustomerId(String custId) {
+		clear(txtCustomerId);
+		sendKeys(txtCustomerId, custId, "Enter Customer ID : "+custId);
+		return this;
+	}
+
+	@AndroidFindBy(id = "id.dretail.mpos:id/noJasTel")
+	private MobileElement noJasTel;
+	public String getnoJasTel() {
+		return getText(noJasTel, "No. Jastel : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/telephone")
+	private MobileElement telephone;
+	public String gettelephone() {
+		return getText(telephone, "Telepon : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/divreDatel")
+	private MobileElement divreDatel;
+	public String getdivreDatel() {
+		return getText(divreDatel, "Divre/Datel : ");
+	}		
+	@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod1")
+	private MobileElement noReffPeriod1;
+	public String getnoReffPeriod1() {
+		return getText(noReffPeriod1, "No. Reff Periode 1 : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod2")
+	private MobileElement noReffPeriod2;
+	public String getnoReffPeriod2() {
+		return getText(noReffPeriod2, "No. Reff Periode 2 : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/noReffPeriod3")
+	private MobileElement noReffPeriod3;
+	public String getnoReffPeriod3() {
+		return getText(noReffPeriod3, "No. Reff Periode 3 : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/period1")
+	private MobileElement period1;
+	public String getperiod1() {
+		return getText(period1, "Tagihan Periode 1 : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/period2")
+	private MobileElement period2;
+	public String getperiod2() {
+		return getText(period2, "Tagihan Periode 2 : ");
+	}
+	@AndroidFindBy(id = "id.dretail.mpos:id/period3")
+	private MobileElement period3;
+	public String getperiod3() {
+		return getText(period3, "Tagihan Periode 3 : ");
+	}
 
 
 
-		
+
 
 
 }

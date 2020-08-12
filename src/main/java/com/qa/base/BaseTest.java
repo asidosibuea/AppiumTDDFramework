@@ -457,6 +457,7 @@ public class BaseTest {
 		
 		while (flagLoop) {
 			try {
+//				scrollToElement("textContains", locator,"scroll ke element : Masukan "+locator);
 				element = (MobileElement) getDriver().findElement(By.xpath("//*[contains(@text, \""+locator+"\")]"));
 				
 				
