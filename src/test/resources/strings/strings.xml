@@ -19,6 +19,11 @@
 	<string name="expected_turnon_printer">AKTIF</string>
 	<string name="expected_success_delete_printer">Printer telah dihapus</string>
 	
+	<!-- Bahasa Settings-->
+	<string name="selected_bahasa_indonesia">Terpilih</string>
+	<string name="selected_bahasa_inggris">Selected</string>
+	<string name="title_in">Pengaturan</string>
+	<string name="title_en">Settings</string>
 	
 	<string name="expected_customer_searched">ani</string>
 	<string name="expected_kategori1_searched">Beverage</string>
@@ -40,5 +45,8 @@
 	
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>
+	<string name="edit_password_empty_all_field">Kata Sandi Lama tidak boleh kosong</string>
+	<string name="empty_new_password">Kata Sandi Baru tidak boleh kosong</string>
+	<string name="empty_retype_password">Ketik Ulang Kata Sandi Baru tidak boleh kosong</string>
 	
 </resources>

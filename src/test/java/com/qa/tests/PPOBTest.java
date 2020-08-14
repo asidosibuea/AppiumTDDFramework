@@ -40,24 +40,7 @@ public class PPOBTest extends BaseTest{
 	
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		InputStream inputStream = null;
-		try {
-			String dataFileName = "data/data-test.json";
-			inputStream = getClass().getClassLoader().getResourceAsStream(dataFileName);
-			JSONTokener tokener = new JSONTokener(inputStream);
-			
-			dataTest = new JSONObject(tokener);
-		} catch (Exception e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if (inputStream != null) {
-				inputStream.close();
-			}
-		}
-		
-		closeApp();
-		launchApp();
+		dataTest = utils.getDataTest();
 	}
 
 	@AfterClass
@@ -67,6 +50,7 @@ public class PPOBTest extends BaseTest{
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");
+		launchApp();
 		loginPage = new LoginPage();
 		
 	}
@@ -74,6 +58,7 @@ public class PPOBTest extends BaseTest{
 	@AfterMethod
 	public void afterMethod() {
 		utils.log().info("Login test after method");
+		closeApp();
 	}
 	
 	public PenjualanPage validLogin() {

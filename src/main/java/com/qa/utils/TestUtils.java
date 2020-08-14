@@ -18,11 +18,14 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.JSONObject;
+import org.json.JSONTokener;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.mongodb.util.JSON;
 import com.qa.base.BaseTest;
 
 public class TestUtils {
@@ -113,6 +116,29 @@ public class TestUtils {
 		printWriter.close();
 		
 		
+	}
+	
+	public JSONObject getDataTest() throws Exception {
+		InputStream dataInStream = null;
+		JSONObject dataTest = null;
+		//dataTest
+		dataInStream = null;
+		try {
+			String dataFileName = "data/data-test.json";
+			dataInStream = getClass().getClassLoader().getResourceAsStream(dataFileName);
+			JSONTokener tokener = new JSONTokener(dataInStream);
+			
+			dataTest = new JSONObject(tokener);
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw e;
+		} finally {
+			if (dataInStream != null) {
+				dataInStream.close();
+			}
+		}
+		
+		return dataTest;
 	}
 	
 	public Logger log() {

@@ -39,24 +39,7 @@ public class LoginTest extends BaseTest{
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		InputStream dataInStream = null;
-		try {
-			String dataFileName = "data/data-test.json";
-			dataInStream = getClass().getClassLoader().getResourceAsStream(dataFileName);
-			JSONTokener tokener = new JSONTokener(dataInStream);
-			
-			dataTest = new JSONObject(tokener);
-		} catch (Exception e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if (dataInStream != null) {
-				dataInStream.close();
-			}
-		}
-		
-		closeApp();
-		launchApp();
+		dataTest = utils.getDataTest();
 	}
 
 	@AfterClass
@@ -66,7 +49,7 @@ public class LoginTest extends BaseTest{
 	@BeforeMethod
 	public void beforeMethod(Method m) {
 		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");
-		
+		launchApp();
 //		introPage = new IntroScreenPage();
 		loginPage = new LoginPage();
 		
@@ -75,6 +58,7 @@ public class LoginTest extends BaseTest{
 	@AfterMethod
 	public void afterMethod() {
 		utils.log().info("Login test after method");
+		closeApp();
 	}
 
 	@Test
@@ -83,7 +67,6 @@ public class LoginTest extends BaseTest{
 		String password = "";
 		username = dataTest.getJSONObject("AsidoDataTest").getJSONObject("validUserPass").getString("username");
 		password = dataTest.getJSONObject("AsidoDataTest").getJSONObject("validUserPass").getString("password");
-
 		
 		loginPage.enterUsername(username);
 		loginPage.enterPassword(password);
@@ -106,24 +89,14 @@ public class LoginTest extends BaseTest{
 		
 		String username = "";
 		String password = "";
-//		if (getUdid().equalsIgnoreCase(TestUtils.UDIDAsido)) {
-//			System.out.println("UDID Asido = "+getUdid());
-			username = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidUsername").getString("username");
-			password = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidUsername").getString("password");
-//		} else {
-//			System.out.println("UDID Bang Acil = "+getUdid());
-//			username = dataTest.getJSONObject("BangAcilDataTest").getJSONObject("invalidUsername").getString("username");
-//			password = dataTest.getJSONObject("BangAcilDataTest").getJSONObject("invalidUsername").getString("password");
-//		}
+
+		username = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidUsername").getString("username");
+		password = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidUsername").getString("password");
+
 		
 		loginPage.enterUsername(username);
 		loginPage.enterPassword(password);
 		loginPage.pressLoginBtn();
-		
-//		String expectedFailedMsg = getStrings().get("expected_failed_login_message");
-//		String actualFailedMsg = loginPage.getErroMessage();
-//		
-//		Assert.assertEquals(actualFailedMsg, expectedFailedMsg);
 		
 		loginPage.pressConfirmErrorBtn();
 	}
@@ -134,24 +107,14 @@ public class LoginTest extends BaseTest{
 		
 		String username = "";
 		String password = "";
-//		if (getUdid().equalsIgnoreCase(TestUtils.UDIDAsido)) {
-//			System.out.println("UDID Asido = "+getUdid());
-			username = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidPassword").getString("username");
-			password = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidPassword").getString("password");
-//		} else{
-//			System.out.println("UDID Bang Acil = "+getUdid());
-//			username = dataTest.getJSONObject("BangAcilDataTest").getJSONObject("invalidPassword").getString("username");
-//			password = dataTest.getJSONObject("BangAcilDataTest").getJSONObject("invalidPassword").getString("password");
-//		}
 		
+		username = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidPassword").getString("username");
+		password = dataTest.getJSONObject("AsidoDataTest").getJSONObject("invalidPassword").getString("password");
+
 		loginPage.enterUsername(username);
 		loginPage.enterPassword(password);
 		loginPage.pressLoginBtn();
-		
-//		String expectedFailedMsg = getStrings().get("expected_failed_login_message");
-//		String actualFailedMsg = loginPage.getErroMessage();
-//		
-//		Assert.assertEquals(actualFailedMsg, expectedFailedMsg);
+
 		loginPage.pressConfirmErrorBtn();
 	}
 	

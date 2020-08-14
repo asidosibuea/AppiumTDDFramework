@@ -37,27 +37,7 @@ public class ProfilTest extends BaseTest{
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		InputStream dataInStream = null;
-		
-		//dataTest
-		dataInStream = null;
-		try {
-			String dataFileName = "data/data-test.json";
-			dataInStream = getClass().getClassLoader().getResourceAsStream(dataFileName);
-			JSONTokener tokener = new JSONTokener(dataInStream);
-			
-			dataTest = new JSONObject(tokener);
-		} catch (Exception e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if (dataInStream != null) {
-				dataInStream.close();
-			}
-		}
-		
-		closeApp();
-		launchApp();
+		dataTest = utils.getDataTest();
 	}
 
 	@AfterClass
@@ -66,22 +46,14 @@ public class ProfilTest extends BaseTest{
 	
 	@BeforeMethod
 	public void beforeMethod(Method m) {
+		launchApp();
 		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");
-		
 		loginPage = new LoginPage();
-		
-//		String username = dataTest.getJSONObject("validUserPass").getString("username");
-//		String password = dataTest.getJSONObject("validUserPass").getString("password");
-//		
-//		dashboardPage = loginPage.pressLanguageDropdown().pressIndonesianLang().login(username, password);
-		
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-//		utils.log().info("Profil test after method");
-//		profilPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
-//		loginPage = profilPage.showSidebar().pressLogoutBtn().pressConfirmLogoutBtn();
+		closeApp();
 	}
 	
 	public PenjualanPage validLogin() {
