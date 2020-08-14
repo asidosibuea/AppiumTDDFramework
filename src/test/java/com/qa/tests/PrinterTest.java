@@ -15,6 +15,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
 import com.qa.base.BaseTest;
 import com.qa.base.SidebarPage;
 import com.qa.pages.PenjualanPage;
@@ -28,6 +29,7 @@ import com.qa.pages.setting.printer.BluetoothDeviceListPage;
 import com.qa.pages.setting.printer.JenisKoneksiPrinter;
 import com.qa.pages.setting.printer.OpsiPaperPage;
 import com.qa.pages.setting.printer.OpsiPortPrinterPage;
+import com.qa.reports.ExtentReport;
 import com.qa.pages.setting.printer.OpsiDriverPrinterPage;
 import com.qa.utils.TestUtils;
 
@@ -76,8 +78,7 @@ public class PrinterTest extends BaseTest{
 			}
 		}
 		
-		closeApp();
-		launchApp();
+
 	}
 
 	@AfterClass
@@ -85,7 +86,8 @@ public class PrinterTest extends BaseTest{
 	}
 	
 	@BeforeMethod
-	public void beforeMethod(Method m) {
+	public void beforeMethod(Method m) {		
+		launchApp();
 		utils.log().info("\n\n *******Starting test: "+ m.getName() + " *******\n");	
 		loginPage = new LoginPage();
 	}
@@ -93,6 +95,7 @@ public class PrinterTest extends BaseTest{
 	@AfterMethod
 	public void afterMethod() {
 		utils.log().info("--- After test method ----");
+		closeApp();
 	}
 	
 	public PenjualanPage validLogin() {
@@ -137,7 +140,15 @@ public class PrinterTest extends BaseTest{
 	public void setMainPrinterBluetooth() {
 		penjualanPage = validLogin();
 		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
-		opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		
+		boolean changePrinterFlag = settingPrinterPage.isChangePrinterVisible();
+		
+		if(!changePrinterFlag) {
+			opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressPilihPrinterBtn();
+		} else {
+			opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		}
+
 		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
 		
 		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
@@ -166,7 +177,14 @@ public class PrinterTest extends BaseTest{
 	public void setMainPrinterLAN() {
 		penjualanPage = validLogin();
 		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
-		opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		boolean changePrinterFlag = settingPrinterPage.isChangePrinterVisible();
+		
+		if(!changePrinterFlag) {
+			opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressPilihPrinterBtn();
+		} else {
+			opsiDriverPage = settingPrinterPage.switchOnStatusPrinter().pressChangePrinterBtn();
+		}
+		
 		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
 		
 		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
@@ -196,22 +214,60 @@ public class PrinterTest extends BaseTest{
 		penjualanPage = validLogin();
 		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
 		settingPrinterPage.switchOnStatusPrinter();
-		addStasiunPrinterPage = settingPrinterPage.pressAddPrinterBtn();
-		addStasiunPrinterPage.enterNamaStasiun(dataTest.getString("namaStasiun1"));
-		addStasiunPrinterPage.switchOnKategori("Food", TestUtils.ON);
-		opsiDriverPage = addStasiunPrinterPage.pressSelectPrinterBtn();
-		opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
-		jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
-		opsiPortPage = jenisKoneksiPrinterPage.pressJenisKoneksiBtn();
-		opsiPortPage.pressRadioEthernet();
-		String ipPrinter = dataTest.getString("ipStasiunPrinter1");
-		opsiPortPage.enterIpAddress(ipPrinter);
-		jenisKoneksiPrinterPage = opsiPortPage.pressOkBtn();
-		addStasiunPrinterPage = jenisKoneksiPrinterPage.pressConnectBtnByStasiun();
-		settingPrinterPage = addStasiunPrinterPage.pressOkBtn();
 		
-		settingPrinterPage.pressTestPrintStasiun(dataTest.getString("namaStasiun1"));
+		boolean isVisibleFoodStasiun = settingPrinterPage.isKitchenStasiunVisible();
 		
+		if (!isVisibleFoodStasiun) {
+			addStasiunPrinterPage = settingPrinterPage.pressAddPrinterBtn();
+			addStasiunPrinterPage.enterNamaStasiun(dataTest.getString("namaStasiun1"));
+			addStasiunPrinterPage.switchOnKategori(dataTest.getString("namaKategori1"), TestUtils.ON);
+			opsiDriverPage = addStasiunPrinterPage.pressSelectPrinterBtn();
+			opsiPaperPage = opsiDriverPage.pilihRongtaPrinter();
+			jenisKoneksiPrinterPage = opsiPaperPage.pilihJenisKertas(dataTest.getString("paperSize48"));
+			opsiPortPage = jenisKoneksiPrinterPage.pressJenisKoneksiBtn();
+			opsiPortPage.pressRadioEthernet();
+			String ipPrinter = dataTest.getString("ipStasiunPrinter1");
+			opsiPortPage.enterIpAddress(ipPrinter);
+			jenisKoneksiPrinterPage = opsiPortPage.pressOkBtn();
+			addStasiunPrinterPage = jenisKoneksiPrinterPage.pressConnectBtnByStasiun();
+			settingPrinterPage = addStasiunPrinterPage.pressOkBtn();
+			
+			settingPrinterPage.pressTestPrintStasiun(dataTest.getString("namaStasiun1"));
+
+			String actualPrintResult = settingPrinterPage.getPopupMsg().trim();
+			String expectedPrintResult = getStrings().get("expected_success_print");
+			Assert.assertEquals(actualPrintResult, expectedPrintResult);
+			
+			settingPrinterPage.pressPopupConfirm();
+		} else {
+			utils.log().info("Printer food sudah ada tidak perlu menambah lagi");
+			ExtentReport.getTest().log(Status.INFO, "Printer food sudah ada tidak perlu menambah lagi");
+		}
+		
+		loginPage = logout();
+
+	}
+	
+	@Test
+	public void hapusStasiunPrinter() {
+		penjualanPage = validLogin();
+		settingPrinterPage = penjualanPage.showSidebar().pressPengaturanMenu().pressPrinterMenu();
+		settingPrinterPage.switchOnStatusPrinter();
+		
+		boolean isVisibleFoodStasiun = settingPrinterPage.isKitchenStasiunVisible();
+		
+		if (isVisibleFoodStasiun) {
+			settingPrinterPage.pressFoodStasiunLbl().pressHapusPrinterBtn();
+			settingPrinterPage.pressConfirmHapusPrinter();
+			settingPrinterPage.pressPopupConfirm();
+			
+			boolean isVisible = false;
+			boolean actualisVisible = settingPrinterPage.isKitchenStasiunVisible();
+			
+			Assert.assertEquals(actualisVisible, isVisible);
+			
+			
+		}
 	}
 
 

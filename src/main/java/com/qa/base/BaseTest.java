@@ -52,6 +52,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -225,7 +226,7 @@ public class BaseTest {
 		return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 				.usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
 				.withAppiumJS(new File("C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\main.js"))
-				.usingPort(4723)
+				.usingPort(4724)
 				.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 				.withLogFile(new File("ServerLogs/server.log")));
 	}
@@ -401,7 +402,6 @@ public class BaseTest {
 	}
 
 	public String getText(MobileElement e) {
-
 		switch (getPlatform()) {
 		case "Android":
 			return getAttributeValue(e, "text");
@@ -492,6 +492,20 @@ public class BaseTest {
 			ExtentReport.getTest().log(Status.INFO, "Not "+log+" because it's already "+param);
 		}
 		
+	}
+	
+	public boolean checkVisiblityOfElement(MobileElement element, String log) {
+		try {
+			waitForVisibility(element);
+		} catch (Exception ex) {
+			utils.log().info(log+ "tidak ada");
+			ExtentReport.getTest().log(Status.INFO, log+ "sudah tidak visible");
+			return false;
+		}
+		
+		utils.log().info(log+ "ada");
+		ExtentReport.getTest().log(Status.INFO, log+ "visible");
+		return true;
 	}
 	
 	public void forceBack() {

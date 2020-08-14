@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.PageFactory;
 
 import com.qa.pages.SettingPage;
@@ -44,6 +45,31 @@ public class PrinterPage extends SettingPage{
 	@AndroidFindBy(id = "id.dretail.mpos:id/content_text")
 	private MobileElement popupMsg;
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/btnSelectPrinter")
+	
+	private MobileElement pilihPrinterBtn;
+	
+	@AndroidFindBy(xpath = "//*[@text = \"food\"]")
+	private MobileElement foodStasiun;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/neutral_button")
+	private MobileElement popupCancelBtn;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/cancel_button")
+	private MobileElement popupHapusPrinterBtn;
+	
+	@AndroidFindBy(xpath = "//*[@resource-id=\"id.dretail.mpos:id/cancel_button\" and @text = \"Ya, hapus printer\"]")
+	private MobileElement popupConfirmHapusPrinterBtn;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/confirm_button")
+	private MobileElement popupUbahPrinterBtn;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/content_text")
+	@CacheLookup
+	private MobileElement popupHapusPrinterMsg;
+	
+	private MobileElement testStasiunBtn = null;
+	
 	public PrinterPage() {
 		super();
 		PageFactory.initElements(new AppiumFieldDecorator(getDriver(), Duration.ofSeconds(TestUtils.WAIT)), this);
@@ -64,8 +90,13 @@ public class PrinterPage extends SettingPage{
 	}
 	
 	public OpsiDriverPrinterPage pressChangePrinterBtn() {
-		click(changePrinterBtn, "menekan tombol ganti printer");
-		return new OpsiDriverPrinterPage();
+		try {
+			click(changePrinterBtn, "menekan tombol ganti printer");
+			return new OpsiDriverPrinterPage();
+		} catch (Exception e) {
+			return null;
+		}
+		
 	}
 	
 	public AddPrinterPage pressAddPrinterBtn() {
@@ -124,10 +155,55 @@ public class PrinterPage extends SettingPage{
 	}
 	
 	public PrinterPage pressTestPrintStasiun(String namaStasiun) {
-		MobileElement element = (MobileElement) getDriver().findElement(By.xpath("//android.widget.TextView[@text = \""+namaStasiun+"\"]/following-sibling::android.widget.Button[@resource-id =\"id.dretail.mpos:id/btnTestPrinter\"]"));
+		testStasiunBtn = (MobileElement) getDriver().findElement(By.xpath("//android.widget.TextView[@text = \""+namaStasiun+"\"]/following-sibling::android.widget.Button[@resource-id =\"id.dretail.mpos:id/btnTestPrinter\"]"));
 		
-		click(element, "menekan tombol test print pada stasiun : "+namaStasiun);
+		click(testStasiunBtn, "menekan tombol test print pada stasiun : "+namaStasiun);
 		return this;
 	}
+	
+	public OpsiDriverPrinterPage pressPilihPrinterBtn() {
+		click(pilihPrinterBtn, "Menekan tombol pilih printer");
+		return new OpsiDriverPrinterPage();
+	}
+	
+	public boolean isChangePrinterVisible() {
+		return checkVisiblityOfElement(changePrinterBtn, "mengecek apakah tombol ganti printer ada");
+	}
+	
+	public boolean isKitchenStasiunVisible() {
+		return checkVisiblityOfElement(foodStasiun, "stasiun printer food : ");
+	}
+	
+	public PrinterPage pressCancelPopup() {
+		click(popupCancelBtn, "menekan tombol cancel di popup");
+		return this;
+	}
+	
+	public PrinterPage pressHapusPrinterBtn() {
+		click(popupHapusPrinterBtn, "Menekan tombol hapus printer");
+		return this;
+	}
+	
+	public PrinterPage pressFoodStasiunLbl() {
+		click(foodStasiun,	"menekan food stasiun");
+		return this;
+	}
+	
+	public PrinterPage pressConfirmHapusPrinter() {
+		click(popupConfirmHapusPrinterBtn, "Menekan konfirmasi hapus printer");
+		return this;
+	}
+	
+	
+	public String getPopupHapusPrinterMsg() {
+		
+		PrinterPage printerPage = PageFactory.initElements(getDriver(), PrinterPage.class);
+		
+		MobileElement element = (MobileElement) getDriver().findElement(By.id("id.dretail.mpos:id/content_text"));
+		return getText(element, "text pop up: ");
+	}
+	
+	
+	
 
 }

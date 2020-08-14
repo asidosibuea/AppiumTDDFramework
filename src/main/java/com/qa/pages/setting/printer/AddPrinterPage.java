@@ -55,7 +55,7 @@ public class AddPrinterPage extends BaseTest{
 	
 	
 	public AddPrinterPage switchOnKategori(String kategori, String status) {
-		MobileElement element = (MobileElement) getDriver().findElement(By.xpath("//android.widget.TextView[@text = \""+kategori+"\"]/following-sibling::android.widget.Switch[@resource-id =\"id.dretail.mpos:id/swOnOff\"]"));
+		MobileElement element = (MobileElement) getDriver().findElement(By.xpath("//android.widget.TextView[@text = \""+kategori+"\"]/following-sibling::android.widget.Switch"));
 		
 		switchElement(element, status, "Mengaktifkan switch : "+kategori);
 		return this;
