@@ -6,8 +6,7 @@
 	<!-- Ekspektasi untuk ubah profil test  -->
 	<string name="expected_failed_edit_footer">Row 1 tidak boleh kosong</string>
 	<string name="expected_success_edit_footer">Berhasil</string>
-	
-	<string name="test">KASIR SATU</string>
+
 	
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>
@@ -18,6 +17,8 @@
 	<string name="expected_success_print">Sukses mencetak</string>
 	<string name="expected_turnoff_printer">MATI</string>
 	<string name="expected_turnon_printer">AKTIF</string>
+	<string name="expected_success_delete_printer">Printer telah dihapus</string>
+	
 	
 	<string name="expected_customer_searched">ani</string>
 	<string name="expected_kategori1_searched">Beverage</string>

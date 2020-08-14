@@ -33,6 +33,12 @@
 	"idPlnPrepaid" : "11310000011",
 	"paperSize48" : "T-rongta (48)",
 	"bluetoothId" : "66:12:0B:24:BF:9C",
-	"ipPrinter" : "172.20.30.204"
+	"ipPrinter" : "172.20.30.204",
+	"ipStasiunPrinter1" : "172.20.30.201",
+	"ipStasiunPrinter2" : "172.20.30.204",
+	"namaStasiun1" : "food",
+	"namaStasiun2" : "bar",
+	"namaKategori1" : "Food",
+	
 
 }
