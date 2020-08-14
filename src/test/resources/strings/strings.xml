@@ -37,6 +37,17 @@
 	<string name="diskon_bill">Diskon (10%)	</string>
 	<string name="cek_service">Service Resto 7.50% (7,50%)</string>
 	<string name="cek_Tax">Pajak 7% (7%)</string>
+	<string name="status_order">Take Away</string>
+	<string name="biaya_delivery">10.000</string>
+	<string name="customer_name">bagas</string>
+	<string name="customer_email">test@gmail.com</string>
+	<string name="customer_tlp">1234567891011</string>
+	<string name="pembayaran_pending">Pending</string>
+	<string name="pembayaran_transfer">Transfer</string>
+	<string name="pembayaran_voucher">Voucher</string>
+	<string name="voucher_code">112233</string>
+	<string name="rek_number">123456789</string>
+	<string name="bank_name">Bank Test</string>
 	
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>
