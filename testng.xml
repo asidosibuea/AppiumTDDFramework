@@ -125,11 +125,11 @@
 <!-- 					<include name="beliplnnontaglistPpob"/> -->
 <!-- 				</methods>  -->
 <!-- 			</class> -->
-			<class name="com.qa.tests.PdamppobTest">
-			<methods>
+			<class name="com.qa.tests.InventoryTest">
+			<!-- <methods>
 					<include name="belipdam2bPpob"/>
 					<include name="belipdam12bPpob"/>
-				</methods> 
+				</methods>  -->
 			</class>
 		</classes>
 	</test>

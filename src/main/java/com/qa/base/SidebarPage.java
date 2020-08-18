@@ -70,19 +70,19 @@ public class SidebarPage extends BaseTest{
 	}
 	
 	public InventarisPage pressInventarisMenu() {
-		click(pengaturanMenu, "Pilih menu inventaris on sidebar");
+		click(inventarisMenu, "Pilih menu inventaris on sidebar");
 		
 		return new InventarisPage();
 	}
 	
 	public RiwayatPage pressRiwayatMenu() {
-		click(pengaturanMenu, "Pilih menu riwayat on sidebar");
+		click(riwayatMenu, "Pilih menu riwayat on sidebar");
 		
 		return new RiwayatPage();
 	}
 	
 	public AbsensiPage pressAbsensiMenu() {
-		click(pengaturanMenu, "Pilih menu absensi on sidebar");
+		click(absensiMenu, "Pilih menu absensi on sidebar");
 		return new AbsensiPage();
 	}
 	

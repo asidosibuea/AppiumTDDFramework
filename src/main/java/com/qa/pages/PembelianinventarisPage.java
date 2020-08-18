@@ -69,6 +69,7 @@ public class PembelianinventarisPage extends InventarisPage{
 	}
 
 	public PembelianinventarisPage pressbtnPlus() {
+		getDriver().manage().timeouts().implicitlyWait(TestUtils.WAITFORSWIPE, TimeUnit.SECONDS);
 		click(btnPlus, "Tambah Jumlah Pembelian Item");
 		return this;
 	}
@@ -78,6 +79,7 @@ public class PembelianinventarisPage extends InventarisPage{
 	}
 	
 	public PembelianinventarisPage pressbtnMin() {
+		getDriver().manage().timeouts().implicitlyWait(TestUtils.WAITFORSWIPE, TimeUnit.SECONDS);
 		click(btnMin, "Mengurangi Jumlah Pembelian Item");
 		return this;
 	}
@@ -120,7 +122,7 @@ public class PembelianinventarisPage extends InventarisPage{
 	
 	public SidebarPage showSidebar() {
 		getDriver().manage().timeouts().implicitlyWait(TestUtils.WAITFORSWIPE, TimeUnit.SECONDS);
-		swipingElement(null, "right", "sidebar page");
+		swipingElement(title, "right", "sidebar page");
 
 		return new SidebarPage();
 	}

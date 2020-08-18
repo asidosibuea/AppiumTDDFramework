@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="12" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-12T13:52:51 ICT" name="Test Suite" finished-at="2020-08-12T13:55:10 ICT" duration-ms="138933">
+  <suite started-at="2020-08-12T17:23:42 ICT" name="Test Suite" finished-at="2020-08-12T17:24:53 ICT" duration-ms="71498">
     <groups>
     </groups>
-    <test started-at="2020-08-12T13:52:51 ICT" name="Galaxy8inchPutih" finished-at="2020-08-12T13:55:10 ICT" duration-ms="138933">
-      <class name="com.qa.tests.PdamppobTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:52:49 ICT" name="beforeSuite" finished-at="2020-08-12T13:52:51 ICT" duration-ms="2851" status="PASS">
+    <test started-at="2020-08-12T17:23:42 ICT" name="Galaxy8inchPutih" finished-at="2020-08-12T17:24:53 ICT" duration-ms="71498">
+      <class name="com.qa.tests.InventoryTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:23:39 ICT" name="beforeSuite" finished-at="2020-08-12T17:23:42 ICT" duration-ms="2400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:52:51 ICT" name="beforeTest" finished-at="2020-08-12T13:53:07 ICT" duration-ms="15364" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:23:42 ICT" name="beforeTest" finished-at="2020-08-12T17:23:56 ICT" duration-ms="14755" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,91 +57,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:53:07 ICT" name="beforeClass" finished-at="2020-08-12T13:53:13 ICT" duration-ms="5982" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:23:56 ICT" name="beforeClass" finished-at="2020-08-12T17:24:02 ICT" duration-ms="6073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:53:13 ICT" name="beforeMethod" finished-at="2020-08-12T13:53:13 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:02 ICT" name="beforeMethod" finished-at="2020-08-12T17:24:02 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:53:13 ICT" name="beforeMethod" finished-at="2020-08-12T13:53:13 ICT" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:02 ICT" name="beforeMethod" finished-at="2020-08-12T17:24:03 ICT" duration-ms="302" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.PdamppobTest.belipdam2bPpob()]]>
+                <![CDATA[public void com.qa.tests.InventoryTest.beliInventory()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="belipdam2bPpob()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:53:13 ICT" name="belipdam2bPpob" finished-at="2020-08-12T13:54:03 ICT" duration-ms="49803" status="PASS">
+        <test-method signature="beliInventory()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:03 ICT" name="beliInventory" finished-at="2020-08-12T17:24:52 ICT" duration-ms="49526" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- belipdam2bPpob -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:54:03 ICT" name="afterMethod" finished-at="2020-08-12T13:54:03 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- beliInventory -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:52 ICT" name="afterMethod" finished-at="2020-08-12T17:24:52 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:54:03 ICT" name="afterMethod" finished-at="2020-08-12T13:54:03 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:52 ICT" name="afterMethod" finished-at="2020-08-12T17:24:52 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=belipdam2bPpob status=SUCCESS method=PdamppobTest.belipdam2bPpob()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23] output={null}]]]>
+                <![CDATA[[TestResult name=beliInventory status=SUCCESS method=InventoryTest.beliInventory()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:54:03 ICT" name="beforeMethod" finished-at="2020-08-12T13:54:03 ICT" duration-ms="63" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.tests.PdamppobTest.belipdam12bPpob()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:54:03 ICT" name="beforeMethod" finished-at="2020-08-12T13:54:03 ICT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="belipdam12bPpob()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:54:03 ICT" name="belipdam12bPpob" finished-at="2020-08-12T13:55:10 ICT" duration-ms="66588" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- belipdam12bPpob -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:55:10 ICT" name="afterMethod" finished-at="2020-08-12T13:55:10 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:55:10 ICT" name="afterMethod" finished-at="2020-08-12T13:55:10 ICT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=belipdam12bPpob status=SUCCESS method=PdamppobTest.belipdam12bPpob()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:55:10 ICT" name="afterClass" finished-at="2020-08-12T13:55:10 ICT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:52 ICT" name="afterClass" finished-at="2020-08-12T17:24:52 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:55:10 ICT" name="afterTest" finished-at="2020-08-12T13:55:10 ICT" duration-ms="798" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:52 ICT" name="afterTest" finished-at="2020-08-12T17:24:53 ICT" duration-ms="795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.PdamppobTest@449a4f23]" started-at="2020-08-12T13:55:11 ICT" name="afterSuite" finished-at="2020-08-12T13:55:11 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.qa.tests.InventoryTest@2ddc9a9f]" started-at="2020-08-12T17:24:54 ICT" name="afterSuite" finished-at="2020-08-12T17:24:54 ICT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.qa.tests.PdamppobTest -->
+      </class> <!-- com.qa.tests.InventoryTest -->
     </test> <!-- Galaxy8inchPutih -->
   </suite> <!-- Test Suite -->
 </testng-results>

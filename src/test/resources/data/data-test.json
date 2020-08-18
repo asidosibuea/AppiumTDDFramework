@@ -31,7 +31,11 @@
 },
 
 "BangAcilDataTest" :{		
-
+"inventaris":{
+"cariItem" : "garam",
+"cariItem2" : "cair",
+"nomItem" : "10000"
+},
 "invalidUsername":{
 "username" : "kasirAcil",
 "password" : "1234"
