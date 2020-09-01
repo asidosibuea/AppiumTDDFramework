@@ -53,6 +53,8 @@ public class PembayaranPage extends BaseTest {
 	@AndroidFindBy(id = "id.dretail.mpos:id/txtTransactId")
 	private MobileElement txtVoucherCode;
 	
+	@AndroidFindBy(id = "id.dretail.mpos:id/btnMultiPay")
+	private MobileElement btnMultiPay;
 	
 	public PopupJlhUangTunai enterCash() {
 		click(txtCashAmount, "Masukan Jumlah Uang Tunai");
@@ -110,6 +112,11 @@ public class PembayaranPage extends BaseTest {
 	public PembayaranPage pressBtnVoucher() {
 		click(btnVoucher, "Press button Voucher");
 		return this;
+	}
+	
+	public MultiPaymentPage pressBtnMultiPay() {
+		click(btnMultiPay, "Press button Multi Bayar");
+		return new MultiPaymentPage();
 	}
 	
 	public PembayaranPage enterNamaRek(String customerName) {

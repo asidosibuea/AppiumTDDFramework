@@ -42,11 +42,20 @@
 	<string name="customer_email">test@gmail.com</string>
 	<string name="customer_tlp">1234567891011</string>
 	<string name="pembayaran_pending">Pending</string>
-	<string name="pembayaran_transfer">Transfer</string>
+	<string name="pembayaran_transfer">Transfer</string>'
+	<string name="pembayaran_multi">Multi Bayar</string>
 	<string name="pembayaran_voucher">Voucher</string>
 	<string name="voucher_code">112233</string>
 	<string name="rek_number">123456789</string>
 	<string name="bank_name">Bank Test</string>
+	<string name="expected_riwayat">Riwayat</string>
+	<string name="no_order">120820002</string>
+	<string name="username_otorisasi">hanavoid</string>
+	<string name="password_otorisasi">1234</string>
+	<string name="print_status">Sukses mencetak</string>
+	<string name="multi_payment1">Cash</string>
+	<string name="multi_payment2">Debit</string>
+	<string name="approval_code">9123</string>
 	
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>

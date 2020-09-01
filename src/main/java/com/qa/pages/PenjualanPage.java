@@ -31,7 +31,7 @@ public class PenjualanPage extends BaseTest{
 	private MobileElement totMenu1;
 	
 	@AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/androidx.recyclerview.widget.RecyclerView/androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.ImageView[2]")
-	private MobileElement kategori1;
+	private MobileElement kategori1;	
 	
 	@AndroidFindBy(xpath = "//android.widget.TextView[@text = \"Service Resto 7.50% (7,50%)\"]")
 	private MobileElement lblService;

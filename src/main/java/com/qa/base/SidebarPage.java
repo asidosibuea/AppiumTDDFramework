@@ -54,6 +54,12 @@ public class SidebarPage extends BaseTest{
 		return new LoginPage();
 	}
 	
+	public RiwayatPage pressRiwayatBtn() {
+		click(riwayatMenu, "Press riwayat button");
+		
+		return new RiwayatPage();
+	}
+	
 	public String getCashierName() {
 		return getText(cashierNameLabel, "Cashier name is : ");
 	}
