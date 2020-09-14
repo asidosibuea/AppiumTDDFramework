@@ -226,7 +226,7 @@ public class BaseTest {
 		return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
 				.usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
 				.withAppiumJS(new File("C:\\Users\\ASUS\\AppData\\Roaming\\npm\\node_modules\\appium\\lib\\main.js"))
-				.usingPort(4724)
+				.usingPort(4723)
 				.withArgument(GeneralServerFlag.SESSION_OVERRIDE)
 				.withLogFile(new File("ServerLogs/server.log")));
 	}

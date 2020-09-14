@@ -39,6 +39,10 @@
 	"namaStasiun1" : "food",
 	"namaStasiun2" : "bar",
 	"namaKategori1" : "Food",
-	
+	"oldPassword" : "1234",
+	"emptyNewPassword" : "",
+	"falseOldPassword" : "1111",
+	"newPassword" : "1234",
+	"falseRetypePassword" : "1"
 
 }

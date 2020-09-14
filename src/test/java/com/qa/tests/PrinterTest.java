@@ -59,26 +59,7 @@ public class PrinterTest extends BaseTest{
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
-		InputStream dataInStream = null;
-		
-		//dataTest
-		dataInStream = null;
-		try {
-			String dataFileName = "data/data-test.json";
-			dataInStream = getClass().getClassLoader().getResourceAsStream(dataFileName);
-			JSONTokener tokener = new JSONTokener(dataInStream);
-			
-			dataTest = new JSONObject(tokener);
-		} catch (Exception e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if (dataInStream != null) {
-				dataInStream.close();
-			}
-		}
-		
-
+		dataTest = utils.getDataTest();
 	}
 
 	@AfterClass

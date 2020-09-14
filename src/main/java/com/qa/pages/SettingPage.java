@@ -20,7 +20,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class SettingPage extends BaseTest{
 	
-	@AndroidFindBy(xpath = "//*[@resource-id = \"id.dretail.mpos:id/lblTitle\" and @text=\"Pengaturan\"]")
+	@AndroidFindBy(id = "id.dretail.mpos:id/lblTitle")
 	private MobileElement pageTitle;
 	
 	@AndroidFindBy(xpath = "//*[contains(@text, \"Printer\")]")
@@ -81,6 +81,10 @@ public class SettingPage extends BaseTest{
 		swipingElement(pageTitle, "right", "on profil page");
 		
 		return new SidebarPage();
+	}
+	
+	public String getPageTitle() {
+		return getText(pageTitle, "Page title : ");
 	}
 
 }
