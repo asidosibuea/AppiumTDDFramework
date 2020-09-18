@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="60394" started-at="2020-08-10T16:09:08 ICT" finished-at="2020-08-10T16:10:09 ICT">
+  <suite name="Test Suite" duration-ms="58212" started-at="2020-09-02T10:34:38 ICT" finished-at="2020-09-02T10:35:36 ICT">
     <groups>
     </groups>
-    <test name="Galaxy8inchPutih" duration-ms="60394" started-at="2020-08-10T16:09:08 ICT" finished-at="2020-08-10T16:10:09 ICT">
-      <class name="com.qa.tests.PembayaranVoucherTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeSuite" is-config="true" duration-ms="2985" started-at="2020-08-10T16:09:05 ICT" finished-at="2020-08-10T16:09:08 ICT">
+    <test name="Galaxy8inchPutih" duration-ms="58212" started-at="2020-09-02T10:34:38 ICT" finished-at="2020-09-02T10:35:36 ICT">
+      <class name="com.qa.tests.MenggantiFooterRow2Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeSuite" is-config="true" duration-ms="1726" started-at="2020-09-02T10:34:36 ICT" finished-at="2020-09-02T10:34:38 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeTest" is-config="true" duration-ms="18486" started-at="2020-08-10T16:09:08 ICT" finished-at="2020-08-10T16:09:27 ICT">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeTest" is-config="true" duration-ms="18531" started-at="2020-09-02T10:34:38 ICT" finished-at="2020-09-02T10:34:56 ICT">
           <params>
             <param index="0">
               <value>
@@ -57,125 +57,125 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeClass" is-config="true" duration-ms="6399" started-at="2020-08-10T16:09:27 ICT" finished-at="2020-08-10T16:09:33 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeClass" is-config="true" duration-ms="5912" started-at="2020-09-02T10:34:56 ICT" finished-at="2020-09-02T10:35:02 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-08-10T16:09:33 ICT" finished-at="2020-08-10T16:09:33 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-02T10:35:02 ICT" finished-at="2020-09-02T10:35:02 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="161" started-at="2020-08-10T16:09:33 ICT" finished-at="2020-08-10T16:09:33 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="212" started-at="2020-09-02T10:35:02 ICT" finished-at="2020-09-02T10:35:02 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.PembayaranVoucherTest.loginValidUser()]]>
+                <![CDATA[public void com.qa.tests.MenggantiFooterRow2Test.loginValidUser()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginValidUser()[pri:1, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="loginValidUser" duration-ms="4429" started-at="2020-08-10T16:09:33 ICT" finished-at="2020-08-10T16:09:38 ICT">
+        <test-method status="PASS" signature="loginValidUser()[pri:1, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="loginValidUser" duration-ms="5140" started-at="2020-09-02T10:35:02 ICT" finished-at="2020-09-02T10:35:08 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidUser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-08-10T16:09:38 ICT" finished-at="2020-08-10T16:09:38 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:08 ICT" finished-at="2020-09-02T10:35:08 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:09:38 ICT" finished-at="2020-08-10T16:09:38 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:08 ICT" finished-at="2020-09-02T10:35:08 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginValidUser status=SUCCESS method=PembayaranVoucherTest.loginValidUser()[pri:1, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae] output={null}]]]>
+                <![CDATA[[TestResult name=loginValidUser status=SUCCESS method=MenggantiFooterRow2Test.loginValidUser()[pri:1, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:09:38 ICT" finished-at="2020-08-10T16:09:38 ICT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2020-08-10T16:09:38 ICT" finished-at="2020-08-10T16:09:38 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-09-02T10:35:08 ICT" finished-at="2020-09-02T10:35:08 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.PembayaranVoucherTest.PembayaranVoucher()]]>
+                <![CDATA[public void com.qa.tests.MenggantiFooterRow2Test.gantiFooterRow1()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="PembayaranVoucher()[pri:2, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="PembayaranVoucher" duration-ms="25459" started-at="2020-08-10T16:09:38 ICT" finished-at="2020-08-10T16:10:03 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-02T10:35:08 ICT" finished-at="2020-09-02T10:35:08 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PembayaranVoucher -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:10:03 ICT" finished-at="2020-08-10T16:10:03 ICT">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="gantiFooterRow1()[pri:2, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="gantiFooterRow1" duration-ms="22864" started-at="2020-09-02T10:35:08 ICT" finished-at="2020-09-02T10:35:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gantiFooterRow1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:30 ICT" finished-at="2020-09-02T10:35:30 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:10:03 ICT" finished-at="2020-08-10T16:10:03 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-09-02T10:35:30 ICT" finished-at="2020-09-02T10:35:30 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=PembayaranVoucher status=SUCCESS method=PembayaranVoucherTest.PembayaranVoucher()[pri:2, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae] output={null}]]]>
+                <![CDATA[[TestResult name=gantiFooterRow1 status=SUCCESS method=MenggantiFooterRow2Test.gantiFooterRow1()[pri:2, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:10:03 ICT" finished-at="2020-08-10T16:10:03 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:30 ICT" finished-at="2020-09-02T10:35:30 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-08-10T16:10:03 ICT" finished-at="2020-08-10T16:10:03 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-09-02T10:35:30 ICT" finished-at="2020-09-02T10:35:30 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qa.tests.PembayaranVoucherTest.logout()]]>
+                <![CDATA[public void com.qa.tests.MenggantiFooterRow2Test.logout()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="logout()[pri:3, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="logout" duration-ms="4368" started-at="2020-08-10T16:10:03 ICT" finished-at="2020-08-10T16:10:08 ICT">
+        <test-method status="PASS" signature="logout()[pri:3, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="logout" duration-ms="4492" started-at="2020-09-02T10:35:30 ICT" finished-at="2020-09-02T10:35:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-10T16:10:08 ICT" finished-at="2020-08-10T16:10:08 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:35 ICT" finished-at="2020-09-02T10:35:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-10T16:10:08 ICT" finished-at="2020-08-10T16:10:08 ICT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:35 ICT" finished-at="2020-09-02T10:35:35 ICT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logout status=SUCCESS method=PembayaranVoucherTest.logout()[pri:3, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae] output={null}]]]>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=MenggantiFooterRow2Test.logout()[pri:3, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-10T16:10:08 ICT" finished-at="2020-08-10T16:10:08 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-09-02T10:35:35 ICT" finished-at="2020-09-02T10:35:35 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterTest" is-config="true" duration-ms="1016" started-at="2020-08-10T16:10:08 ICT" finished-at="2020-08-10T16:10:09 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterTest" is-config="true" duration-ms="996" started-at="2020-09-02T10:35:35 ICT" finished-at="2020-09-02T10:35:36 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.PembayaranVoucherTest@7dc222ae]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-08-10T16:10:10 ICT" finished-at="2020-08-10T16:10:10 ICT">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.qa.tests.MenggantiFooterRow2Test@1068e947]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-09-02T10:35:37 ICT" finished-at="2020-09-02T10:35:37 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.qa.tests.PembayaranVoucherTest -->
+      </class> <!-- com.qa.tests.MenggantiFooterRow2Test -->
     </test> <!-- Galaxy8inchPutih -->
   </suite> <!-- Test Suite -->
 </testng-results>

@@ -56,6 +56,13 @@
 	<string name="multi_payment1">Cash</string>
 	<string name="multi_payment2">Debit</string>
 	<string name="approval_code">9123</string>
+	<string name="footer_row1">TERIMA KASIH!!!</string>
+	<string name="footer_row2">Kami tunggu kedatangannya kembali!!!</string>
+	<string name="status_ganti_footer">Berhasil</string>
+	<string name="cash_amount_settlement">1.000.000</string>
+	<string name="status_settlement">Settlement Success</string>
+	<string name="username">demopac</string>
+	<string name="password">qwerty</string>
 	
 	<!-- TRX PPOB PLN Prepaid-->
 	<string name="expected_success_trx_ppob">Successful</string>

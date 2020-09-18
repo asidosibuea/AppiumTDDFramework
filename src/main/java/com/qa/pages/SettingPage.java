@@ -1,6 +1,7 @@
 package com.qa.pages;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.PageFactory;
 
@@ -40,6 +41,21 @@ public class SettingPage extends BaseTest{
 	
 	@AndroidFindBy(xpath = "//*[contains(@text, \"Bahasa\")]")
 	private MobileElement bahasaMenu;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/btnSaveProfile")
+	private MobileElement btnSaveProfile;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/row1")
+	private MobileElement footerRow1;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/row2")
+	private MobileElement footerRow2;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/confirm_button")
+	private MobileElement confirmButton;
+	
+	@AndroidFindBy(id = "id.dretail.mpos:id/content_text")
+	private MobileElement contentText;
 	
 	public SettingPage() {
 		super();
@@ -82,5 +98,36 @@ public class SettingPage extends BaseTest{
 		
 		return new SidebarPage();
 	}
+	
+	public SettingPage scrollToBtnSaveProfile() {
+		scrollToElement("resourceId", "id.dretail.mpos:id/btnSaveProfile", "Searching Element...");
+		return this;
+	}
 
+	public SettingPage enterRow1(String row1) {
+		clear(footerRow1);
+		sendKeys(footerRow1, row1, "Enter Footer Row1: "+row1);
+		return this;
+	}
+	
+	public SettingPage enterRow2(String row2) {
+		clear(footerRow2);
+		sendKeys(footerRow2, row2, "Enter Footer Row1: "+row2);
+		return this;
+	}
+	
+	public BahasaPage pressBtnSaveProfile() {
+		click(btnSaveProfile, "Press button SIMPAN FOOTER");
+		return new BahasaPage();
+	}
+	
+	public BahasaPage pressConfirmButton() {
+		click(confirmButton, "Press button Confirm");
+		return new BahasaPage();
+	}
+	
+	public String getContentText() {
+		return getText(contentText, "Status perubahan footer adalah: ");
+	}
+	
 }

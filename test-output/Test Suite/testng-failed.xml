@@ -4,33 +4,34 @@
   <listeners>
     <listener class-name="com.qa.listeners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Galaxy7inch(failed)" parallel="tests">
-    <parameter name="mjpegServerPort" value="12001"/>
+  <test thread-count="5" name="Galaxy8inchPutih(failed)" parallel="tests">
+    <parameter name="mjpegServerPort" value="12004"/>
     <parameter name="emulator" value="false"/>
-    <parameter name="appiumPort" value="10000"/>
-    <parameter name="author" value="Asido S"/>
-    <parameter name="platformVersion" value="5.1.1"/>
-    <parameter name="chromeDriverPort" value="11001"/>
+    <parameter name="author" value="Baggas Anggara"/>
+    <parameter name="platformVersion" value="9.0"/>
+    <parameter name="chromeDriverPort" value="11004"/>
     <parameter name="platformName" value="Android"/>
-    <parameter name="udid" value="52007057b2c3a400"/>
-    <parameter name="deviceName" value="SM-T285"/>
-    <parameter name="systemPort" value="10001"/>
+    <parameter name="udid" value="R9CMC06C14J"/>
+    <parameter name="deviceName" value="SM-T295"/>
+    <parameter name="systemPort" value="10004"/>
     <classes>
-      <class name="com.qa.tests.PPOBTest">
+      <class name="com.qa.tests.SplitPaymentTest">
         <methods>
           <include name="afterSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
-          <include name="beforeMethod"/>
           <include name="afterClass"/>
           <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="logout"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
           <include name="afterMethod"/>
-          <include name="bayarTagihanPLNPrabayar5ribu"/>
           <include name="afterMethod"/>
+          <include name="splitPayment"/>
+          <include name="loginValidUser"/>
         </methods>
-      </class> <!-- com.qa.tests.PPOBTest -->
+      </class> <!-- com.qa.tests.SplitPaymentTest -->
     </classes>
-  </test> <!-- Galaxy7inch(failed) -->
+  </test> <!-- Galaxy8inchPutih(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
