@@ -1,0 +1,5 @@
+[server-logs INFO ] 2020-08-07 10:40:51.660 BaseTest:196 - Appium server already running..:
+[server-logs INFO ] 2020-08-07 10:49:23.142 BaseTest:196 - Appium server already running..:
+[server-logs INFO ] 2020-08-07 10:50:19.032 BaseTest:220 - Appium server stopped..:
+[server-logs INFO ] 2020-08-07 11:07:29.728 BaseTest:196 - Appium server already running..:
+[server-logs INFO ] 2020-08-07 11:08:19.725 BaseTest:220 - Appium server stopped..:

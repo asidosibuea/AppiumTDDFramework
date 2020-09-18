@@ -1,0 +1,181 @@
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:18.250 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:41.930 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:43.817 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:45.354 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:46.604 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:46.769 MenggantiFooterRow1Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:46.774 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: gantiFooterRow1 *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:54.387 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:24:58.334 BaseTest:373 - Pilih menu pengaturan on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:00.998 BaseTest:373 - Press menu profil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:01.321 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:06.894 BaseTest:393 - Enter Footer Row1: TERIMA KASIH!!!:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:08.183 BaseTest:373 - Press button SIMPAN FOOTER:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:09.638 BaseTest:431 - Status perubahan footer adalah: Berhasil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:09.716 BaseTest:373 - Press button Confirm:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:09.821 MenggantiFooterRow1Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:25:09.823 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:10.413 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:33.892 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:35.878 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:37.981 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:39.255 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:39.436 MenggantiFooterRow1Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:39.443 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: gantiFooterRow1 *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:46.924 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:50.846 BaseTest:373 - Pilih menu pengaturan on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:53.436 BaseTest:373 - Press menu profil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:53.756 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:29:59.295 BaseTest:393 - Enter Footer Row1: TERIMA KASIH!!!:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:00.084 BaseTest:373 - Press button SIMPAN FOOTER:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:01.496 BaseTest:431 - Status perubahan footer adalah: Berhasil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:01.586 BaseTest:373 - Press button Confirm:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:01.708 MenggantiFooterRow1Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:01.711 MenggantiFooterRow1Test:73 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:02.768 BaseTest:460 - swiping -right on on profil page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:04.811 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:06.084 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:30:06.200 MenggantiFooterRow1Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:34:38.198 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:02.666 MenggantiFooterRow2Test:73 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:04.481 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:06.571 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:07.823 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:08.017 MenggantiFooterRow2Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:08.022 MenggantiFooterRow2Test:73 - 
+
+ *******Starting test: gantiFooterRow1 *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:15.352 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:19.224 BaseTest:373 - Pilih menu pengaturan on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:21.827 BaseTest:373 - Press menu profil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:22.140 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:27.962 BaseTest:393 - Enter Footer Row1: Kami tunggu kedatangannya kembali!!!:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:29.238 BaseTest:373 - Press button SIMPAN FOOTER:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:30.676 BaseTest:431 - Status perubahan footer adalah: Berhasil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:30.771 BaseTest:373 - Press button Confirm:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:30.892 MenggantiFooterRow2Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:30.896 MenggantiFooterRow2Test:73 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:31.926 BaseTest:460 - swiping -right on on profil page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:33.994 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:35.281 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 10:35:35.392 MenggantiFooterRow2Test:82 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:28:43.164 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:05.726 MelakukanSettlementTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:07.719 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:09.759 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:11.027 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:11.189 MelakukanSettlementTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:11.195 MelakukanSettlementTest:67 - 
+
+ *******Starting test: melihatTransaksi *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:18.751 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:22.847 BaseTest:373 - Pilih menu aktifitas on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:25.719 BaseTest:373 - Select menu Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:27.454 BaseTest:393 - Enter username: demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:29.335 BaseTest:393 - Enter password: qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:29:30.541 BaseTest:373 - Press button Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:09.453 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:31.891 MelakukanSettlementTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:33.848 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:35.897 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:37.178 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:37.349 MelakukanSettlementTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:37.355 MelakukanSettlementTest:67 - 
+
+ *******Starting test: melihatTransaksi *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:44.852 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:48.741 BaseTest:373 - Pilih menu aktifitas on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:52.397 BaseTest:373 - Select menu Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:53.567 BaseTest:393 - Enter username: demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:54.263 BaseTest:393 - Enter password: qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:31:55.480 BaseTest:373 - Press button Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:33:47.085 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:10.473 MelakukanSettlementTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:12.296 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:14.375 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:15.663 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:15.834 MelakukanSettlementTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:15.840 MelakukanSettlementTest:67 - 
+
+ *******Starting test: melihatTransaksi *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:23.024 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:27.043 BaseTest:373 - Pilih menu aktifitas on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:29.935 BaseTest:373 - Select menu Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:30.954 BaseTest:393 - Enter username: demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:32.197 BaseTest:393 - Enter password: qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:34:32.914 BaseTest:373 - Press button Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:37:43.130 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:06.367 MelakukanSettlementTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:08.283 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:10.353 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:11.609 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:11.779 MelakukanSettlementTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:11.785 MelakukanSettlementTest:67 - 
+
+ *******Starting test: melihatTransaksi *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:19.689 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:23.613 BaseTest:373 - Pilih menu aktifitas on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:26.481 BaseTest:373 - Select menu Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:28.219 BaseTest:393 - Enter username: demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:30.157 BaseTest:393 - Enter password: qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:38:31.372 BaseTest:373 - Press button Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:42:41.775 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:05.564 MelakukanSettlementTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:07.519 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:09.592 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:10.859 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:11.030 MelakukanSettlementTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:11.036 MelakukanSettlementTest:67 - 
+
+ *******Starting test: melihatTransaksi *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:18.475 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:22.428 BaseTest:373 - Pilih menu aktifitas on sidebar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:25.299 BaseTest:373 - Select menu Settlement:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:27.018 BaseTest:393 - Enter username: demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:28.928 BaseTest:393 - Enter password: qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-02 14:43:30.149 BaseTest:373 - Press button Settlement:

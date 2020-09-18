@@ -1,0 +1,386 @@
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:34:28.695 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:03.878 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:34.109 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:36.059 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:37.635 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:38.913 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:39.065 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:39.069 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:48.174 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:50.588 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:51.539 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:53.504 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:54.951 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:56.453 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:57.782 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:58.450 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:59.189 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:47:59.928 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:48:00.939 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:48:03.082 BaseTest:431 - Metode payment pertama adalah  Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:48:03.174 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:48:03.329 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:07.199 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:31.362 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:33.198 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:35.264 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:36.528 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:36.685 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:36.690 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:45.654 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:48.089 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:49.050 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:50.963 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:52.444 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:53.934 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:55.258 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:55.944 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:56.698 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:57.431 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:58.375 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:59.619 BaseTest:431 - Metode payment pertama adalah  Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:59.693 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:50:59.810 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 ERROR] 2020-09-01 13:51:00.106 TestListener:39 - org.openqa.selenium.InvalidSelectorException: Could not parse expression `new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().resource-id("id.dretail.mpos:id/txtApprovalCode").instance(0))`: `UiScrollable` doesn't have suitable method `scrollIntoView` with arguments [new UiSelector().resource-id("id.dretail.mpos:id/txtApprovalCode").instance(0)]: Could not parse expression `new UiSelector().resource-id("id.dretail.mpos:id/txtApprovalCode").instance(0)`: UiSelector has no `resource-id` method
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UH2AGQ7', ip: '172.20.30.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, databaseEnabled: false, desired: {appActivity: id.dretail.mpos.activity.Sp..., appPackage: id.dretail.mpos, appWaitActivity: id.dretail.mpos.activity.Lo..., autoGrantPermissions: true, automationName: UiAutomator2, chromeDriverPort: 11004, deviceName: SM-T295, fullReset: false, mjpegServerPort: 12004, noReset: true, platformName: android, platformVersion: 9.0, systemPort: 10004, udid: R9CMC06C14J}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-T295, deviceName: R9CMC06C14J, deviceScreenDensity: 213, deviceScreenSize: 1280x800, deviceUDID: R9CMC06C14J, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, mjpegServerPort: 12004, networkConnectionEnabled: true, noReset: true, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 32, systemPort: 10004, takesScreenshot: true, udid: R9CMC06C14J, viewportRect: {height: 704, left: 0, top: 32, width: 1280}, warnings: {}, webStorageEnabled: false}
+Session ID: 0521a07d-c8bb-45b5-9f4c-b2638428f810
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().resource-id("id.dretail.mpos:id/txtApprovalCode").instance(0))}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at com.qa.base.BaseTest.scrollToElement(BaseTest.java:447)
+	at com.qa.pages.TambahPembayaranPage.scrollToEdcPayment(TambahPembayaranPage.java:45)
+	at com.qa.tests.SplitPaymentTest.splitPayment(SplitPaymentTest.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:51:00.973 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:51:00.975 SplitPaymentTest:77 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:01.683 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:27.785 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:29.598 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:31.661 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:32.931 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:33.106 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:33.110 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:42.337 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:44.702 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:45.629 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:47.625 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:49.095 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:50.597 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:51.918 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:52.568 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:53.354 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:54.176 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:55.172 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:56.424 BaseTest:431 - Metode payment pertama adalah  Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:56.557 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 13:57:57.347 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:26.571 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:49.791 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:51.617 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:53.671 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:54.417 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:54.566 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:00:54.570 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:16.878 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:27.595 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:50.366 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:52.042 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:54.083 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:55.360 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:55.515 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:01:55.519 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:04.460 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:06.926 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:07.893 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:09.801 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:11.284 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:12.793 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:14.114 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:14.766 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:15.571 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:16.303 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:17.282 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:18.545 BaseTest:431 - Metode payment pertama adalah Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:18.633 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:18.747 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:23.209 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:24.435 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:25.120 BaseTest:373 - Press angka 8:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:25.904 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:26.651 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:27.421 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:29.624 BaseTest:393 - Enter Nomor Kartu: 123456789:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:31.550 BaseTest:393 - Enter Nama Bank: Bank Test:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:33.429 BaseTest:393 - Enter Approval Code: Sukses mencetak:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:34.593 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:35.818 BaseTest:431 - Metode payment kedua adalah Debit:
+[logsAndroid_9.0_SM-T295 ERROR] 2020-09-01 14:02:35.834 TestListener:39 - java.lang.AssertionError: expected [Sukses mencetak] but found [Debit]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.qa.tests.SplitPaymentTest.splitPayment(SplitPaymentTest.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:36.605 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:36.607 SplitPaymentTest:77 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 ERROR] 2020-09-01 14:02:52.106 TestListener:39 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: id.dretail.mpos:id/customerName}) (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.base.BaseTest.waitForVisibility(BaseTest.java:348)
+	at com.qa.base.BaseTest.swipingElement(BaseTest.java:455)
+	at com.qa.pages.PenjualanPage.showSidebar(PenjualanPage.java:101)
+	at com.qa.tests.SplitPaymentTest.logout(SplitPaymentTest.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: id.dretail.mpos:id/customerName})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@7a8c5aad (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: id.dretail.mpos:id/customerName})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UH2AGQ7', ip: '172.20.30.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 36 more
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:02:52.644 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:08.955 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:30.641 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:32.447 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:34.491 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:35.777 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:35.936 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:35.942 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:44.539 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:46.997 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:47.969 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:49.920 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:51.367 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:52.873 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:54.244 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:54.910 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:55.653 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:56.396 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:57.332 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:58.593 BaseTest:431 - Metode payment pertama adalah Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:07:58.676 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:00.124 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:03.364 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:04.608 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:05.289 BaseTest:373 - Press angka 8:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:06.036 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:06.801 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:07.541 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:09.725 BaseTest:393 - Enter Nomor Kartu: 123456789:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:09.885 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:08:17.754 BaseTest:393 - Enter Nama Bank: Bank Test:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:09:14.373 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:08.867 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:30.910 SplitPaymentTest:77 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:32.766 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:34.814 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:36.054 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:36.206 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:36.216 SplitPaymentTest:77 - 
+
+ *******Starting test: splitPayment *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:44.860 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:47.323 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:48.339 BaseTest:373 - Press button order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:50.278 BaseTest:373 - Press button Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:51.740 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:53.224 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:54.471 BaseTest:373 - Press angka 1:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:55.103 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:55.845 BaseTest:373 - Press angka 000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:56.627 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:57.592 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:59.748 BaseTest:431 - Metode payment pertama adalah Cash:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:59.861 BaseTest:373 - Press button +Tambah Metode Pembayaran:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:10:59.982 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:04.521 BaseTest:373 - Masukan jumlah uang tunai:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:05.849 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:06.492 BaseTest:373 - Press angka 8:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:07.225 BaseTest:373 - Press angka 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:07.951 BaseTest:373 - Press angka 3:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:08.738 BaseTest:373 - Press button Ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:10.940 BaseTest:393 - Enter Nomor Kartu: 123456789:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:11.623 BaseTest:443 - Searching Element...:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:18.187 BaseTest:393 - Enter Nama Bank: Bank Test:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:20.101 BaseTest:393 - Enter Approval Code: 9123:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:20.843 BaseTest:373 - Press button Tambah:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:22.129 BaseTest:431 - Metode payment kedua adalah Debit:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:23.044 BaseTest:393 - Enter customer's name: bagas:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:24.209 BaseTest:373 - Press button Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:30.670 BaseTest:431 - Status Pembayaran : Pembayaran Berhasil:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:30.858 BaseTest:431 - Metode Pembayaran : Multi Bayar:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:30.926 BaseTest:373 - Press button ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:31.015 SplitPaymentTest:86 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:31.017 SplitPaymentTest:77 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:31.727 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:33.898 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:35.181 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-09-01 14:11:35.273 SplitPaymentTest:86 - Login test after method:

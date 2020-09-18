@@ -1,0 +1,154 @@
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:40:51.950 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:19.516 MenambahDeliveryTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:21.353 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:22.973 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:24.217 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:24.406 MenambahDeliveryTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:24.411 MenambahDeliveryTest:67 - 
+
+ *******Starting test: menambahDelivery *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:34.181 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:36.585 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:37.512 BaseTest:373 - Press btn order type:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:38.862 BaseTest:373 - Press btn take away:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:40.114 BaseTest:431 - Status order adalah Take Away:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:41.361 BaseTest:431 - Total belanja adalah TOTAL Rp.13.803:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:41.618 BaseTest:373 - Press button show order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:43.058 BaseTest:373 - Press btn Biaya Kirim:
+[logsAndroid_9.0_SM-T295 ERROR] 2020-08-07 10:41:54.298 TestListener:39 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: id.dretail.mpos:id/txtDeliveryFee}) (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.base.BaseTest.waitForVisibility(BaseTest.java:348)
+	at com.qa.base.BaseTest.clear(BaseTest.java:361)
+	at com.qa.pages.popup.PopupBiayaKirim.enterBiayaKirim(PopupBiayaKirim.java:18)
+	at com.qa.tests.MenambahDeliveryTest.menambahDelivery(MenambahDeliveryTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: id.dretail.mpos:id/txtDeliveryFee})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@37c072fd (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 34 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: id.dretail.mpos:id/txtDeliveryFee})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UH2AGQ7', ip: '172.20.30.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 36 more
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:54.933 MenambahDeliveryTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:41:54.935 MenambahDeliveryTest:67 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:23.187 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:45.446 MenambahDeliveryTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:47.196 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:49.218 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:50.460 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:50.618 MenambahDeliveryTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:50.622 MenambahDeliveryTest:67 - 
+
+ *******Starting test: menambahDelivery *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:49:59.644 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:02.064 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:03.016 BaseTest:373 - Press btn order type:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:04.491 BaseTest:373 - Press btn take away:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:05.759 BaseTest:431 - Status order adalah Take Away:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:06.890 BaseTest:431 - Total belanja adalah TOTAL Rp.13.803:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:07.136 BaseTest:373 - Press button show order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:08.600 BaseTest:373 - Press btn Biaya Kirim:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:09.997 BaseTest:373 - Press btn Tambah Biaya Pengiriman:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:11.390 BaseTest:393 - Enter Discount : 10.000:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:12.079 BaseTest:373 - Press btn ok:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:13.440 BaseTest:431 - Total belanja adalah TOTAL Rp.24.503:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:13.443 MenambahDeliveryTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:13.445 MenambahDeliveryTest:67 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:13.679 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:15.861 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:17.250 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 10:50:17.344 MenambahDeliveryTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:29.773 BaseTest:259 - log path: logs\Android_9.0_SM-T295:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:53.245 CekPembulatanTest:67 - 
+
+ *******Starting test: loginValidUser *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:55.226 BaseTest:393 - Enter username : demopac:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:57.394 BaseTest:393 - Enter password : qwerty:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:58.692 BaseTest:373 - Press Login Button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:58.945 CekPembulatanTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:07:58.961 CekPembulatanTest:67 - 
+
+ *******Starting test: menambahDelivery *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:07.833 BaseTest:373 - Pilih kategori Beverage:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:10.246 BaseTest:373 - Tambah Keranjang JUS MANGGA:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:11.180 BaseTest:373 - Press button show order:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:13.328 BaseTest:431 - Pembulatan sebesar 0:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:14.090 BaseTest:431 - Total belanja adalah TOTAL Rp.13.803:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:14.093 CekPembulatanTest:76 - Login test after method:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:14.095 CekPembulatanTest:67 - 
+
+ *******Starting test: logout *******
+:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:14.355 BaseTest:460 - swiping -right on on dashboard page:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:16.542 BaseTest:373 - Press logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:17.873 BaseTest:373 - Press confirm logout button:
+[logsAndroid_9.0_SM-T295 INFO ] 2020-08-07 11:08:17.950 CekPembulatanTest:76 - Login test after method:
