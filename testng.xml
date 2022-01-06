@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Test Suite" parallel="tests" thread-count="5">
 
-<!-- 
+
 	<test name="Galaxy8inch">
 		<listeners>
 			<listener class-name="com.qa.listeners.TestListener" />
@@ -50,7 +50,7 @@
 			 <class name="com.qa.tests.PPOBTest">
 			 </class>
 		</classes>
-	</test>  -->
+	
 	
 	
 	<test name="Tab12inch" >
